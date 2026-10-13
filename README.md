@@ -8,6 +8,8 @@ Stages 1–6 are implemented and verified within the [documented performance lim
 
 Additional video: [24-hour lighting time-lapse](docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4) — morning → sunset → night → next morning in about 60 seconds. This separate lighting study leaves gameplay time and saves untouched; the normal game retains its established blue-hour sky. See [recording notes](docs/DAY_CYCLE_REVIEW.md).
 
+[Watch the complete city showcase](docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4) — about 5 minutes 37 seconds covering city life, all four Exceptional Agent interactions, Brother Eye controls, and the separate lighting time-lapse. [Showcase notes and reproduction](docs/COMPLETE_SHOWCASE.md).
+
 ## Fresh checkout
 
 Install Godot 4 and Python 3.12, then run from the repository root:

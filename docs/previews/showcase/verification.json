@@ -1,0 +1,287 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1440,
+      "height": 900,
+      "coded_width": 1440,
+      "coded_height": 900,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "8:5",
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 4147200,
+      "duration": "337.500000",
+      "bit_rate": "955453",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "8100",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc62.11.100 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 337500,
+      "duration": "337.500000",
+      "bit_rate": "9",
+      "nb_frames": "7",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/Users/ddi/Documents/ChatGPT/civilization_sim/docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "337.500000",
+    "size": "40407845",
+    "bit_rate": "957815",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "Brother Eye - Complete City Showcase",
+      "encoder": "Lavf62.3.100"
+    }
+  },
+  "chapters": [
+    {
+      "title": "City and civilian life",
+      "start_seconds": 0,
+      "duration_seconds": 81.375,
+      "source": "docs/previews/showcase/city.mp4"
+    },
+    {
+      "title": "Arbiter of Dawn - local assistance",
+      "start_seconds": 81.375,
+      "duration_seconds": 33.25,
+      "source": "docs/previews/showcase/arbiter.mp4"
+    },
+    {
+      "title": "Attendant of Mysteries - verified information",
+      "start_seconds": 114.625,
+      "duration_seconds": 33.25,
+      "source": "docs/previews/showcase/attendant.mp4"
+    },
+    {
+      "title": "Martyr of Providence - voluntary coordination",
+      "start_seconds": 147.875,
+      "duration_seconds": 38.833333,
+      "source": "docs/previews/showcase/martyr.mp4"
+    },
+    {
+      "title": "Sovereign of Unbound Will - companion assistance",
+      "start_seconds": 186.708333,
+      "duration_seconds": 33.25,
+      "source": "docs/previews/showcase/sovereign.mp4"
+    },
+    {
+      "title": "Brother Eye - commands, cameras and autonomy",
+      "start_seconds": 219.958333,
+      "duration_seconds": 57.5,
+      "source": "docs/previews/stage6e/Brother-Eye-Stage-6E.mp4"
+    },
+    {
+      "title": "24-hour lighting study - separate from gameplay",
+      "start_seconds": 277.45833300000004,
+      "duration_seconds": 60.041667,
+      "source": "docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4"
+    }
+  ],
+  "container_chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 81375,
+      "end_time": "81.375000",
+      "tags": {
+        "title": "City and civilian life"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 81375,
+      "start_time": "81.375000",
+      "end": 114625,
+      "end_time": "114.625000",
+      "tags": {
+        "title": "Arbiter of Dawn - local assistance"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 114625,
+      "start_time": "114.625000",
+      "end": 147875,
+      "end_time": "147.875000",
+      "tags": {
+        "title": "Attendant of Mysteries - verified information"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 147875,
+      "start_time": "147.875000",
+      "end": 186708,
+      "end_time": "186.708000",
+      "tags": {
+        "title": "Martyr of Providence - voluntary coordination"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 186708,
+      "start_time": "186.708000",
+      "end": 219958,
+      "end_time": "219.958000",
+      "tags": {
+        "title": "Sovereign of Unbound Will - companion assistance"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 219958,
+      "start_time": "219.958000",
+      "end": 277458,
+      "end_time": "277.458000",
+      "tags": {
+        "title": "Brother Eye - commands, cameras and autonomy"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 277458,
+      "start_time": "277.458000",
+      "end": 337500,
+      "end_time": "337.500000",
+      "tags": {
+        "title": "24-hour lighting study - separate from gameplay"
+      }
+    }
+  ],
+  "outcome_captions": [
+    {
+      "mode": "arbiter",
+      "caption": "RECORDED OUTCOME: local assistance completed; social need 94.7% -> 89.7% (one 5-point effect).",
+      "start_seconds": 105.625,
+      "end_seconds": 114.625
+    },
+    {
+      "mode": "attendant",
+      "caption": "RECORDED OUTCOME: local information verified after physical travel; the fact is saved in agent knowledge.",
+      "start_seconds": 138.875,
+      "end_seconds": 147.875
+    },
+    {
+      "mode": "martyr",
+      "caption": "RECORDED OUTCOME: a voluntary helper completed the delegated request; the project records 1 completed task.",
+      "start_seconds": 177.708333,
+      "end_seconds": 186.708333
+    },
+    {
+      "mode": "sovereign",
+      "caption": "RECORDED OUTCOME: companion assistance completed; social need 84.7% -> 79.7% (one 5-point effect).",
+      "start_seconds": 210.958333,
+      "end_seconds": 219.958333
+    }
+  ],
+  "verification": "Full decode, format/duration, verified per-policy outcomes and file size passed. Chapter frame visual review recorded separately.",
+  "scope": "Edited compilation of live disposable 50/34-person review worlds, existing 100-person Brother Eye review, and separately labeled offline lighting study. No production save or journal touched; silent.",
+  "visual_review": {
+    "status": "passed",
+    "coverage": "Skyline, moving civilian crowd, seating, all four policy interaction/result chapters, Brother Eye live audit and night view reviewed."
+  }
+}

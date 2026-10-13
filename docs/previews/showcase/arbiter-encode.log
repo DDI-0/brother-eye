@@ -1,0 +1,13 @@
+[swscaler @ 0x130028000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x1483c8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x1483e8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x1483f8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148408000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148418000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148428000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148438000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148448000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148458000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148468000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148478000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1483c8000] [swscaler @ 0x148488000] No accelerated colorspace conversion found from yuv420p to bgr24.

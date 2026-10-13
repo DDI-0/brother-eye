@@ -17,3 +17,6 @@ assets/working/motion_sources/
 *.sqlite3-*
 *.pending.json
 godot/models/helix_spire/*.zip
+# Intermediate showcase chapters are reproducible; publish the final compilation.
+docs/previews/showcase/*.mp4
+!docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4

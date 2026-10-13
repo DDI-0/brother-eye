@@ -1,0 +1,3520 @@
+{
+  "agent_history": [
+    {
+      "after_social": null,
+      "agent_id": "ac232403-5e66-5c57-b658-d06119e37fbf",
+      "at": 0.05110354069620371,
+      "before_social": null,
+      "decision": {
+        "at": 0.05110354069620371,
+        "candidates": [],
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "selected_request": null
+      },
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "evidence": [],
+      "fact": null,
+      "id": "22621338-b9d2-4d0d-a00b-35d5c0ba11bd",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": null
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 0.05110354069620371,
+      "before_social": null,
+      "decision": {
+        "at": 0.05110354069620371,
+        "candidates": [
+          {
+            "created_at": 0.05110354069620371,
+            "evidence_id": "b94b2f69-fcb1-4024-85a2-2a97b7655e1c",
+            "position": [
+              20.11,
+              0.12,
+              61.15
+            ],
+            "request_id": null,
+            "severity": 35.00007665531104,
+            "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 0.05110354069620371,
+            "evidence_id": "78a92a4f-8abd-418e-90ab-c8240e28a3aa",
+            "position": [
+              13.84,
+              0.12,
+              59.81
+            ],
+            "request_id": null,
+            "severity": 38.00007665531104,
+            "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "b97bbc02-bc48-5ca5-aef7-6bc2de437381"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "b94b2f69-fcb1-4024-85a2-2a97b7655e1c"
+      ],
+      "fact": null,
+      "id": "100c3c86-6945-49fd-a9a5-d24ee8447587",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381"
+    },
+    {
+      "after_social": null,
+      "agent_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+      "at": 0.05110354069620371,
+      "before_social": null,
+      "decision": {
+        "at": 0.05110354069620371,
+        "candidates": [],
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "selected_request": null
+      },
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "evidence": [],
+      "fact": null,
+      "id": "fbc056a8-4283-4d2a-8cfc-aa5af078f942",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": null
+    },
+    {
+      "after_social": null,
+      "agent_id": "bbffb666-ee1d-5844-9168-bde894443d11",
+      "at": 0.05110354069620371,
+      "before_social": null,
+      "decision": {
+        "at": 0.05110354069620371,
+        "candidates": [],
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "selected_request": null
+      },
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "evidence": [],
+      "fact": null,
+      "id": "d737ea4a-c0df-45f3-8045-90ea5bc0e3d3",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": null
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 3.499690415803343,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "b94b2f69-fcb1-4024-85a2-2a97b7655e1c"
+      ],
+      "fact": null,
+      "id": "92baf589-ef08-4710-99fd-f9df81821146",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 3.570507874712348,
+      "before_social": null,
+      "decision": {
+        "at": 3.570507874712348,
+        "candidates": [
+          {
+            "created_at": 0.05110354069620371,
+            "evidence_id": "78a92a4f-8abd-418e-90ab-c8240e28a3aa",
+            "position": [
+              13.84,
+              0.12,
+              59.81
+            ],
+            "request_id": null,
+            "severity": 38.00007665531104,
+            "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "e59d4671-6bd3-52a2-a46d-648887e194c7"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "78a92a4f-8abd-418e-90ab-c8240e28a3aa"
+      ],
+      "fact": null,
+      "id": "85897d76-2036-4552-a6c4-91a158e8c2e7",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 9.787177207879722,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "78a92a4f-8abd-418e-90ab-c8240e28a3aa"
+      ],
+      "fact": null,
+      "id": "d84c1988-7e80-4188-95d4-3f9928f83675",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 9.843610874842852,
+      "before_social": null,
+      "decision": {
+        "at": 9.843610874842852,
+        "candidates": [],
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "selected_request": null
+      },
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "evidence": [],
+      "fact": null,
+      "id": "2e6311c5-4822-4330-9d9c-3c532e09d9f6",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": null
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 30.148668707814068,
+      "before_social": null,
+      "decision": {
+        "at": 30.148668707814068,
+        "candidates": [
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "fb78ed4c-2853-40d1-b2cc-ebbe488f2e6f",
+            "position": [
+              18.37323570251465,
+              0.119999997317791,
+              34.905921936035156
+            ],
+            "request_id": null,
+            "severity": 54.04522300306168,
+            "subject_id": "22659592-0e67-502c-8200-3edaa494653c",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "900d907c-ea13-4337-ac56-fb7e2f3bfbb1",
+            "position": [
+              12.16575050354004,
+              -0.098750002682209,
+              38.59906005859375
+            ],
+            "request_id": null,
+            "severity": 38.04522300306168,
+            "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "ec01d096-54c6-491b-aa98-da430703589d",
+            "position": [
+              12.151671409606934,
+              -0.098750002682209,
+              35.42166519165039
+            ],
+            "request_id": null,
+            "severity": 30.04522300306174,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "22659592-0e67-502c-8200-3edaa494653c"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "fb78ed4c-2853-40d1-b2cc-ebbe488f2e6f"
+      ],
+      "fact": null,
+      "id": "9d8c5e15-27e5-400f-bbbd-50509d76960b",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "22659592-0e67-502c-8200-3edaa494653c"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 37.02142520761117,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "fb78ed4c-2853-40d1-b2cc-ebbe488f2e6f"
+      ],
+      "fact": null,
+      "id": "8757ec6a-9703-4990-8126-586815bc57a5",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "22659592-0e67-502c-8200-3edaa494653c"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 37.07765895780176,
+      "before_social": null,
+      "decision": {
+        "at": 37.07765895780176,
+        "candidates": [
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d1058c40-16e3-4a9f-8ad2-32b1ac1d114d",
+            "position": [
+              11.733510971069336,
+              -0.098750002682209,
+              31.662269592285156
+            ],
+            "request_id": null,
+            "severity": 38.05277825062389,
+            "subject_id": "49429de0-14ca-5cdb-930a-3898e67e99d9",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "8cb380be-0c7b-4240-8c0a-57a19a0fa661",
+            "position": [
+              12.354711532592772,
+              0.12094185501337051,
+              42.955345153808594
+            ],
+            "request_id": null,
+            "severity": 38.05277825062389,
+            "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "49429de0-14ca-5cdb-930a-3898e67e99d9"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "d1058c40-16e3-4a9f-8ad2-32b1ac1d114d"
+      ],
+      "fact": null,
+      "id": "2dc32af1-c756-4fa8-9979-c2d0b26a7d35",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "49429de0-14ca-5cdb-930a-3898e67e99d9"
+    },
+    {
+      "after_social": null,
+      "agent_id": "bbffb666-ee1d-5844-9168-bde894443d11",
+      "at": 37.941992374602705,
+      "before_social": null,
+      "decision": {
+        "at": 37.941992374602705,
+        "candidates": [],
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "selected_request": null
+      },
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "evidence": [],
+      "fact": null,
+      "id": "18c7654d-c9d8-4f8d-8c3d-25fa83f18722",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": null
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 42.73679883265868,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "d1058c40-16e3-4a9f-8ad2-32b1ac1d114d"
+      ],
+      "fact": null,
+      "id": "655c574a-e7cd-48ee-af52-e30414280751",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "49429de0-14ca-5cdb-930a-3898e67e99d9"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 42.79351433273405,
+      "before_social": null,
+      "decision": {
+        "at": 42.79351433273405,
+        "candidates": [
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "8cb380be-0c7b-4240-8c0a-57a19a0fa661",
+            "position": [
+              12.354711532592772,
+              0.12094185501337051,
+              42.955345153808594
+            ],
+            "request_id": null,
+            "severity": 38.05277825062389,
+            "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "6245a0fc-5966-570b-ad3f-85106009bea2"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "8cb380be-0c7b-4240-8c0a-57a19a0fa661"
+      ],
+      "fact": null,
+      "id": "cd3eea7c-78eb-41fa-9341-4a12c533f18a",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 51.993551624938846,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "8cb380be-0c7b-4240-8c0a-57a19a0fa661"
+      ],
+      "fact": null,
+      "id": "f69a96cf-efdf-497c-84d4-7c5146152a60",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 52.052515333052725,
+      "before_social": null,
+      "decision": {
+        "at": 52.052515333052725,
+        "candidates": [
+          {
+            "created_at": 50.25511087477207,
+            "evidence_id": "269a6617-26fe-46de-898a-0dbb9d617c3e",
+            "position": [
+              7.939705848693848,
+              -0.098750002682209,
+              44.347389221191406
+            ],
+            "request_id": null,
+            "severity": 22.075382666312205,
+            "subject_id": "00d8beac-e287-5ee6-890c-2a72f9919e9a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "00d8beac-e287-5ee6-890c-2a72f9919e9a"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "269a6617-26fe-46de-898a-0dbb9d617c3e"
+      ],
+      "fact": null,
+      "id": "89819d0b-cc0c-4728-9782-42af3f6c94d3",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "00d8beac-e287-5ee6-890c-2a72f9919e9a"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 60.19633770780638,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "269a6617-26fe-46de-898a-0dbb9d617c3e"
+      ],
+      "fact": null,
+      "id": "e7ccf7b0-30a3-4598-a63f-142a783c73d0",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "00d8beac-e287-5ee6-890c-2a72f9919e9a"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 60.253394374623895,
+      "before_social": null,
+      "decision": {
+        "at": 60.253394374623895,
+        "candidates": [
+          {
+            "created_at": 55.26850445801392,
+            "evidence_id": "e93257f1-47b6-4f43-8100-80aab87aadf9",
+            "position": [
+              6.53095817565918,
+              -0.098750002682209,
+              42.20820617675781
+            ],
+            "request_id": null,
+            "severity": 38.08290275668693,
+            "subject_id": "0698fc34-86ac-5a7c-9471-d28adc05b3fb",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 55.26850445801392,
+            "evidence_id": "61a76bba-1b6b-4b9f-9383-3e1836abe50a",
+            "position": [
+              5.360620975494385,
+              -0.098750002682209,
+              38.068336486816406
+            ],
+            "request_id": null,
+            "severity": 20.08290275668705,
+            "subject_id": "2a3308db-30ff-5b65-b9ce-f995893e849b",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "0698fc34-86ac-5a7c-9471-d28adc05b3fb"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "e93257f1-47b6-4f43-8100-80aab87aadf9"
+      ],
+      "fact": null,
+      "id": "a481f59e-d353-4034-bed0-c5fd81d2f925",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "0698fc34-86ac-5a7c-9471-d28adc05b3fb"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 63.9915822497569,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "e93257f1-47b6-4f43-8100-80aab87aadf9"
+      ],
+      "fact": null,
+      "id": "58e58897-7d1d-478f-a2dc-a66970e332c0",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "0698fc34-86ac-5a7c-9471-d28adc05b3fb"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 64.05580029077828,
+      "before_social": null,
+      "decision": {
+        "at": 64.05580029077828,
+        "candidates": [
+          {
+            "created_at": 60.313102207612246,
+            "evidence_id": "46525971-c00e-4886-afa2-eaa1981ab339",
+            "position": [
+              8.223662376403809,
+              -0.098750002682209,
+              43.46723937988281
+            ],
+            "request_id": null,
+            "severity": 20.09046965331144,
+            "subject_id": "2a3308db-30ff-5b65-b9ce-f995893e849b",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 5.066338915843517,
+            "evidence_id": "91ade12c-bc21-4f29-a74f-befdd7c20676",
+            "position": [
+              19.13653564453125,
+              0.119999997317791,
+              56.03851318359375
+            ],
+            "request_id": null,
+            "severity": 35.00759950837375,
+            "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "2a3308db-30ff-5b65-b9ce-f995893e849b"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "46525971-c00e-4886-afa2-eaa1981ab339"
+      ],
+      "fact": null,
+      "id": "4a5c39b4-8805-4f89-9a30-6658795f69e5",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "2a3308db-30ff-5b65-b9ce-f995893e849b"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 66.74746729061007,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "46525971-c00e-4886-afa2-eaa1981ab339"
+      ],
+      "fact": null,
+      "id": "3d2ac32c-ce5c-45b2-9c9f-9a7b1437da1b",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "2a3308db-30ff-5b65-b9ce-f995893e849b"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 66.8106650407426,
+      "before_social": null,
+      "decision": {
+        "at": 66.8106650407426,
+        "candidates": [
+          {
+            "created_at": 65.34088133275509,
+            "evidence_id": "0ebee11a-5c6e-4e15-802e-f41c60217b1d",
+            "position": [
+              12.372591018676758,
+              0.12094183266162872,
+              43.572635650634766
+            ],
+            "request_id": null,
+            "severity": 29.098011321999163,
+            "subject_id": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 65.34088133275509,
+            "evidence_id": "67c4c2d4-0e6b-4984-a2e7-f5c2307e4c70",
+            "position": [
+              5.198912143707275,
+              -0.098750002682209,
+              37.00056838989258
+            ],
+            "request_id": null,
+            "severity": 46.09801132199904,
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 5.066338915843517,
+            "evidence_id": "91ade12c-bc21-4f29-a74f-befdd7c20676",
+            "position": [
+              19.13653564453125,
+              0.119999997317791,
+              56.03851318359375
+            ],
+            "request_id": null,
+            "severity": 35.00759950837375,
+            "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "0ebee11a-5c6e-4e15-802e-f41c60217b1d"
+      ],
+      "fact": null,
+      "id": "1271b665-3439-4bfc-8ccd-53eec99e9570",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 70.93369633285329,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "0ebee11a-5c6e-4e15-802e-f41c60217b1d"
+      ],
+      "fact": null,
+      "id": "6debbc51-9bed-44a6-a640-61f0b2cfcc82",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 71.00426674960181,
+      "before_social": null,
+      "decision": {
+        "at": 71.00426674960181,
+        "candidates": [
+          {
+            "created_at": 70.39336366578937,
+            "evidence_id": "766713b3-4a30-4558-9b13-2bc0441c9880",
+            "position": [
+              11.803818702697754,
+              -0.09976564347743988,
+              38.03778076171875
+            ],
+            "request_id": null,
+            "severity": 38.10559004549858,
+            "subject_id": "23c26649-ab9b-5e20-8e3d-fc6e222e60c8",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 70.39336366578937,
+            "evidence_id": "ba0893e3-bb5b-4a2d-9e8d-15cffa7735c8",
+            "position": [
+              10.782289505004885,
+              -0.098750002682209,
+              35.23070526123047
+            ],
+            "request_id": null,
+            "severity": 38.10559004549858,
+            "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 65.34088133275509,
+            "evidence_id": "67c4c2d4-0e6b-4984-a2e7-f5c2307e4c70",
+            "position": [
+              5.198912143707275,
+              -0.098750002682209,
+              37.00056838989258
+            ],
+            "request_id": null,
+            "severity": 46.09801132199904,
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 70.39336366578937,
+            "evidence_id": "d4857b51-1e0e-47d2-b895-c82ad3d6d846",
+            "position": [
+              12.0446195602417,
+              -0.09976564347743988,
+              35.44942855834961
+            ],
+            "request_id": null,
+            "severity": 20.10559004549874,
+            "subject_id": "b589a068-2067-5a64-ac66-9a08a4fc0ebe",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 5.066338915843517,
+            "evidence_id": "91ade12c-bc21-4f29-a74f-befdd7c20676",
+            "position": [
+              19.13653564453125,
+              0.119999997317791,
+              56.03851318359375
+            ],
+            "request_id": null,
+            "severity": 35.00759950837375,
+            "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "23c26649-ab9b-5e20-8e3d-fc6e222e60c8"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "766713b3-4a30-4558-9b13-2bc0441c9880"
+      ],
+      "fact": null,
+      "id": "1e71b293-f90f-4391-8616-658a5f7687a2",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "23c26649-ab9b-5e20-8e3d-fc6e222e60c8"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 75.07587774982676,
+      "before_social": null,
+      "decision": null,
+      "detail": "Contact left the observed meeting point.",
+      "evidence": [
+        "766713b3-4a30-4558-9b13-2bc0441c9880"
+      ],
+      "fact": null,
+      "id": "50eb6e5c-d562-4f80-a3e7-3af859f65a5a",
+      "outcome": "departed",
+      "request_id": null,
+      "subject_id": "23c26649-ab9b-5e20-8e3d-fc6e222e60c8"
+    },
+    {
+      "after_social": null,
+      "agent_id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "at": 75.13426249986514,
+      "before_social": null,
+      "decision": {
+        "at": 75.13426249986514,
+        "candidates": [
+          {
+            "created_at": 70.39336366578937,
+            "evidence_id": "ba0893e3-bb5b-4a2d-9e8d-15cffa7735c8",
+            "position": [
+              10.782289505004885,
+              -0.098750002682209,
+              35.23070526123047
+            ],
+            "request_id": null,
+            "severity": 38.10559004549858,
+            "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "severity": 47.05277825062389,
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "severity": 30.05277825062398,
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 65.34088133275509,
+            "evidence_id": "67c4c2d4-0e6b-4984-a2e7-f5c2307e4c70",
+            "position": [
+              5.198912143707275,
+              -0.098750002682209,
+              37.00056838989258
+            ],
+            "request_id": null,
+            "severity": 46.09801132199904,
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 70.39336366578937,
+            "evidence_id": "d4857b51-1e0e-47d2-b895-c82ad3d6d846",
+            "position": [
+              12.0446195602417,
+              -0.09976564347743988,
+              35.44942855834961
+            ],
+            "request_id": null,
+            "severity": 20.10559004549874,
+            "subject_id": "b589a068-2067-5a64-ac66-9a08a4fc0ebe",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 5.066338915843517,
+            "evidence_id": "91ade12c-bc21-4f29-a74f-befdd7c20676",
+            "position": [
+              19.13653564453125,
+              0.119999997317791,
+              56.03851318359375
+            ],
+            "request_id": null,
+            "severity": 35.00759950837375,
+            "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 30.148668707814068,
+            "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "severity": 29.04522300306174,
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+            "trust": 0.0,
+            "verified_at": null
+          },
+          {
+            "created_at": 35.185500415973365,
+            "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "severity": 35.05277825062389,
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+            "trust": 0.0,
+            "verified_at": null
+          }
+        ],
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "selected_request": null,
+        "selected_target": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51"
+      },
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "evidence": [
+        "ba0893e3-bb5b-4a2d-9e8d-15cffa7735c8"
+      ],
+      "fact": null,
+      "id": "11e8feaa-6cbd-436a-abc0-355fcd1568b8",
+      "outcome": "selected",
+      "request_id": null,
+      "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51"
+    }
+  ],
+  "agents": [
+    {
+      "activity": "travelling",
+      "appearance": 0.0,
+      "exceptional": {
+        "action": {
+          "elapsed": 0.0,
+          "evidence_id": null,
+          "goal_id": "13a787fa-6b31-4e1b-afd7-bc8ac1c1ba28",
+          "kind": "observe",
+          "observed_position": null,
+          "request_id": null,
+          "selected_at": 0.05110354069620371,
+          "subject_id": null
+        },
+        "behavior_stage": "arbiter",
+        "cooldowns": {},
+        "core": "Justice applies consistently, regardless of friendship or status.",
+        "decision": {
+          "at": 0.05110354069620371,
+          "candidates": [],
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "selected_request": null
+        },
+        "information": {},
+        "next_observation_at": 80.42785929096863,
+        "observations": [
+          {
+            "at": 75.42785929096863,
+            "id": "30711641-bd2b-41d1-b53e-54d9f520631f",
+            "position": [
+              -13.267221450805664,
+              0.1205468624830246,
+              38.08393096923828
+            ],
+            "request_id": null,
+            "social": 38.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "0cf26e8a-b9d9-58ef-b74a-3c8c333131eb"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "113a4e32-e366-4137-921e-fe212f719f5f",
+            "position": [
+              -15.302963256835938,
+              0.12080371379852296,
+              45.798614501953125
+            ],
+            "request_id": null,
+            "social": 47.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "27c7cbbe-6fdc-52d9-a268-ca7447d14fbf"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "4d4e9fd1-19fc-472a-a40b-4006356be4da",
+            "position": [
+              -5.830636024475098,
+              -0.098750002682209,
+              40.25565719604492
+            ],
+            "request_id": null,
+            "social": 46.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "a5a013df-509c-46bb-bc9d-b889132af6da",
+            "position": [
+              -13.403250694274902,
+              0.119999997317791,
+              43.91958999633789
+            ],
+            "request_id": null,
+            "social": 56.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "b6ff6e0a-0a2f-59bb-9563-8f5e1b86c8d5"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "ecdae484-3a91-40f6-a527-365107a95a60",
+            "position": [
+              -13.35429859161377,
+              0.119999997317791,
+              40.89588165283203
+            ],
+            "request_id": null,
+            "social": 22.098011321999163,
+            "source": "local_proximity",
+            "subject_id": "24990155-2636-53ad-9482-075f5facf1aa"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "84f5fec4-9793-4374-8a24-cecd75f31094",
+            "position": [
+              -12.849230766296388,
+              0.119999997317791,
+              41.70805358886719
+            ],
+            "request_id": null,
+            "social": 54.09801132199904,
+            "source": "local_proximity",
+            "subject_id": "9d6b07cf-57d9-5554-b860-0f776a4cc807"
+          },
+          {
+            "at": 60.313102207612246,
+            "id": "053034ff-db20-46d5-a3d5-94e69b268a2e",
+            "position": [
+              -14.3220796585083,
+              0.1205468624830246,
+              47.45512390136719
+            ],
+            "request_id": null,
+            "social": 47.09046965331134,
+            "source": "local_proximity",
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd"
+          },
+          {
+            "at": 60.313102207612246,
+            "id": "48d38452-1a65-4089-a9b4-86be2e9ce3ed",
+            "position": [
+              -13.018547058105469,
+              0.119999997317791,
+              46.20431900024414
+            ],
+            "request_id": null,
+            "social": 29.09046965331144,
+            "source": "local_proximity",
+            "subject_id": "93096835-124d-5e47-b7c0-09c6869da35c"
+          },
+          {
+            "at": 55.26850445801392,
+            "id": "d6eb8784-e7df-428e-98fc-a7b15f873b42",
+            "position": [
+              -17.74365234375,
+              0.119999997317791,
+              49.522911071777344
+            ],
+            "request_id": null,
+            "social": 47.08290275668693,
+            "source": "local_proximity",
+            "subject_id": "007ed7e4-e6b9-5ccc-8b8a-2a0dcb9995ce"
+          },
+          {
+            "at": 50.25511087477207,
+            "id": "7d62f8e8-53cb-42f6-a902-c9d84ca842ec",
+            "position": [
+              -14.541885375976562,
+              0.119999997317791,
+              54.67756271362305
+            ],
+            "request_id": null,
+            "social": 56.07538266631206,
+            "source": "local_proximity",
+            "subject_id": "47bf54ac-7544-5e7e-a5ee-ff8da58fc9da"
+          },
+          {
+            "at": 45.229813082609326,
+            "id": "16818683-765f-46ce-af63-30ca5758cf54",
+            "position": [
+              -11.825777053833008,
+              -0.098750002682209,
+              61.01303482055664
+            ],
+            "request_id": null,
+            "social": 56.06784471962385,
+            "source": "local_proximity",
+            "subject_id": "128d7068-6b05-5f79-9bdc-61a96cad6668"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "9a3deb73-7a36-4a5f-b62b-e9aeff14caf0",
+            "position": [
+              -14.198888778686523,
+              0.119999997317791,
+              72.96888732910156
+            ],
+            "request_id": null,
+            "social": 56.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "242edb99-4556-5b7c-a3f1-cf510e7c9afe"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "f664bf5b-61df-420a-9369-eea4ac8615d5",
+            "position": [
+              -22.387310028076172,
+              0.6495561599731445,
+              62.09807205200195
+            ],
+            "request_id": null,
+            "social": 38.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7"
+          },
+          {
+            "at": 10.075048415921628,
+            "id": "464522c3-eada-49f6-b61f-4469535a9a04",
+            "position": [
+              -18.655990600585938,
+              0.119999997317791,
+              95.86612701416016
+            ],
+            "request_id": null,
+            "social": 54.01511257262386,
+            "source": "local_proximity",
+            "subject_id": "3bb37131-4427-5e80-bb20-fc6d4eb49f20"
+          }
+        ],
+        "profile": "arbiter_of_dawn",
+        "profile_version": 1.0,
+        "project": null,
+        "relationships": {}
+      },
+      "goal": {
+        "id": "13a787fa-6b31-4e1b-afd7-bc8ac1c1ba28",
+        "place": "park",
+        "position": [
+          -6.28,
+          0.12,
+          -28.9
+        ],
+        "reason": "ideology",
+        "started_at": 0.05110354069620371
+      },
+      "id": "ac232403-5e66-5c57-b658-d06119e37fbf",
+      "intervention": null,
+      "kind": "exceptional",
+      "known_places": {
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -18.38,
+            0.12,
+            -12.52
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -18.38,
+                0.12,
+                -12.52
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -18.82,
+            0.12,
+            105.04
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -18.82,
+                0.12,
+                105.04
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -6.28,
+            0.12,
+            -28.9
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -6.28,
+                0.12,
+                -28.9
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -54.27,
+            12.0,
+            1.57
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -54.27,
+                12.0,
+                1.57
+              ],
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "last_decision_at": 0.05110354069620371,
+      "memory": [
+        {
+          "at": 0.0,
+          "detail": "Go to work (schedule)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "Go to park (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "No eligible observed request; visit a known place to observe locally.",
+          "kind": "decision"
+        }
+      ],
+      "motion_seq": 107.0,
+      "name": "Arbiter of Dawn",
+      "navigation": "TRAVELLING",
+      "needs": {
+        "energy": 81.80478192187508,
+        "hunger": 18.195218078125045,
+        "social": 35.11713084687489
+      },
+      "physical_at": 78.08723125001416,
+      "position": [
+        -12.367426872253418,
+        0.1205468624830246,
+        41.312686920166016
+      ],
+      "role": "Civic arbiter",
+      "routine_offset": 0.0,
+      "schedule": [
+        {
+          "hour": 0.0,
+          "place": "home"
+        },
+        {
+          "hour": 8.0,
+          "place": "work"
+        },
+        {
+          "hour": 12.0,
+          "place": "food"
+        },
+        {
+          "hour": 13.0,
+          "place": "work"
+        },
+        {
+          "hour": 17.0,
+          "place": "park"
+        },
+        {
+          "hour": 19.0,
+          "place": "home"
+        }
+      ],
+      "yaw": -0.5769594311714172
+    },
+    {
+      "activity": "travelling",
+      "appearance": 1.0,
+      "exceptional": {
+        "action": {
+          "elapsed": 0.0,
+          "evidence_id": "ba0893e3-bb5b-4a2d-9e8d-15cffa7735c8",
+          "goal_id": "18fd7a97-2712-4e69-b07f-fed9bb4bb8fe",
+          "kind": "inspect",
+          "observed_position": [
+            10.782289505004885,
+            -0.098750002682209,
+            35.23070526123047
+          ],
+          "request_id": null,
+          "selected_at": 75.13426249986514,
+          "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51"
+        },
+        "behavior_stage": "attendant",
+        "cooldowns": {
+          "00d8beac-e287-5ee6-890c-2a72f9919e9a": 120.19633770780638,
+          "0698fc34-86ac-5a7c-9471-d28adc05b3fb": 123.9915822497569,
+          "22659592-0e67-502c-8200-3edaa494653c": 97.02142520761116,
+          "23c26649-ab9b-5e20-8e3d-fc6e222e60c8": 135.07587774982676,
+          "2a3308db-30ff-5b65-b9ce-f995893e849b": 126.74746729061007,
+          "30a9df1e-d5ac-5a57-a29d-afc51052a3ba": 130.9336963328533,
+          "49429de0-14ca-5cdb-930a-3898e67e99d9": 102.73679883265868,
+          "6245a0fc-5966-570b-ad3f-85106009bea2": 111.99355162493885,
+          "b97bbc02-bc48-5ca5-aef7-6bc2de437381": 63.49969041580334,
+          "e59d4671-6bd3-52a2-a46d-648887e194c7": 69.78717720787972
+        },
+        "core": "Knowledge, strategy and influence are the route to power.",
+        "decision": {
+          "at": 75.13426249986514,
+          "candidates": [
+            {
+              "created_at": 70.39336366578937,
+              "evidence_id": "ba0893e3-bb5b-4a2d-9e8d-15cffa7735c8",
+              "position": [
+                10.782289505004885,
+                -0.098750002682209,
+                35.23070526123047
+              ],
+              "request_id": null,
+              "severity": 38.10559004549858,
+              "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 35.185500415973365,
+              "evidence_id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+              "position": [
+                10.12538242340088,
+                -0.098750002682209,
+                35.551605224609375
+              ],
+              "request_id": null,
+              "severity": 47.05277825062389,
+              "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 35.185500415973365,
+              "evidence_id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+              "position": [
+                13.25696086883545,
+                0.1205468624830246,
+                40.956783294677734
+              ],
+              "request_id": null,
+              "severity": 30.05277825062398,
+              "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 65.34088133275509,
+              "evidence_id": "67c4c2d4-0e6b-4984-a2e7-f5c2307e4c70",
+              "position": [
+                5.198912143707275,
+                -0.098750002682209,
+                37.00056838989258
+              ],
+              "request_id": null,
+              "severity": 46.09801132199904,
+              "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 70.39336366578937,
+              "evidence_id": "d4857b51-1e0e-47d2-b895-c82ad3d6d846",
+              "position": [
+                12.0446195602417,
+                -0.09976564347743988,
+                35.44942855834961
+              ],
+              "request_id": null,
+              "severity": 20.10559004549874,
+              "subject_id": "b589a068-2067-5a64-ac66-9a08a4fc0ebe",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 5.066338915843517,
+              "evidence_id": "91ade12c-bc21-4f29-a74f-befdd7c20676",
+              "position": [
+                19.13653564453125,
+                0.119999997317791,
+                56.03851318359375
+              ],
+              "request_id": null,
+              "severity": 35.00759950837375,
+              "subject_id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 30.148668707814068,
+              "evidence_id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+              "position": [
+                9.366339683532717,
+                -0.098750002682209,
+                37.80653762817383
+              ],
+              "request_id": null,
+              "severity": 29.04522300306174,
+              "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc",
+              "trust": 0.0,
+              "verified_at": null
+            },
+            {
+              "created_at": 35.185500415973365,
+              "evidence_id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+              "position": [
+                20.923906326293945,
+                0.119999997317791,
+                36.57185363769531
+              ],
+              "request_id": null,
+              "severity": 35.05277825062389,
+              "subject_id": "f3521035-5016-582d-af8d-153449c3cf05",
+              "trust": 0.0,
+              "verified_at": null
+            }
+          ],
+          "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+          "selected_request": null,
+          "selected_target": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51"
+        },
+        "information": {},
+        "next_observation_at": 80.42785929096863,
+        "observations": [
+          {
+            "at": 75.42785929096863,
+            "id": "70a6d08e-4dd5-4d5e-b691-814043adefce",
+            "position": [
+              14.243711471557615,
+              0.1205468624830246,
+              43.2265739440918
+            ],
+            "request_id": null,
+            "social": 38.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "23c26649-ab9b-5e20-8e3d-fc6e222e60c8"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "62ce565c-8744-41a9-a62d-14deab3f06ee",
+            "position": [
+              12.946510314941406,
+              0.11967825144529344,
+              40.55659484863281
+            ],
+            "request_id": null,
+            "social": 38.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "5f0a5017-f7f2-57ab-bfbf-b83acd2eac51"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "c7faf3e0-8779-4192-a1cb-598b66920fe8",
+            "position": [
+              12.481146812438965,
+              0.1205468624830246,
+              32.37662124633789
+            ],
+            "request_id": null,
+            "social": 20.113141788936513,
+            "source": "local_proximity",
+            "subject_id": "ab391226-468c-5736-9933-5de04c3d8d73"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "6a9386f4-10a1-4879-b0e4-c00554e1401a",
+            "position": [
+              12.454188346862791,
+              0.1209421008825302,
+              39.29168319702149
+            ],
+            "request_id": null,
+            "social": 20.113141788936513,
+            "source": "local_proximity",
+            "subject_id": "b589a068-2067-5a64-ac66-9a08a4fc0ebe"
+          },
+          {
+            "at": 70.39336366578937,
+            "id": "8a841b0c-7703-4f4c-b19b-8fa9aaa28503",
+            "position": [
+              12.42245388031006,
+              0.12094183266162872,
+              49.283817291259766
+            ],
+            "request_id": null,
+            "social": 29.10559004549874,
+            "source": "local_proximity",
+            "subject_id": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "07c41061-8514-4615-a0f0-fa0d3eb78c80",
+            "position": [
+              10.731679916381836,
+              -0.098750002682209,
+              48.46416091918945
+            ],
+            "request_id": null,
+            "social": 20.098011321999163,
+            "source": "local_proximity",
+            "subject_id": "2a3308db-30ff-5b65-b9ce-f995893e849b"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "67c4c2d4-0e6b-4984-a2e7-f5c2307e4c70",
+            "position": [
+              5.198912143707275,
+              -0.098750002682209,
+              37.00056838989258
+            ],
+            "request_id": null,
+            "social": 46.09801132199904,
+            "source": "local_proximity",
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80"
+          },
+          {
+            "at": 60.313102207612246,
+            "id": "120eb40a-f90d-460d-a649-db48d9aca5e2",
+            "position": [
+              9.881024360656738,
+              -0.098750002682209,
+              47.28721237182617
+            ],
+            "request_id": null,
+            "social": 38.09046965331134,
+            "source": "local_proximity",
+            "subject_id": "0698fc34-86ac-5a7c-9471-d28adc05b3fb"
+          },
+          {
+            "at": 55.26850445801392,
+            "id": "1025b20c-e83c-4cc7-bff4-23a2ffc4b0b9",
+            "position": [
+              10.9610013961792,
+              -0.098750002682209,
+              49.18584442138672
+            ],
+            "request_id": null,
+            "social": 22.08290275668705,
+            "source": "local_proximity",
+            "subject_id": "00d8beac-e287-5ee6-890c-2a72f9919e9a"
+          },
+          {
+            "at": 40.194948374759406,
+            "id": "e8b7e2c0-728a-41af-b275-616d8242895d",
+            "position": [
+              12.098230361938477,
+              -0.098750002682209,
+              37.784812927246094
+            ],
+            "request_id": null,
+            "social": 38.060292422562064,
+            "source": "local_proximity",
+            "subject_id": "49429de0-14ca-5cdb-930a-3898e67e99d9"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "236b62ab-7ac7-4f26-b6cb-fbe5a059ec02",
+            "position": [
+              17.528858184814453,
+              0.119999997317791,
+              40.651668548583984
+            ],
+            "request_id": null,
+            "social": 54.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "22659592-0e67-502c-8200-3edaa494653c"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "8cb380be-0c7b-4240-8c0a-57a19a0fa661",
+            "position": [
+              12.354711532592772,
+              0.12094185501337051,
+              42.955345153808594
+            ],
+            "request_id": null,
+            "social": 38.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "d997b83a-b18e-41a5-9325-7757dc5b4533",
+            "position": [
+              10.12538242340088,
+              -0.098750002682209,
+              35.551605224609375
+            ],
+            "request_id": null,
+            "social": 47.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "52c672c6-1dd9-41bb-b6d4-08698c75fb37",
+            "position": [
+              13.25696086883545,
+              0.1205468624830246,
+              40.956783294677734
+            ],
+            "request_id": null,
+            "social": 30.05277825062398,
+            "source": "local_proximity",
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a"
+          },
+          {
+            "at": 35.185500415973365,
+            "id": "780ef886-459b-426c-8b86-0cbccb9b678d",
+            "position": [
+              20.923906326293945,
+              0.119999997317791,
+              36.57185363769531
+            ],
+            "request_id": null,
+            "social": 35.05277825062389,
+            "source": "local_proximity",
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "75a60c00-c8a0-4f86-a71d-316b0a4b98b3",
+            "position": [
+              9.366339683532717,
+              -0.098750002682209,
+              37.80653762817383
+            ],
+            "request_id": null,
+            "social": 29.04522300306174,
+            "source": "local_proximity",
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc"
+          }
+        ],
+        "profile": "attendant_of_mysteries",
+        "profile_version": 1.0,
+        "project": null,
+        "relationships": {}
+      },
+      "goal": {
+        "id": "18fd7a97-2712-4e69-b07f-fed9bb4bb8fe",
+        "place": "contact",
+        "position": [
+          9.582301171408098,
+          -0.098750002682209,
+          35.22541383121478
+        ],
+        "reason": "ideology",
+        "started_at": 75.13426249986514
+      },
+      "id": "1402a5bf-a5b7-5268-9b66-098bb200a760",
+      "intervention": null,
+      "kind": "exceptional",
+      "known_places": {
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            13.56,
+            0.12,
+            -3.03
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                13.56,
+                0.12,
+                -3.03
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            16.51,
+            0.12,
+            59.86
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                16.51,
+                0.12,
+                59.86
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            8.05,
+            0.12,
+            -48.52
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                8.05,
+                0.12,
+                -48.52
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            32.36,
+            12.0,
+            13.87
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                32.36,
+                12.0,
+                13.87
+              ],
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "last_decision_at": 75.13426249986514,
+      "memory": [
+        {
+          "at": 63.9915822497569,
+          "detail": "contact",
+          "kind": "arrival"
+        },
+        {
+          "at": 63.9915822497569,
+          "detail": "Contact left the observed meeting point.",
+          "kind": "experience"
+        },
+        {
+          "at": 64.05580029077828,
+          "detail": "Go to contact (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 64.05580029077828,
+          "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+          "kind": "decision"
+        },
+        {
+          "at": 66.74746729061007,
+          "detail": "contact",
+          "kind": "arrival"
+        },
+        {
+          "at": 66.74746729061007,
+          "detail": "Contact left the observed meeting point.",
+          "kind": "experience"
+        },
+        {
+          "at": 66.8106650407426,
+          "detail": "Go to contact (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 66.8106650407426,
+          "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+          "kind": "decision"
+        },
+        {
+          "at": 70.93369633285329,
+          "detail": "contact",
+          "kind": "arrival"
+        },
+        {
+          "at": 70.93369633285329,
+          "detail": "Contact left the observed meeting point.",
+          "kind": "experience"
+        },
+        {
+          "at": 71.00426674960181,
+          "detail": "Go to contact (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 71.00426674960181,
+          "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+          "kind": "decision"
+        },
+        {
+          "at": 75.07587774982676,
+          "detail": "contact",
+          "kind": "arrival"
+        },
+        {
+          "at": 75.07587774982676,
+          "detail": "Contact left the observed meeting point.",
+          "kind": "experience"
+        },
+        {
+          "at": 75.13426249986514,
+          "detail": "Go to contact (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 75.13426249986514,
+          "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+          "kind": "decision"
+        }
+      ],
+      "motion_seq": 107.0,
+      "name": "Attendant of Mysteries",
+      "navigation": "TRAVELLING",
+      "needs": {
+        "energy": 81.80478192187508,
+        "hunger": 18.195218078125045,
+        "social": 35.11713084687489
+      },
+      "physical_at": 78.08723125001416,
+      "position": [
+        9.748833656311035,
+        -0.09905947744846344,
+        35.70348358154297
+      ],
+      "role": "Information strategist",
+      "routine_offset": 0.0,
+      "schedule": [
+        {
+          "hour": 0.0,
+          "place": "home"
+        },
+        {
+          "hour": 8.0,
+          "place": "work"
+        },
+        {
+          "hour": 12.0,
+          "place": "food"
+        },
+        {
+          "hour": 13.0,
+          "place": "work"
+        },
+        {
+          "hour": 17.0,
+          "place": "park"
+        },
+        {
+          "hour": 19.0,
+          "place": "home"
+        }
+      ],
+      "yaw": -5.9479875564575195
+    },
+    {
+      "activity": "travelling",
+      "appearance": 2.0,
+      "exceptional": {
+        "action": {
+          "elapsed": 0.0,
+          "evidence_id": null,
+          "goal_id": "76d09eb3-747c-47ac-a106-9e089a161304",
+          "kind": "observe",
+          "observed_position": null,
+          "request_id": null,
+          "selected_at": 0.05110354069620371,
+          "subject_id": null
+        },
+        "behavior_stage": "martyr",
+        "cooldowns": {},
+        "core": "Personally bears responsibility for remaking society and sees their own plan as the necessary path.",
+        "decision": {
+          "at": 0.05110354069620371,
+          "candidates": [],
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "selected_request": null
+        },
+        "information": {},
+        "next_observation_at": 80.42785929096863,
+        "observations": [
+          {
+            "at": 75.42785929096863,
+            "id": "c1ad906d-43b8-4310-b3ae-a7769b7580ed",
+            "position": [
+              -19.19304847717285,
+              0.119999997317791,
+              -8.953425407409668
+            ],
+            "request_id": null,
+            "social": 30.113141788936513,
+            "source": "local_proximity",
+            "subject_id": "704086b2-3ba5-5fe8-b050-3d6f83e90b72"
+          },
+          {
+            "at": 70.39336366578937,
+            "id": "f9daea4f-5066-4720-86db-f08f96bff17d",
+            "position": [
+              -14.19798755645752,
+              0.119999997317791,
+              -0.5718567967414856
+            ],
+            "request_id": null,
+            "social": 30.10559004549874,
+            "source": "local_proximity",
+            "subject_id": "614b0c9a-e614-5b6c-8c46-cf8e881792c2"
+          },
+          {
+            "at": 45.229813082609326,
+            "id": "72ada2d5-07e1-4654-a310-5b99c776196e",
+            "position": [
+              11.090396881103516,
+              -0.09976564347743988,
+              20.284461975097656
+            ],
+            "request_id": null,
+            "social": 29.067844719623945,
+            "source": "local_proximity",
+            "subject_id": "30a9df1e-d5ac-5a57-a29d-afc51052a3ba"
+          },
+          {
+            "at": 45.229813082609326,
+            "id": "05699491-591b-478a-ade7-a865e5c95a5f",
+            "position": [
+              12.30942440032959,
+              0.119999997317791,
+              18.629779815673828
+            ],
+            "request_id": null,
+            "social": 46.06784471962385,
+            "source": "local_proximity",
+            "subject_id": "9b11b1ed-15a2-5d1b-a3f3-dffd077b1d80"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "eaca1205-4620-46ce-9bad-90035272f1c7",
+            "position": [
+              18.37323570251465,
+              0.119999997317791,
+              34.905921936035156
+            ],
+            "request_id": null,
+            "social": 54.04522300306168,
+            "source": "local_proximity",
+            "subject_id": "22659592-0e67-502c-8200-3edaa494653c"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "0d6e1271-421a-4431-a572-9de177cf3f29",
+            "position": [
+              11.398602485656738,
+              -0.098750002682209,
+              25.86450958251953
+            ],
+            "request_id": null,
+            "social": 38.04522300306168,
+            "source": "local_proximity",
+            "subject_id": "49429de0-14ca-5cdb-930a-3898e67e99d9"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "f39b0fba-4015-4e00-a3b7-91dfd4a903ef",
+            "position": [
+              11.022759437561035,
+              -0.098750002682209,
+              30.63831329345703
+            ],
+            "request_id": null,
+            "social": 47.04522300306168,
+            "source": "local_proximity",
+            "subject_id": "74ba4bdf-10a5-5c74-afa1-cf583959d0cd"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "576876f5-1978-4e5a-930e-97f8de2a0277",
+            "position": [
+              12.151671409606934,
+              -0.098750002682209,
+              35.42166519165039
+            ],
+            "request_id": null,
+            "social": 30.04522300306174,
+            "source": "local_proximity",
+            "subject_id": "86647b2d-bd3d-5234-951b-233f80f0060a"
+          },
+          {
+            "at": 30.148668707814068,
+            "id": "349fe2a0-2755-4dbc-98a7-dc75364de01b",
+            "position": [
+              20.960947036743164,
+              0.119999997317791,
+              30.76472282409668
+            ],
+            "request_id": null,
+            "social": 35.04522300306168,
+            "source": "local_proximity",
+            "subject_id": "f3521035-5016-582d-af8d-153449c3cf05"
+          },
+          {
+            "at": 25.13447079062462,
+            "id": "0c8f7a57-7775-4b2d-8751-48dc4a6a7b8e",
+            "position": [
+              11.875245094299316,
+              -0.098750002682209,
+              34.11019515991211
+            ],
+            "request_id": null,
+            "social": 38.03770170618593,
+            "source": "local_proximity",
+            "subject_id": "6245a0fc-5966-570b-ad3f-85106009bea2"
+          },
+          {
+            "at": 25.13447079062462,
+            "id": "f6564b69-feff-452f-99ae-eced0dab9ca8",
+            "position": [
+              11.0125093460083,
+              -0.098750002682209,
+              32.55829620361328
+            ],
+            "request_id": null,
+            "social": 29.03770170618595,
+            "source": "local_proximity",
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc"
+          },
+          {
+            "at": 5.066338915843517,
+            "id": "b88d454c-27b7-47f4-a86d-4d6621651ccb",
+            "position": [
+              19.75663948059082,
+              0.119999997317791,
+              60.06882095336914
+            ],
+            "request_id": null,
+            "social": 35.00759950837375,
+            "source": "local_proximity",
+            "subject_id": "1402a5bf-a5b7-5268-9b66-098bb200a760"
+          },
+          {
+            "at": 0.05110354069620371,
+            "id": "456661be-c1c2-41e3-83ec-e507fd280103",
+            "position": [
+              13.84,
+              0.12,
+              59.81
+            ],
+            "request_id": null,
+            "social": 38.00007665531104,
+            "source": "local_proximity",
+            "subject_id": "e59d4671-6bd3-52a2-a46d-648887e194c7"
+          }
+        ],
+        "profile": "martyr_of_providence",
+        "profile_version": 1.0,
+        "project": null,
+        "relationships": {}
+      },
+      "goal": {
+        "id": "76d09eb3-747c-47ac-a106-9e089a161304",
+        "place": "food",
+        "position": [
+          -15.92,
+          0.12,
+          -17.42
+        ],
+        "reason": "ideology",
+        "started_at": 0.05110354069620371
+      },
+      "id": "b97bbc02-bc48-5ca5-aef7-6bc2de437381",
+      "intervention": null,
+      "kind": "exceptional",
+      "known_places": {
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -15.92,
+            0.12,
+            -17.42
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -15.92,
+                0.12,
+                -17.42
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            20.11,
+            0.12,
+            61.15
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                20.11,
+                0.12,
+                61.15
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -16.67,
+            0.12,
+            -52.6
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -16.67,
+                0.12,
+                -52.6
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            47.06,
+            12.0,
+            13.96
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                47.06,
+                12.0,
+                13.96
+              ],
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "last_decision_at": 0.05110354069620371,
+      "memory": [
+        {
+          "at": 0.0,
+          "detail": "Go to work (schedule)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "Go to food (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "No eligible observed request; visit a known place to observe locally.",
+          "kind": "decision"
+        }
+      ],
+      "motion_seq": 107.0,
+      "name": "Martyr of Providence",
+      "navigation": "TRAVELLING",
+      "needs": {
+        "energy": 81.80478192187508,
+        "hunger": 18.195218078125045,
+        "social": 35.11713084687489
+      },
+      "physical_at": 78.08723125001416,
+      "position": [
+        -15.560357093811035,
+        0.1205468624830246,
+        -16.39697265625
+      ],
+      "role": "Civic project organiser",
+      "routine_offset": 0.0,
+      "schedule": [
+        {
+          "hour": 0.0,
+          "place": "home"
+        },
+        {
+          "hour": 8.0,
+          "place": "work"
+        },
+        {
+          "hour": 12.0,
+          "place": "food"
+        },
+        {
+          "hour": 13.0,
+          "place": "work"
+        },
+        {
+          "hour": 17.0,
+          "place": "park"
+        },
+        {
+          "hour": 19.0,
+          "place": "home"
+        }
+      ],
+      "yaw": 0.33805161714553833
+    },
+    {
+      "activity": "travelling",
+      "appearance": 3.0,
+      "exceptional": {
+        "action": {
+          "elapsed": 0.0,
+          "evidence_id": null,
+          "goal_id": "3e0f5698-274b-47a8-ae80-5dc6f10b1d62",
+          "kind": "observe",
+          "observed_position": null,
+          "request_id": null,
+          "selected_at": 37.941992374602705,
+          "subject_id": null
+        },
+        "behavior_stage": "sovereign",
+        "cooldowns": {},
+        "core": "Own and inner-circle freedom comes first, even at outsiders\u2019 expense; this is not universal altruism.",
+        "decision": {
+          "at": 37.941992374602705,
+          "candidates": [],
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "selected_request": null
+        },
+        "information": {},
+        "next_observation_at": 80.42785929096863,
+        "observations": [
+          {
+            "at": 75.42785929096863,
+            "id": "659fa8a5-b834-4cb5-8f43-fc2f60228612",
+            "position": [
+              -13.808127403259276,
+              0.1205468624830246,
+              88.3472900390625
+            ],
+            "request_id": null,
+            "social": 56.113141788936325,
+            "source": "local_proximity",
+            "subject_id": "128d7068-6b05-5f79-9bdc-61a96cad6668"
+          },
+          {
+            "at": 75.42785929096863,
+            "id": "b2eb2ed7-321d-4734-9e63-54c22a8990af",
+            "position": [
+              -19.358278274536133,
+              0.1205468624830246,
+              93.71136474609376
+            ],
+            "request_id": null,
+            "social": 22.113141788936513,
+            "source": "local_proximity",
+            "subject_id": "c910ac53-f1df-5460-b4d7-672f706224ab"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "4d41e66b-b34f-47c3-9144-c564f4b8e4ec",
+            "position": [
+              -14.198888778686523,
+              0.119999997317791,
+              72.96888732910156
+            ],
+            "request_id": null,
+            "social": 56.09801132199904,
+            "source": "local_proximity",
+            "subject_id": "242edb99-4556-5b7c-a3f1-cf510e7c9afe"
+          },
+          {
+            "at": 65.34088133275509,
+            "id": "54f48221-643e-44ed-ab9f-79f4830c0e66",
+            "position": [
+              -13.76414966583252,
+              0.1205468624830246,
+              71.2802734375
+            ],
+            "request_id": null,
+            "social": 29.098011321999163,
+            "source": "local_proximity",
+            "subject_id": "ce2a11c8-1574-5c51-a542-0d689fb069bc"
+          },
+          {
+            "at": 25.13447079062462,
+            "id": "77877bda-f363-4392-8a05-acb15c0cc97d",
+            "position": [
+              -13.280835151672363,
+              0.119999997317791,
+              94.20409393310548
+            ],
+            "request_id": null,
+            "social": 22.03770170618595,
+            "source": "local_proximity",
+            "subject_id": "b4936ceb-87e2-5c39-9f49-93a5117a5c28"
+          },
+          {
+            "at": 5.066338915843517,
+            "id": "cc658f55-3f78-40ef-b246-9203c04da5b8",
+            "position": [
+              -13.24313259124756,
+              0.119999997317791,
+              84.47418212890625
+            ],
+            "request_id": null,
+            "social": 29.00759950837376,
+            "source": "local_proximity",
+            "subject_id": "69b341aa-f92b-5510-a1d7-6af7d59570b4"
+          },
+          {
+            "at": 5.066338915843517,
+            "id": "bd1df574-c2e3-4a38-8fb8-3d21b804035f",
+            "position": [
+              -14.14547061920166,
+              0.119999997317791,
+              84.6801528930664
+            ],
+            "request_id": null,
+            "social": 38.00759950837375,
+            "source": "local_proximity",
+            "subject_id": "91a7d0cf-7339-58d8-befc-1fede36da262"
+          }
+        ],
+        "profile": "sovereign_of_unbound_will",
+        "profile_version": 1.0,
+        "project": null,
+        "relationships": {
+          "ce2a11c8-1574-5c51-a542-0d689fb069bc": {
+            "companion": true,
+            "trust": 25.0
+          }
+        }
+      },
+      "goal": {
+        "id": "3e0f5698-274b-47a8-ae80-5dc6f10b1d62",
+        "place": "park",
+        "position": [
+          -4.99,
+          0.12,
+          -49.5
+        ],
+        "reason": "ideology",
+        "started_at": 37.941992374602705
+      },
+      "id": "bbffb666-ee1d-5844-9168-bde894443d11",
+      "intervention": null,
+      "kind": "exceptional",
+      "known_places": {
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            12.52,
+            0.12,
+            9.18
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                12.52,
+                0.12,
+                9.18
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -10.75,
+            0.12,
+            90.08
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -10.75,
+                0.12,
+                90.08
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -4.99,
+            0.12,
+            -49.5
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -4.99,
+                0.12,
+                -49.5
+              ],
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -21.5,
+            0.12,
+            -0.32
+          ],
+          "spots": [
+            {
+              "pose": "stand",
+              "position": [
+                -21.5,
+                0.12,
+                -0.32
+              ],
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "last_decision_at": 37.941992374602705,
+      "memory": [
+        {
+          "at": 0.0,
+          "detail": "Go to work (schedule)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "Go to home (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 0.05110354069620371,
+          "detail": "No eligible observed request; visit a known place to observe locally.",
+          "kind": "decision"
+        },
+        {
+          "at": 0.3374189157038927,
+          "detail": "home",
+          "kind": "arrival"
+        },
+        {
+          "at": 37.941992374602705,
+          "detail": "Go to park (ideology)",
+          "kind": "decision"
+        },
+        {
+          "at": 37.941992374602705,
+          "detail": "No eligible observed request; visit a known place to observe locally.",
+          "kind": "decision"
+        }
+      ],
+      "motion_seq": 107.0,
+      "name": "Sovereign of Unbound Will",
+      "navigation": "TRAVELLING",
+      "needs": {
+        "energy": 82.83890769199486,
+        "hunger": 18.195218078125045,
+        "social": 35.11713084687489
+      },
+      "physical_at": 78.08723125001416,
+      "position": [
+        -14.899462699890137,
+        0.12094277143478394,
+        92.61495971679688
+      ],
+      "role": "Independent companion guardian",
+      "routine_offset": 0.0,
+      "schedule": [
+        {
+          "hour": 0.0,
+          "place": "home"
+        },
+        {
+          "hour": 8.0,
+          "place": "work"
+        },
+        {
+          "hour": 12.0,
+          "place": "food"
+        },
+        {
+          "hour": 13.0,
+          "place": "work"
+        },
+        {
+          "hour": 17.0,
+          "place": "park"
+        },
+        {
+          "hour": 19.0,
+          "place": "home"
+        }
+      ],
+      "yaw": -0.23760923743247983
+    }
+  ],
+  "clock_seconds": 78.08723125001416,
+  "cores_unchanged": true,
+  "expected_outcome_verified": true,
+  "mode": "city",
+  "moved_over_1m": 47,
+  "population": 50,
+  "samples": [
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 0.0,
+      "connected": true,
+      "history_count": 0,
+      "time": 0.018238
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 0.0,
+      "connected": true,
+      "history_count": 0,
+      "time": 1.033553
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 0.0,
+      "connected": true,
+      "history_count": 0,
+      "time": 2.0341
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 0.0,
+      "connected": true,
+      "history_count": 0,
+      "time": 3.070607
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 0.909809332806617,
+      "connected": true,
+      "history_count": 4,
+      "time": 4.132789
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 2.057277124840766,
+      "connected": true,
+      "history_count": 4,
+      "time": 5.133163
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 2.927176999859512,
+      "connected": true,
+      "history_count": 4,
+      "time": 6.199456
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 4.085899499710649,
+      "connected": true,
+      "history_count": 6,
+      "time": 7.200113
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 4.950116874650121,
+      "connected": true,
+      "history_count": 6,
+      "time": 8.232849
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 6.097155333030969,
+      "connected": true,
+      "history_count": 6,
+      "time": 9.232863
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 7.2613515406847,
+      "connected": true,
+      "history_count": 6,
+      "time": 10.29991
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 8.120945625007153,
+      "connected": true,
+      "history_count": 6,
+      "time": 11.366792
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 9.271596041042358,
+      "connected": true,
+      "history_count": 6,
+      "time": 12.400179
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 10.131612749770284,
+      "connected": true,
+      "history_count": 8,
+      "time": 13.400529
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 11.281309665646404,
+      "connected": true,
+      "history_count": 8,
+      "time": 14.466643
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 12.430176832713189,
+      "connected": true,
+      "history_count": 8,
+      "time": 15.467043
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 13.408289624843746,
+      "connected": true,
+      "history_count": 8,
+      "time": 16.470182
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 A LIVING CITY",
+      "clock": 14.44234679080546,
+      "connected": true,
+      "history_count": 8,
+      "time": 17.470333
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 15.303105250000954,
+      "connected": true,
+      "history_count": 8,
+      "time": 18.470688
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 16.45415504090488,
+      "connected": true,
+      "history_count": 8,
+      "time": 19.537494
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 17.492130540776998,
+      "connected": true,
+      "history_count": 8,
+      "time": 20.570302
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 18.469446665607393,
+      "connected": true,
+      "history_count": 8,
+      "time": 21.570965
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 19.336345832794905,
+      "connected": true,
+      "history_count": 8,
+      "time": 22.571173
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 20.482161124702543,
+      "connected": true,
+      "history_count": 8,
+      "time": 23.579681
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 21.34926312463358,
+      "connected": true,
+      "history_count": 8,
+      "time": 24.581616
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 22.493894999846816,
+      "connected": true,
+      "history_count": 8,
+      "time": 25.617589
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 23.34961587470025,
+      "connected": true,
+      "history_count": 8,
+      "time": 26.62618
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 24.61790783284232,
+      "connected": true,
+      "history_count": 8,
+      "time": 27.688126
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 25.64650979079306,
+      "connected": true,
+      "history_count": 8,
+      "time": 28.696421
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 26.62555499980226,
+      "connected": true,
+      "history_count": 8,
+      "time": 29.698785
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 27.66006408259273,
+      "connected": true,
+      "history_count": 8,
+      "time": 30.734144
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 28.523854041006416,
+      "connected": true,
+      "history_count": 8,
+      "time": 31.757616
+    },
+    {
+      "chapter": "THE DISTRICT \u00b7 LANDMARKS AND TRANSIT RINGS",
+      "clock": 29.68628520797938,
+      "connected": true,
+      "history_count": 8,
+      "time": 32.789499
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 30.667735958006233,
+      "connected": true,
+      "history_count": 9,
+      "time": 33.809197
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 31.691722332965583,
+      "connected": true,
+      "history_count": 9,
+      "time": 34.848373
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 32.55343349976465,
+      "connected": true,
+      "history_count": 9,
+      "time": 35.860975
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 33.69578483281657,
+      "connected": true,
+      "history_count": 9,
+      "time": 36.902266
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 34.84128095768392,
+      "connected": true,
+      "history_count": 9,
+      "time": 37.910109
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 35.69602870801464,
+      "connected": true,
+      "history_count": 9,
+      "time": 38.913927
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 36.84765145787969,
+      "connected": true,
+      "history_count": 9,
+      "time": 39.9685
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 37.71084787463769,
+      "connected": true,
+      "history_count": 11,
+      "time": 40.970215
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 38.86532929074019,
+      "connected": true,
+      "history_count": 12,
+      "time": 41.972136
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 39.73421337502077,
+      "connected": true,
+      "history_count": 12,
+      "time": 43.018585
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 40.88621958298609,
+      "connected": true,
+      "history_count": 12,
+      "time": 44.023836
+    },
+    {
+      "chapter": "STREET LIFE \u00b7 EVERYDAY RESIDENTS",
+      "clock": 42.03221154073253,
+      "connected": true,
+      "history_count": 12,
+      "time": 45.082903
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 43.02554424991831,
+      "connected": true,
+      "history_count": 14,
+      "time": 46.121948
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 44.064938249997795,
+      "connected": true,
+      "history_count": 14,
+      "time": 47.138611
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 44.940354582853615,
+      "connected": true,
+      "history_count": 14,
+      "time": 48.175579
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 46.12451245775446,
+      "connected": true,
+      "history_count": 14,
+      "time": 49.19262
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 46.98908320767805,
+      "connected": true,
+      "history_count": 14,
+      "time": 50.243363
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 48.22318120766431,
+      "connected": true,
+      "history_count": 14,
+      "time": 51.32212
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 49.3292257077992,
+      "connected": true,
+      "history_count": 14,
+      "time": 52.357879
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 50.194072040729225,
+      "connected": true,
+      "history_count": 14,
+      "time": 53.396538
+    },
+    {
+      "chapter": "ELEVATED CITY \u00b7 SKYWALK AND TERRACES",
+      "clock": 51.35206383280456,
+      "connected": true,
+      "history_count": 14,
+      "time": 54.400453
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 52.28823712468147,
+      "connected": true,
+      "history_count": 16,
+      "time": 55.413937
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 53.38897933298722,
+      "connected": true,
+      "history_count": 16,
+      "time": 56.463223
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 54.2588317906484,
+      "connected": true,
+      "history_count": 16,
+      "time": 57.513922
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 55.43994945799932,
+      "connected": true,
+      "history_count": 16,
+      "time": 58.526647
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 56.31363720772788,
+      "connected": true,
+      "history_count": 16,
+      "time": 59.580872
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 57.4969368330203,
+      "connected": true,
+      "history_count": 16,
+      "time": 60.581751
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 58.37495137471706,
+      "connected": true,
+      "history_count": 16,
+      "time": 61.621032
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 59.5523547497578,
+      "connected": true,
+      "history_count": 16,
+      "time": 62.648107
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 60.54826883273199,
+      "connected": true,
+      "history_count": 18,
+      "time": 63.686946
+    },
+    {
+      "chapter": "PURPOSEFUL REST \u00b7 BENCH LIFE",
+      "clock": 61.59746433282271,
+      "connected": true,
+      "history_count": 18,
+      "time": 64.749098
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 62.760677290614694,
+      "connected": true,
+      "history_count": 18,
+      "time": 65.799572
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 63.63686208287254,
+      "connected": true,
+      "history_count": 18,
+      "time": 66.838375
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 64.81770562473685,
+      "connected": true,
+      "history_count": 20,
+      "time": 67.855765
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 65.69232108304277,
+      "connected": true,
+      "history_count": 20,
+      "time": 68.92432
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 66.86977241560817,
+      "connected": true,
+      "history_count": 22,
+      "time": 69.955932
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 67.75175795797259,
+      "connected": true,
+      "history_count": 22,
+      "time": 70.972672
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 68.92561483290046,
+      "connected": true,
+      "history_count": 22,
+      "time": 71.982757
+    },
+    {
+      "chapter": "DISTRICT PATROL",
+      "clock": 69.80573899997398,
+      "connected": true,
+      "history_count": 22,
+      "time": 73.015839
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 71.00426674960181,
+      "connected": true,
+      "history_count": 24,
+      "time": 74.034981
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 71.88321945769712,
+      "connected": true,
+      "history_count": 24,
+      "time": 75.073191
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 73.05849287472665,
+      "connected": true,
+      "history_count": 24,
+      "time": 76.156612
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 74.06527004064992,
+      "connected": true,
+      "history_count": 24,
+      "time": 77.183388
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 75.13426249986514,
+      "connected": true,
+      "history_count": 26,
+      "time": 78.193706
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 76.01975079067051,
+      "connected": true,
+      "history_count": 26,
+      "time": 79.227187
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 77.20090599963441,
+      "connected": true,
+      "history_count": 26,
+      "time": 80.237315
+    },
+    {
+      "chapter": "BROTHER EYE \u00b7 CITY ASSESSMENT",
+      "clock": 78.08723125001416,
+      "connected": true,
+      "history_count": 26,
+      "time": 81.301906
+    }
+  ],
+  "scope": "Real-time rendered capture from a disposable staged world; backend policies and Godot bodies produce outcomes. No production save access.",
+  "captured_frames": 1464,
+  "capture_duration_seconds": 81.32533466666668,
+  "capture_average_fps": 18.00177037082712
+}

@@ -10,6 +10,8 @@ Updated **13 October 2026**, after Stage 6E. **Current checkpoint: the agreed St
 
 **Additional review, 13 October 2026:** `docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4` shows a 06:00→next-day 06:00 lighting study (~60 s). `tools/record_day_cycle.py` / `day_cycle_review.gd` render offline without any backend, residents, save or journal. The normal game remains blue hour; new moon/star shader controls default to the original appearance. See `docs/DAY_CYCLE_REVIEW.md`. This video is separate from the live 100-resident acceptance video.
 
+**Extended showcase, 13 October 2026:** `docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4` compiles a new 50-person city tour, four real 34-person staged policy captures, the existing 100-person Brother Eye review and separate offline day/night study (~5m37s). Source: `tools/record_showcase.py` and `showcase_capture.gd`; scope/evidence: `docs/COMPLETE_SHOWCASE.md`. All outcomes come from the real backend/physical bodies; ordinary gameplay and production saves are unchanged. Native per-mode acceptance and final MP4 verification replace no previous milestone tests. Intermediate chapter MP4s are local-only/Git-ignored; final video and evidence are shareable.
+
 ## Goal and approach
 
 Build one persistent, explorable futuristic civilization. Ordinary people have local knowledge, needs, schedules, bounded memories and organic routines. Brother Eye inspects/evaluates and explicitly redirects travel. Four Exceptional Agents follow immutable ideologies through deterministic local decisions and voluntary interactions. Scale only to measured supported limits; 100 is a measured opt-in tier with skyline/control-room frame limits; 1,000 remains unverified.
