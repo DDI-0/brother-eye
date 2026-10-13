@@ -1,0 +1,51 @@
+test_duplicate_stale_and_invalid_progress (test_citizens.CitizenTests.test_duplicate_stale_and_invalid_progress) ... ok
+test_integral_json_journal_sequence (test_citizens.CitizenTests.test_integral_json_journal_sequence) ... ok
+test_needs_only_recover_after_physical_arrival (test_citizens.CitizenTests.test_needs_only_recover_after_physical_arrival) ... ok
+test_priority_recovery_and_bounded_memory (test_citizens.CitizenTests.test_priority_recovery_and_bounded_memory) ... ok
+test_progress_receipt_failure_rolls_back_citizen (test_citizens.CitizenTests.test_progress_receipt_failure_rolls_back_citizen) ... ok
+test_restoration_preserves_routine_and_no_offline_time (test_citizens.CitizenTests.test_restoration_preserves_routine_and_no_offline_time) ... ok
+test_schedule_and_identity (test_citizens.CitizenTests.test_schedule_and_identity) ... ok
+test_version_one_migration_preserves_existing_city (test_citizens.CitizenTests.test_version_one_migration_preserves_existing_city) ... ok
+test_empty_is_unknown_not_all_clear (test_evaluation.EvaluationTests.test_empty_is_unknown_not_all_clear) ... ok
+test_idle_is_not_a_fault_and_no_stall_is_invented (test_evaluation.EvaluationTests.test_idle_is_not_a_fault_and_no_stall_is_invented) ... ok
+test_pure_stable_detached_and_snapshot_bound (test_evaluation.EvaluationTests.test_pure_stable_detached_and_snapshot_bound) ... ok
+test_recovery_context_uses_actual_arrival (test_evaluation.EvaluationTests.test_recovery_context_uses_actual_arrival) ... ok
+test_route_wait_and_crowd_wait_differ (test_evaluation.EvaluationTests.test_route_wait_and_crowd_wait_differ) ... ok
+test_threshold_boundaries_and_priorities (test_evaluation.EvaluationTests.test_threshold_boundaries_and_priorities) ... ok
+test_wire_projection_is_derived_not_persisted (test_evaluation.EvaluationTests.test_wire_projection_is_derived_not_persisted) ... ok
+test_catalogue_and_directed_companion (test_exceptional.ExceptionalTests.test_catalogue_and_directed_companion) ... ok
+test_core_identity_and_bounded_state_validation (test_exceptional.ExceptionalTests.test_core_identity_and_bounded_state_validation) ... ok
+test_failed_migration_is_atomic (test_exceptional.ExceptionalTests.test_failed_migration_is_atomic) ... ok
+test_override_release_cannot_edit_core_or_relationships (test_exceptional.ExceptionalTests.test_override_release_cannot_edit_core_or_relationships) ... ok
+test_schema_four_preserves_original_people_and_receipts (test_exceptional.ExceptionalTests.test_schema_four_preserves_original_people_and_receipts) ... ok
+test_crash_replay_and_reject_bad_wire (test_foundation.ServiceTests.test_crash_replay_and_reject_bad_wire) ... ok
+test_intervention_ack_loss_backend_crash_and_replay (test_foundation.ServiceTests.test_intervention_ack_loss_backend_crash_and_replay) ... ok
+test_owner_exit_stops_service (test_foundation.ServiceTests.test_owner_exit_stops_service) ... ok
+test_restart_reconnect_and_no_offline_time (test_foundation.ServiceTests.test_restart_reconnect_and_no_offline_time) ... ok
+test_atomic_receipt_and_duplicate (test_foundation.StoreTests.test_atomic_receipt_and_duplicate) ... ok
+test_future_and_corrupt_saves_preserved (test_foundation.StoreTests.test_future_and_corrupt_saves_preserved) ... ok
+test_invalid_changes_leave_state_unchanged (test_foundation.StoreTests.test_invalid_changes_leave_state_unchanged) ... ok
+test_migration_and_restore (test_foundation.StoreTests.test_migration_and_restore) ... ok
+test_single_writer_lock (test_foundation.StoreTests.test_single_writer_lock) ... ok
+test_transaction_failure_rolls_back_state_and_receipt (test_foundation.StoreTests.test_transaction_failure_rolls_back_state_and_receipt) ... ok
+test_wire_validation (test_foundation.StoreTests.test_wire_validation) ... ok
+test_invalid_queries_leave_world_and_receipts_unchanged (test_history.HistoryTests.test_invalid_queries_leave_world_and_receipts_unchanged) ... ok
+test_pagination_reaches_beyond_recent_cache_without_duplicates (test_history.HistoryTests.test_pagination_reaches_beyond_recent_cache_without_duplicates) ... ok
+test_read_only_filter_cursor_and_concurrent_newer_events (test_history.HistoryTests.test_read_only_filter_cursor_and_concurrent_newer_events) ... ok
+test_history_bounded_sql_audit_complete_and_arrival_not_faked (test_interventions.InterventionTests.test_history_bounded_sql_audit_complete_and_arrival_not_faked) ... ok
+test_override_precedence_arrival_release_and_pause (test_interventions.InterventionTests.test_override_precedence_arrival_release_and_pause) ... ok
+test_police_local_knowledge_and_repeat_destination_goal_identity (test_interventions.InterventionTests.test_police_local_knowledge_and_repeat_destination_goal_identity) ... ok
+test_receipt_replay_restart_and_changed_payload (test_interventions.InterventionTests.test_receipt_replay_restart_and_changed_payload) ... ok
+test_rejections_are_durable_without_resident_changes (test_interventions.InterventionTests.test_rejections_are_durable_without_resident_changes) ... ok
+test_replace_stale_goal_release_and_wait (test_interventions.InterventionTests.test_replace_stale_goal_release_and_wait) ... ok
+test_schema_three_migration_preserves_people_and_city (test_interventions.InterventionTests.test_schema_three_migration_preserves_people_and_city) ... ok
+test_transaction_failure_rolls_back_all_audit_and_state (test_interventions.InterventionTests.test_transaction_failure_rolls_back_all_audit_and_state) ... ok
+test_batch_atomicity_replay_and_validation (test_population.PopulationTests.test_batch_atomicity_replay_and_validation) ... ok
+test_full_population_restore_and_snapshot_size (test_population.PopulationTests.test_full_population_restore_and_snapshot_size) ... ok
+test_population_unique_and_local (test_population.PopulationTests.test_population_unique_and_local) ... ok
+test_schema_two_preserves_alex_and_world (test_population.PopulationTests.test_schema_two_preserves_alex_and_world) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 3.327s
+
+OK

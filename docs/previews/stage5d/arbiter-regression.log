@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=156 revision=1
+PASS 34 physical residents restore through the actual service
+PASS local sensing creates and claims a real assistance request
+PASS Arbiter selects the most severe local recipient
+PASS distant higher need does not enter local knowledge
+PASS astronaut physically arrives and begins the five-second dwell
+PASS assistance requires actual body movement
+PASS pause during interaction is durable
+PASS paused dwell cannot award assistance
+PASS inspection explains evidence, policy and physical action
+PASS backend crash restores the in-progress claim
+PASS claim, partial dwell and paused clock survive restart exactly
+PASS resumed physical interaction completes once
+PASS completed state saved
+PASS one bounded social effect follows actual dwell
+PASS cooperation learns trust without changing the core
+PASS other three have their own active policies
+PASS final physical state acknowledged
+STAGE5C_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=160 revision=1
+PASS 34 physical residents restore through the actual service
+PASS relaunch restores identity with no offline time
+PASS relaunch preserves evidence, learning and exactly one consequence
+PASS completed outcome remains inspectable after relaunch
+STAGE5C_CHECK read failures=0
+PASS schema 7, one atomic physical reward/audit, bounded learning, no offline advancement and owned shutdown

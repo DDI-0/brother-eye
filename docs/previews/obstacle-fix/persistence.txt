@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=151 revision=1
+PASS service, civilian and collision routes ready
+PASS pause freezes movement, needs and city clock
+PASS physical arrival starts eating at the known market
+PASS arrival follows actual walking rather than teleporting
+PASS eating reduces hunger using authoritative city time
+PASS recovery finishes then resumes the daily work routine
+PASS new routine destination drives physical navigation
+PASS pause acknowledged
+PASS physical position and routine saved together
+STAGE3D_CHECK write failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=145 revision=1
+PASS service, civilian and collision routes ready
+PASS relaunch restores one world and the same civilian identity
+PASS needs, routine, knowledge, memory and clock restore without offline advancement
+PASS physical civilian position restores exactly
+PASS socket interruption reconnects and drains movement journal
+PASS reconnect preserves the existing citizen and service
+PASS service crash recovers and replays pending civilian progress
+PASS crash recovery retains identity, goal and needs
+REPLAYED_COMMAND 2fbf505c-ef95-ba54-0b44-46149cca7f36
+STAGE3D_CHECK read failures=0
+PASS crashed movement command has exactly one durable receipt
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=136 revision=1
+PASS service, civilian and collision routes ready
+PASS civilian progress journaled before send
+STAGE3D_CHECK journal failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=142 revision=1
+PASS service, civilian and collision routes ready
+PASS interrupted frontend progress replays on next launch
+PASS civilian journal drains after acknowledgement
+STAGE3D_CHECK replay failures=0
+PASS app-owned backend stops after close
+PASS one durable civilian and world across four launches; SQLite integrity ok

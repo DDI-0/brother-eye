@@ -1,0 +1,23 @@
+{
+  "closed": {
+    "draw_calls": 5007.0,
+    "feed_updates_per_second": 0.0,
+    "frames": 474,
+    "median_ms": 8.294,
+    "p95_ms": 9.241
+  },
+  "control_room": {
+    "draw_calls": 5061.0,
+    "feed_updates_per_second": 9.48184227204903,
+    "frames": 442,
+    "median_ms": 8.634,
+    "p95_ms": 11.663
+  },
+  "population": 30,
+  "renderer": "forward_plus",
+  "resolution": [
+    1440,
+    900
+  ],
+  "sample_seconds_each": 4
+}

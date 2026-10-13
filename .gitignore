@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.godot/
+builds/
+runtime/
+assets/source/
+references/
+*.blend1
+assets/working/motion_sources/
+# Local credentials, saves and duplicate downloaded archives.
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+*.pending.json
+godot/models/helix_spire/*.zip

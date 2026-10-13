@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=182 revision=1
+PASS population and actual district navigation restore
+PASS one physical body per saved resident
+PASS all 657 city collision shapes retained
+RESTORE_CLOCK {"actual":44.06819691695273,"difference":0.0,"expected":44.06819691695273,"paused":true}
+PASS app relaunch preserves paused world/clock without offline time
+PASS all identities and canonical cores restore
+PASS completed held authority restores
+PASS restore produces no historical command pulse
+STAGE6E_CHECK read tier=2 failures=0

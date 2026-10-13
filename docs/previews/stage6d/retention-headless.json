@@ -1,0 +1,50 @@
+{
+  "scope": "1800 sequenced save commands, 50 residents, 600 prior intervention commands, paused; backend/SQLite only, not a gameplay frame benchmark",
+  "sizes": [
+    {
+      "commands": 600,
+      "bytes": 27623424,
+      "receipts": 152,
+      "events": 1049
+    },
+    {
+      "commands": 1200,
+      "bytes": 27623424,
+      "receipts": 144,
+      "events": 1041
+    },
+    {
+      "commands": 1800,
+      "bytes": 27623424,
+      "receipts": 136,
+      "events": 1033
+    }
+  ],
+  "command_median_ms": 10.34112460911274,
+  "command_p95_ms": 14.745125081390142,
+  "command_max_ms": 99.6013330295682,
+  "retention": {
+    "recent_event_limit": 512,
+    "significant_event_limit": 512,
+    "receipt_limit": 128,
+    "pruned_through_seq": 1900,
+    "pruned_events": 1387,
+    "pruned_audit_entries": 177
+  },
+  "compaction": {
+    "receipts_compacted": 0,
+    "events_pruned": 0,
+    "before_bytes": 27623424,
+    "after_bytes": 22351872,
+    "retention": {
+      "recent_event_limit": 512,
+      "significant_event_limit": 512,
+      "receipt_limit": 128,
+      "pruned_through_seq": 1908,
+      "pruned_events": 1395,
+      "pruned_audit_entries": 177
+    }
+  },
+  "legacy_retry_records": 1,
+  "command_serial": 2411
+}

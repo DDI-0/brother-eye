@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=244 revision=1
+PASS live city and evaluation restore
+PASS evaluation launcher opens city assessment
+PASS assessment is bound to the exact authoritative world revision and tick
+PASS city totals and reasoning engine are explicit
+PASS urgent finding includes actual need value and rule evidence
+PASS assessment recognizes the existing recovery destination
+PASS flagged filter selects distinct residents rather than finding count
+PASS highest-priority finding opens the correct resident assessment
+PASS resident assessment explains evidence and suggested next step
+PASS evaluation and priority selection do not modify simulation state
+PASS mismatched report cannot be shown as current evaluation
+PASS offline evaluation is marked last known and priority action disabled
+PASS resident physically arrives and starts recovery
+PASS live evaluation updates to confirmed recovery
+PASS city pause acknowledged
+PASS recovery finding recommends monitoring existing care
+STAGE4B_CHECK failures=0
+PASS assessment remains derived; saved world and service lifecycle intact

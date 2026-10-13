@@ -1,0 +1,240 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1440,
+      "height": 900,
+      "coded_width": 1440,
+      "coded_height": 900,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "8:5",
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 706560,
+      "duration": "57.500000",
+      "bit_rate": "4040970",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1380",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc62.11.100 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 57478,
+      "duration": "57.478000",
+      "bit_rate": "51",
+      "nb_frames": "9",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 5003,
+      "end_time": "5.003000",
+      "tags": {
+        "title": "BROTHER EYE \u00b7 STAGE 6E REVIEW"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 5003,
+      "start_time": "5.003000",
+      "end": 10260,
+      "end_time": "10.260000",
+      "tags": {
+        "title": "01 \u00b7 BROTHER EYE DESTINATION COMMAND"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 10260,
+      "start_time": "10.260000",
+      "end": 20274,
+      "end_time": "20.274000",
+      "tags": {
+        "title": "02 \u00b7 PHYSICAL TRAVEL"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 20274,
+      "start_time": "20.274000",
+      "end": 27260,
+      "end_time": "27.260000",
+      "tags": {
+        "title": "03 \u00b7 COMMITTED RESULT AND LIVE CAMERA"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 27260,
+      "start_time": "27.260000",
+      "end": 31343,
+      "end_time": "31.343000",
+      "tags": {
+        "title": "04 \u00b7 RELEASE TO AUTONOMY"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 31343,
+      "start_time": "31.343000",
+      "end": 38371,
+      "end_time": "38.371000",
+      "tags": {
+        "title": "05 \u00b7 DISTRICT LIFE"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 38371,
+      "start_time": "38.371000",
+      "end": 44406,
+      "end_time": "44.406000",
+      "tags": {
+        "title": "06 \u00b7 PURPOSEFUL REST"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 44406,
+      "start_time": "44.406000",
+      "end": 50391,
+      "end_time": "50.391000",
+      "tags": {
+        "title": "07 \u00b7 EXCEPTIONAL AGENTS"
+      }
+    },
+    {
+      "id": 8,
+      "time_base": "1/1000",
+      "start": 50391,
+      "start_time": "50.391000",
+      "end": 57478,
+      "end_time": "57.478000",
+      "tags": {
+        "title": "STAGE 6E \u00b7 NATIVE CITY REVIEW"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/Users/ddi/Documents/ChatGPT/civilization_sim/docs/previews/stage6e/Brother-Eye-Stage-6E.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "57.500000",
+    "size": "29063595",
+    "bit_rate": "4043630",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "encoder": "Lavf62.3.100"
+    }
+  },
+  "verification": {
+    "full_decode": "passed",
+    "width": 1440,
+    "height": 900,
+    "fps": 24,
+    "silent": true,
+    "scope": "Existing live review recording normalized to standard limited-range H.264; duration and chapter markers preserved. Raw capture frames were temporary; performance is measured separately."
+  }
+}

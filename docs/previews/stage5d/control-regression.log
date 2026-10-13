@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=144 revision=1
+PASS authoritative city and physical population restored
+PASS observe and evaluate actual urgent resident need
+PASS stale assessment cannot stand in for current evidence
+PASS explicit UI command is pending before acknowledged effect
+PASS intervention durably accepted
+PASS paused assignment preserves body and needs and pulses once
+PASS conflicting request acknowledged
+PASS conflict preserves the active override
+ROUTE_REJECT target=(18.0, 0.12, -14.0) nearest=(18.0, 0.2, -14.0) end=(18.0, 0.2, -8.75)
+NAVIGATION_READY polygons=2197 bake_ms=152 revision=2
+PASS blocked live override reports physical route wait
+PASS blocked resident neither arrives falsely nor recovers; evaluation explains wait
+NAVIGATION_READY polygons=2185 bake_ms=139 revision=3
+PASS cleared obstruction permits real destination completion
+PASS physical movement precedes the recovery activity
+PASS evaluation recognizes arrival and measured need recovery
+PASS completed task paused durably
+PASS control room retrieves committed consequence history
+PASS audit connects command, conflict, route wait and physical completion
+PASS control-room feed confirms the paused city tick
+PASS offline control room marks retained evidence and freezes its camera
+PASS backend interruption restores held completed task
+PASS recovery preserves completed identity without historical pulse
+PASS final physical progress acknowledged before restore comparison
+STAGE4E_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=137 revision=1
+PASS authoritative city and physical population restored
+PASS close/relaunch preserves identity, needs, physical position, goal and held override
+PASS relaunch advances no offline time
+PASS relaunch does not replay historical landmark effects
+STAGE4E_CHECK read failures=0
+PASS durable accepted/rejected/wait/completion trace, exactly two intervention receipts, one world and 34 residents

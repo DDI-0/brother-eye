@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=155 revision=1
+PASS reported saved curb position recovers and reaches home
+PASS reported curb uses supported stepping
+PASS walk crosses a thin 20 cm obstacle
+PASS low strip crossed by stepping
+PASS run crosses a thin 20 cm obstacle
+PASS low strip crossed by stepping
+PASS low step rejects insufficient headroom
+PASS step rejects a landing with no footing beyond the edge
+NAVIGATION_READY polygons=2239 bake_ms=148 revision=2
+PASS 35 cm obstruction is routed around
+PASS obstacle over step limit is not climbed
+NAVIGATION_READY polygons=2185 bake_ms=147 revision=3
+NAVIGATION_READY polygons=2213 bake_ms=147 revision=4
+PASS large obstacle triggers a physical detour
+PASS stalled travel reports waiting while finding a detour
+PASS large obstacle is not climbed
+ROUTE_REJECT target=(46.0, 6.0, 7.0) nearest=(46.0, 12.1, 7.0) end=(46.0, 12.1, 7.0)
+NAVIGATION_READY polygons=2185 bake_ms=149 revision=5
+PASS unreachable route waits with idle animation
+OBSTACLE_QA failures=0

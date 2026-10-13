@@ -1,0 +1,224 @@
+{
+  "world_id": "1290d67d-f428-455a-89f3-ff1528d160bc",
+  "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+  "clock_seconds": 34.168787457980216,
+  "interventions": [
+    {
+      "id": "7b24c698-441a-4854-bd81-ab0711d75275",
+      "command_id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+      "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+      "actor": "Brother Eye",
+      "action": "assign_destination",
+      "outcome": "accepted",
+      "reason": "Stage 4E: verify safe market access",
+      "at": 0.0,
+      "before": {
+        "goal": {
+          "id": "d9cd686f-130e-41d9-875e-7959680e10ba",
+          "place": "food",
+          "reason": "need",
+          "position": [
+            18.19,
+            0.12,
+            3.97
+          ],
+          "started_at": 0,
+          "pose": "stand",
+          "yaw": 1.8903
+        },
+        "intervention": null
+      },
+      "after": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "travelling"
+        }
+      },
+      "message": "Destination override accepted; held until explicitly released. Arrival requires physical travel."
+    },
+    {
+      "id": "4dd92a2d-5412-4ead-a3af-df94ced0c672",
+      "command_id": "5e5eaebf-d8db-4cd1-be9d-18c07e5569c4",
+      "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+      "actor": "Brother Eye",
+      "action": "assign_destination",
+      "outcome": "rejected",
+      "reason": "Stale context must reject",
+      "at": 0.0,
+      "before": null,
+      "after": null,
+      "message": "The resident goal or override changed. Review the current state and try again."
+    },
+    {
+      "id": "8a232591-c5e6-4e8c-b31e-fd5c852b2a35",
+      "command_id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+      "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+      "actor": "physical_navigation",
+      "action": "navigation",
+      "outcome": "waiting_for_route",
+      "reason": "Stage 4E: verify safe market access",
+      "at": 0.05607379227876663,
+      "before": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "travelling"
+        }
+      },
+      "after": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "waiting_for_route"
+        }
+      },
+      "message": "WAITING FOR ROUTE"
+    },
+    {
+      "id": "3027a78c-979e-475e-a4bd-80202b19d701",
+      "command_id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+      "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+      "actor": "physical_navigation",
+      "action": "navigation",
+      "outcome": "travelling",
+      "reason": "Stage 4E: verify safe market access",
+      "at": 0.2750739580951631,
+      "before": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "waiting_for_route"
+        }
+      },
+      "after": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "travelling"
+        }
+      },
+      "message": "TRAVELLING"
+    },
+    {
+      "id": "b219d1b8-8046-48b0-9224-ff8789911872",
+      "command_id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+      "citizen_id": "98733652-3930-5983-bef9-999d8e7322ae",
+      "actor": "physical_navigation",
+      "action": "navigation",
+      "outcome": "completed",
+      "reason": "Stage 4E: verify safe market access",
+      "at": 33.55224379198626,
+      "before": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0,
+          "arrived_at": 33.55224379198626
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "travelling"
+        }
+      },
+      "after": {
+        "goal": {
+          "id": "1235801c-3222-4848-b1c2-105c706b026f",
+          "place": "food",
+          "reason": "intervention",
+          "position": [
+            -18.9,
+            0.12,
+            -14.89
+          ],
+          "started_at": 0.0,
+          "arrived_at": 33.55224379198626
+        },
+        "intervention": {
+          "id": "c1e18e76-9549-4c88-9498-b9c4808647c9",
+          "place": "food",
+          "reason": "Stage 4E: verify safe market access",
+          "issued_at": 0.0,
+          "status": "completed"
+        }
+      },
+      "message": "Physical arrival confirmed; override remains held."
+    }
+  ],
+  "integrity": "ok",
+  "population": 34
+}

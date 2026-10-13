@@ -1,0 +1,13 @@
+test_future_gap_invalid_serial_and_identity_rejected_without_mutation (backend.tests.test_retention.RetentionTests.test_future_gap_invalid_serial_and_identity_rejected_without_mutation) ... ok
+test_legacy_compaction_retains_digest_result_and_never_reapplies (backend.tests.test_retention.RetentionTests.test_legacy_compaction_retains_digest_result_and_never_reapplies) ... ok
+test_pruning_is_in_the_receipt_transaction_and_rolls_back (backend.tests.test_retention.RetentionTests.test_pruning_is_in_the_receipt_transaction_and_rolls_back) ... ok
+test_recent_receipt_rejects_boolean_numeric_payload_substitution (backend.tests.test_retention.RetentionTests.test_recent_receipt_rejects_boolean_numeric_payload_substitution) ... ok
+test_recent_retries_exact_old_serials_retire_and_ids_cannot_be_reused (backend.tests.test_retention.RetentionTests.test_recent_retries_exact_old_serials_retire_and_ids_cannot_be_reused) ... ok
+test_restore_preserves_watermark_state_and_recent_receipt (backend.tests.test_retention.RetentionTests.test_restore_preserves_watermark_state_and_recent_receipt) ... ok
+test_schema_seven_upgrade_is_atomic_and_preserves_receipts (backend.tests.test_retention.RetentionTests.test_schema_seven_upgrade_is_atomic_and_preserves_receipts) ... ok
+test_window_metadata_cursor_monotonic_and_no_world_change (backend.tests.test_retention.RetentionTests.test_window_metadata_cursor_monotonic_and_no_world_change) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 8.438s
+
+OK

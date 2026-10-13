@@ -1,0 +1,65 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=159 revision=1
+PASS inspection and 34 residents restore from the actual service
+PASS inspection review launcher opens the resident inspector
+PASS physical arrival creates an inspectable memory
+PASS city pause acknowledged
+PASS inspection fixture saved
+PASS inspection projection cannot mutate nested simulation state
+PASS unknown identity and empty snapshot are handled
+PASS F5 opens inspection and suspends camera movement
+PASS roster contains all 34 residents with stable identity selection
+PASS holding movement keys while inspecting leaves the explorer camera still
+PASS all displayed resident data comes from the confirmed snapshot
+PASS civilian knowledge page contains their four actual places
+PASS schedule shows recorded hours and destinations
+PASS history shows recorded arrival and destination decisions
+PASS decision filter excludes other memory kinds
+PASS police filter returns five officers
+PASS police selection shows their additional local patrol knowledge
+PASS search matches role without changing identity
+PASS empty search preserves the inspected resident
+PASS browsing and filtering inspection issues no simulation commands
+PASS disconnection marks retained data stale and disables follow
+PASS follow opens the selected resident's existing camera
+PASS inspection blocks follow orbit and movement
+PASS touchpad scrolling in inspection does not orbit the camera
+PASS Escape closes inspection and restores follow controls
+PASS City time opens cleanly from inspection
+PASS inspection and camera controls leave the saved simulation untouched
+STAGE4A_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=213 revision=1
+PASS inspection and 34 residents restore from the actual service
+PASS inspection review launcher opens the resident inspector
+PASS inspection restores the same resident, knowledge, schedule and history
+PASS inspection projection cannot mutate nested simulation state
+PASS unknown identity and empty snapshot are handled
+PASS F5 opens inspection and suspends camera movement
+PASS roster contains all 34 residents with stable identity selection
+PASS holding movement keys while inspecting leaves the explorer camera still
+PASS all displayed resident data comes from the confirmed snapshot
+PASS civilian knowledge page contains their four actual places
+PASS schedule shows recorded hours and destinations
+PASS history shows recorded arrival and destination decisions
+PASS decision filter excludes other memory kinds
+PASS police filter returns five officers
+PASS police selection shows their additional local patrol knowledge
+PASS search matches role without changing identity
+PASS empty search preserves the inspected resident
+PASS browsing and filtering inspection issues no simulation commands
+PASS disconnection marks retained data stale and disables follow
+PASS follow opens the selected resident's existing camera
+PASS inspection blocks follow orbit and movement
+PASS touchpad scrolling in inspection does not orbit the camera
+PASS Escape closes inspection and restores follow controls
+PASS City time opens cleanly from inspection
+PASS inspection and camera controls leave the saved simulation untouched
+STAGE4A_CHECK read failures=0
+PASS inspection across two launches; 34 identities and SQLite integrity retained

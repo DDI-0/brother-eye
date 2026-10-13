@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+PASS forward moves follow camera
+PASS back moves follow camera
+PASS left moves follow camera
+PASS right moves follow camera
+PASS up moves follow camera
+NAVIGATION_READY polygons=2185 bake_ms=148 revision=1
+PASS down moves follow camera
+PASS follow controls preserve saved explorer view
+PASS camera controls do not move civilian
+PASS right mouse drag changes camera look
+PASS releasing right mouse releases pointer
+PASS touchpad click-drag orbits around civilian
+PASS two-finger pan orbits around civilian
+PASS orbit preserves distance from civilian
+PASS orbit keeps civilian centered
+PASS camera tracks civilian movement while keeping custom view
+PASS R resets follow position
+PASS R resets look toward civilian
+PASS leaving follow restores explorer control and camera
+PASS follow can be entered again
+FOLLOW_CAMERA_CHECK failures=0

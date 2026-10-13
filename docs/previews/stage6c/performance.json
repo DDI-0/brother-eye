@@ -1,0 +1,108 @@
+{
+  "baseline": [
+    {
+      "draw_calls_median": 3741.0,
+      "frames": 1058,
+      "max_ms": 8.712,
+      "median_ms": 7.565,
+      "p95_ms": 7.843,
+      "p99_ms": 8.381,
+      "physics_p95_ms": 0.29,
+      "render_primitives_median": 1053618.0,
+      "static_memory_bytes": 149286424.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "street"
+    },
+    {
+      "draw_calls_median": 2666.0,
+      "frames": 1122,
+      "max_ms": 10.918,
+      "median_ms": 7.111,
+      "p95_ms": 7.39,
+      "p99_ms": 7.604,
+      "physics_p95_ms": 0.32,
+      "render_primitives_median": 871941.0,
+      "static_memory_bytes": 149571732.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "plaza"
+    },
+    {
+      "draw_calls_median": 5733.0,
+      "frames": 1048,
+      "max_ms": 10.246,
+      "median_ms": 7.621,
+      "p95_ms": 8.544,
+      "p99_ms": 9.005,
+      "physics_p95_ms": 1.366,
+      "render_primitives_median": 2109202.0,
+      "static_memory_bytes": 152782625.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "skyline"
+    }
+  ],
+  "collision_shapes": 657,
+  "merged_sources": 625,
+  "optimized": [
+    {
+      "draw_calls_median": 3241.0,
+      "frames": 1064,
+      "max_ms": 10.668,
+      "median_ms": 7.519,
+      "p95_ms": 7.84,
+      "p99_ms": 8.426,
+      "physics_p95_ms": 1.032,
+      "render_primitives_median": 911774.0,
+      "static_memory_bytes": 149353532.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "street"
+    },
+    {
+      "draw_calls_median": 2307.0,
+      "frames": 1124,
+      "max_ms": 9.18,
+      "median_ms": 7.121,
+      "p95_ms": 7.384,
+      "p99_ms": 7.669,
+      "physics_p95_ms": 0.324,
+      "render_primitives_median": 903191.0,
+      "static_memory_bytes": 149572840.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "plaza"
+    },
+    {
+      "draw_calls_median": 4518.0,
+      "frames": 1099,
+      "max_ms": 8.933,
+      "median_ms": 7.281,
+      "p95_ms": 7.687,
+      "p99_ms": 8.468,
+      "physics_p95_ms": 0.323,
+      "render_primitives_median": 1336242.0,
+      "static_memory_bytes": 152831725.0,
+      "video_memory_bytes": 619249664.0,
+      "view": "skyline"
+    },
+    {
+      "draw_calls_median": 3342.0,
+      "frames": 1126,
+      "max_ms": 13.926,
+      "median_ms": 7.467,
+      "p95_ms": 11.256,
+      "p99_ms": 11.789,
+      "physics_p95_ms": 2.36,
+      "render_primitives_median": 1157173.0,
+      "static_memory_bytes": 155900588.0,
+      "video_memory_bytes": 659357696.0,
+      "view": "control room running"
+    }
+  ],
+  "output_batches": 110,
+  "population": 50,
+  "sampled_image_difference": {
+    "plaza": 0.0457407407407407,
+    "skyline": 0.13420987654321,
+    "street": 0.0722345679012346
+  },
+  "scope": "Same paused 50-person city, same camera per paired 8-second samples after 2-second warmups. Final optimized control-room sample runs simulation. Retained original meshes allow A/B; no thermal telemetry.",
+  "viewport": "(1440, 900)"
+}

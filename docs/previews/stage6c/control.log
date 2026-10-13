@@ -1,0 +1,79 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=158 revision=1
+PASS live city and control room restore
+PASS F7 launcher opens the control room
+PASS committed history loaded through read-only service query
+PASS historical welcome audit does not pulse landmarks
+PASS feed renders the actual city world in its own viewport
+PASS switching feed preserves exploration and follow cameras
+PASS feed advances only from the current live scene
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS paged history reaches beyond recent cache without duplicate events
+PASS selected historical event explains actor, reason, before/after and identity
+PASS selected-resident history filter excludes other residents' events
+PASS all-city history restored after filtering
+PASS invalid read query returns a recoverable history error
+PASS history query errors do not freeze the application
+PASS history query can retry after rejection
+PASS browsing feeds and paged history does not mutate simulation state
+PASS offline feed freezes and history is labelled retained
+PASS reconnected history clears its offline label
+PASS closed control room performs no feed rendering
+PASS evaluation exits control-room mode and keeps its existing report
+PASS live feed shares physically moving residents and the advancing city
+PASS running feed is labelled live rather than paused or retained
+PASS pause restores a stable command review state
+PASS pending command has interface status without a landmark pulse
+PASS fresh intervention durably acknowledged
+PASS new accepted ACK pulses satellite lens and tower axis once
+PASS pulse materials are isolated from city lights
+PASS conflicting command returns its durable outcome
+PASS rejection has interface feedback without a success pulse
+PASS original accepted receipt replay acknowledged
+PASS replayed stale receipt neither pulses again nor overwrites newer state
+PASS backend reconnect restores command state
+PASS reconnect welcome remains silent
+PASS audit refresh after recovery
+STAGE4D_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=148 revision=1
+PASS live city and control room restore
+PASS F7 launcher opens the control room
+PASS committed history loaded through read-only service query
+PASS historical welcome audit does not pulse landmarks
+PASS feed renders the actual city world in its own viewport
+PASS switching feed preserves exploration and follow cameras
+PASS feed advances only from the current live scene
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS older audit page loads
+PASS paged history reaches beyond recent cache without duplicate events
+PASS selected historical event explains actor, reason, before/after and identity
+PASS selected-resident history filter excludes other residents' events
+PASS all-city history restored after filtering
+PASS invalid read query returns a recoverable history error
+PASS history query errors do not freeze the application
+PASS history query can retry after rejection
+PASS browsing feeds and paged history does not mutate simulation state
+PASS offline feed freezes and history is labelled retained
+PASS reconnected history clears its offline label
+PASS closed control room performs no feed rendering
+PASS evaluation exits control-room mode and keeps its existing report
+PASS app relaunch restores the same active intervention
+PASS app relaunch does not replay landmark feedback
+STAGE4D_CHECK read failures=0
+PASS read-only queries create no receipts; replay adds no duplicate effect; one world and SQLite integrity retained

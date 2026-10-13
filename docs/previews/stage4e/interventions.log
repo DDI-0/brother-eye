@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=192 revision=1
+PASS live city and intervention journal restore
+PASS intervention launcher opens command controls
+PASS explicit reason required before command
+PASS offline action controls disabled
+PASS one-shot intervention durably queued with pending status
+PASS override acknowledgement received
+PASS paused command changes goal without teleporting or resetting needs
+PASS replacement accepted
+PASS stale command acknowledged as rejection
+PASS conflict rejects cleanly without freezing service
+PASS release acknowledged
+PASS autonomy restored with a fresh goal
+PASS physical travel override accepted
+PASS backend interruption restores durable override
+PASS override identity survives backend restart
+PASS physical route arrives and completes destination task
+PASS completed override paused and saved
+PASS actual body movement precedes eating and completion
+PASS completed override remains held until release
+STAGE4C_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=180 revision=1
+PASS live city and intervention journal restore
+PASS intervention launcher opens command controls
+PASS same city and completed override restored after app close
+PASS no offline time or override expiry
+PASS saved outcomes visible in intervention history
+STAGE4C_CHECK read failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=162 revision=1
+PASS live city and intervention journal restore
+PASS intervention launcher opens command controls
+PASS intervention written to pending journal before frontend interruption
+STAGE4C_CHECK journal failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=167 revision=1
+PASS live city and intervention journal restore
+PASS intervention launcher opens command controls
+PASS frontend interruption replays the same command identity
+PASS replayed intervention removed only after acknowledgement
+PASS replayed override can be released
+PASS autonomy restored after journal recovery
+STAGE4C_CHECK replay failures=0
+PASS frontend interruption has exactly one durable receipt and accepted audit event
+PASS one isolated world, schema 4, SQLite integrity and service lifecycle intact

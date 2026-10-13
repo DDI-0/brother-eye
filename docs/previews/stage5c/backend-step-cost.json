@@ -1,0 +1,9 @@
+{
+  "scope": "1000 backend 50 ms simulation steps, 34 seeded residents, one active Arbiter; no renderer or physical movement reports",
+  "median_ms": 1.1781244538724422,
+  "p95_ms": 1.3243751600384712,
+  "p99_ms": 1.4429162256419659,
+  "max_ms": 3.263167105615139,
+  "step_budget_ms": 50,
+  "over_budget_steps": 0
+}

@@ -1,0 +1,749 @@
+{
+  "schema": 6,
+  "agents": [
+    {
+      "id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "name": "Arbiter of Dawn",
+      "role": "Civic arbiter",
+      "kind": "exceptional",
+      "appearance": 0,
+      "position": [
+        18.0,
+        0.11999999731779099,
+        -12.40101146697998
+      ],
+      "yaw": -0.046666666865348816,
+      "motion_seq": 15,
+      "needs": {
+        "hunger": 18.023767955520896,
+        "energy": 81.97623204447916,
+        "social": 35.014260773312465
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -18,
+            0.12,
+            90
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -32,
+            12,
+            8
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -18,
+            0.12,
+            -14
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -18,
+            0.12,
+            -40
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "a5e1b6e1-b80a-48c8-8aeb-907d1ccac137",
+        "place": "assistance",
+        "position": [
+          19.062726248500073,
+          0.11999999731779099,
+          -13.250655009525483
+        ],
+        "reason": "ideology",
+        "started_at": 9.400618291459978
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        },
+        {
+          "at": 0.05032841628417373,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Alex Vale"
+        },
+        {
+          "at": 0.05032841628417373,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Mira Chen"
+        },
+        {
+          "at": 0.05032841628417373,
+          "kind": "decision",
+          "detail": "Go to assistance (ideology)"
+        },
+        {
+          "at": 0.05032841628417373,
+          "kind": "decision",
+          "detail": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority."
+        },
+        {
+          "at": 4.2957738330587745,
+          "kind": "arrival",
+          "detail": "assistance"
+        },
+        {
+          "at": 9.346722000744194,
+          "kind": "experience",
+          "detail": "Physical voluntary assistance completed once; social need reduced by 5."
+        },
+        {
+          "at": 9.400618291459978,
+          "kind": "decision",
+          "detail": "Go to assistance (ideology)"
+        },
+        {
+          "at": 9.400618291459978,
+          "kind": "decision",
+          "detail": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority."
+        }
+      ],
+      "last_decision_at": 9.400618291459978,
+      "intervention": null,
+      "exceptional": {
+        "profile": "arbiter_of_dawn",
+        "profile_version": 1,
+        "core": "Justice applies consistently, regardless of friendship or status.",
+        "behavior_stage": "arbiter",
+        "observations": [
+          {
+            "id": "b62d0ccb-6d30-45a3-996d-64163d6d9df4",
+            "subject_id": "6fc6669b-699d-5f54-89dd-00d49b7bb0ef",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 38.007641286937016,
+            "position": [
+              14.896805763244629,
+              0.11999999731779099,
+              -5.400010108947754
+            ],
+            "request_id": null
+          },
+          {
+            "id": "e39461e8-2f7e-4665-8871-f55846b3c586",
+            "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 84.84717426125891,
+            "position": [
+              20.0,
+              0.11999999731779099,
+              -14.0
+            ],
+            "request_id": "3cf90029-d09b-4877-944c-56d326b3f749"
+          },
+          {
+            "id": "edf687db-349a-4e4f-8172-708ad458fa3e",
+            "subject_id": "95408150-d489-5924-a500-bb3ad8fad04f",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 20.007641286937048,
+            "position": [
+              13.961332321166992,
+              0.11999999731779099,
+              -11.561691284179688
+            ],
+            "request_id": null
+          },
+          {
+            "id": "2ba4a04a-7f46-4e4e-905d-55450f7094e3",
+            "subject_id": "b49ae35e-7ad6-5100-bd6e-075443134556",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 29.007641286937048,
+            "position": [
+              15.037284851074219,
+              0.11999999731779099,
+              -8.09943675994873
+            ],
+            "request_id": null
+          },
+          {
+            "id": "88c18f79-c2f5-406a-9859-35a0988a5a1d",
+            "subject_id": "ceb4e3bc-df5e-5b0a-ad45-76abe079e9e0",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 56.007641286937016,
+            "position": [
+              14.687613487243652,
+              0.11999999731779099,
+              -14.242111206054688
+            ],
+            "request_id": null
+          },
+          {
+            "id": "b574ae42-e1f7-437e-8f3f-918f2e19aa19",
+            "subject_id": "e8b9531b-0fae-5a4e-8b19-264c94517a4b",
+            "at": 5.094191291369498,
+            "source": "local_proximity",
+            "social": 94.84717426125891,
+            "position": [
+              18.0,
+              0.11999999731779099,
+              -14.0
+            ],
+            "request_id": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d"
+          }
+        ],
+        "relationships": {
+          "e8b9531b-0fae-5a4e-8b19-264c94517a4b": {
+            "trust": 1,
+            "companion": false
+          }
+        },
+        "project": null,
+        "action": {
+          "kind": "assist",
+          "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+          "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+          "goal_id": "a5e1b6e1-b80a-48c8-8aeb-907d1ccac137",
+          "elapsed": 0,
+          "selected_at": 9.400618291459978,
+          "observed_position": [
+            20.0,
+            0.11999999731779099,
+            -14.0
+          ],
+          "evidence_id": "e39461e8-2f7e-4665-8871-f55846b3c586"
+        },
+        "decision": {
+          "at": 9.400618291459978,
+          "reason": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority.",
+          "candidates": [
+            {
+              "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+              "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+              "severity": 84.84717426125891,
+              "created_at": 0.05032841628417373,
+              "evidence_id": "e39461e8-2f7e-4665-8871-f55846b3c586",
+              "position": [
+                20.0,
+                0.11999999731779099,
+                -14.0
+              ]
+            }
+          ],
+          "selected_request": "3cf90029-d09b-4877-944c-56d326b3f749"
+        },
+        "cooldowns": {
+          "e8b9531b-0fae-5a4e-8b19-264c94517a4b": 69.3467220007442
+        },
+        "next_observation_at": 10.094191291369498
+      },
+      "physical_at": 9.507182208355516
+    },
+    {
+      "id": "3ed90e59-9ff1-5918-bd7f-802cb83b2cc3",
+      "name": "Attendant of Mysteries",
+      "role": "Information strategist",
+      "kind": "exceptional",
+      "appearance": 1,
+      "position": [
+        -21.785497665405273,
+        -0.09875000268220901,
+        69.30549621582031
+      ],
+      "yaw": 0.268053263425827,
+      "motion_seq": 15,
+      "needs": {
+        "hunger": 18.023767955520896,
+        "energy": 81.97623204447916,
+        "social": 35.014260773312465
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -20,
+            0.12,
+            90
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -34,
+            12,
+            8
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -20,
+            0.12,
+            -14
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -20,
+            0.12,
+            -40
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "8a4badb1-7954-4e67-997c-3211e6c8c3f0",
+        "place": "work",
+        "reason": "schedule",
+        "position": [
+          -34,
+          12,
+          8
+        ],
+        "started_at": 0.0
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        }
+      ],
+      "last_decision_at": 0.0,
+      "intervention": null,
+      "exceptional": {
+        "profile": "attendant_of_mysteries",
+        "profile_version": 1,
+        "core": "Knowledge, strategy and influence are the route to power.",
+        "behavior_stage": "foundation",
+        "observations": [],
+        "relationships": {},
+        "project": null,
+        "action": null,
+        "decision": null,
+        "cooldowns": {},
+        "next_observation_at": 0.0
+      },
+      "physical_at": 9.507182208355516
+    },
+    {
+      "id": "6c849311-099f-5952-ba3c-6a223bc2e519",
+      "name": "Martyr of Providence",
+      "role": "Civic project organiser",
+      "kind": "exceptional",
+      "appearance": 2,
+      "position": [
+        -22.102310180664062,
+        -0.09976564347743988,
+        68.28692626953125
+      ],
+      "yaw": 0.3217255473136902,
+      "motion_seq": 15,
+      "needs": {
+        "hunger": 18.023767955520896,
+        "energy": 81.97623204447916,
+        "social": 35.014260773312465
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -22,
+            0.12,
+            90
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -36,
+            12,
+            8
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -22,
+            0.12,
+            -14
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -22,
+            0.12,
+            -40
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "2f13e288-640d-4c47-8351-390eb7fa854c",
+        "place": "work",
+        "reason": "schedule",
+        "position": [
+          -36,
+          12,
+          8
+        ],
+        "started_at": 0.0
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        }
+      ],
+      "last_decision_at": 0.0,
+      "intervention": null,
+      "exceptional": {
+        "profile": "martyr_of_providence",
+        "profile_version": 1,
+        "core": "Personally bears responsibility for remaking society and sees their own plan as the necessary path.",
+        "behavior_stage": "foundation",
+        "observations": [],
+        "relationships": {},
+        "project": null,
+        "action": null,
+        "decision": null,
+        "cooldowns": {},
+        "next_observation_at": 0.0
+      },
+      "physical_at": 9.507182208355516
+    },
+    {
+      "id": "5d031708-0737-53df-aea7-645ea7bf2b4c",
+      "name": "Sovereign of Unbound Will",
+      "role": "Independent companion guardian",
+      "kind": "exceptional",
+      "appearance": 3,
+      "position": [
+        -24.889299392700195,
+        -0.09917771816253662,
+        68.1547622680664
+      ],
+      "yaw": -0.13912981748580933,
+      "motion_seq": 15,
+      "needs": {
+        "hunger": 18.023767955520896,
+        "energy": 81.97623204447916,
+        "social": 35.014260773312465
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -24,
+            0.12,
+            90
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -38,
+            12,
+            8
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -24,
+            0.12,
+            -14
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -24,
+            0.12,
+            -40
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "04773230-afb0-4578-bc92-0f5cef1b2605",
+        "place": "work",
+        "reason": "schedule",
+        "position": [
+          -38,
+          12,
+          8
+        ],
+        "started_at": 0.0
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        }
+      ],
+      "last_decision_at": 0.0,
+      "intervention": null,
+      "exceptional": {
+        "profile": "sovereign_of_unbound_will",
+        "profile_version": 1,
+        "core": "Own and inner-circle freedom comes first, even at outsiders\u2019 expense; this is not universal altruism.",
+        "behavior_stage": "foundation",
+        "observations": [],
+        "relationships": {
+          "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f": {
+            "trust": 25,
+            "companion": true
+          }
+        },
+        "project": null,
+        "action": null,
+        "decision": null,
+        "cooldowns": {},
+        "next_observation_at": 0.0
+      },
+      "physical_at": 9.507182208355516
+    }
+  ],
+  "history": [
+    {
+      "id": "f5fc1dc2-cf89-472d-b41f-a776a36d645a",
+      "at": 0.05032841628417373,
+      "agent_id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Alex Vale",
+      "request_id": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d",
+      "subject_id": "e8b9531b-0fae-5a4e-8b19-264c94517a4b",
+      "evidence": [],
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "7c9c5232-f0f5-4e7e-9bc3-3551b21754d4",
+      "at": 0.05032841628417373,
+      "agent_id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Mira Chen",
+      "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+      "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+      "evidence": [],
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "d93e5e2e-da92-421d-9bb4-306dd9cd3592",
+      "at": 0.05032841628417373,
+      "agent_id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "outcome": "selected",
+      "detail": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority.",
+      "request_id": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d",
+      "subject_id": "e8b9531b-0fae-5a4e-8b19-264c94517a4b",
+      "evidence": [
+        "df41ca11-5cb3-4cc1-b1fd-6f6d6d70b264"
+      ],
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 0.05032841628417373,
+        "reason": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority.",
+        "candidates": [
+          {
+            "request_id": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d",
+            "subject_id": "e8b9531b-0fae-5a4e-8b19-264c94517a4b",
+            "severity": 94.99849014751148,
+            "created_at": 0.05032841628417373,
+            "evidence_id": "df41ca11-5cb3-4cc1-b1fd-6f6d6d70b264",
+            "position": [
+              18,
+              0.12,
+              -14
+            ]
+          },
+          {
+            "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+            "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+            "severity": 84.99849014751148,
+            "created_at": 0.05032841628417373,
+            "evidence_id": "e275e1c2-86ee-44cd-bfed-220b14a3ec8c",
+            "position": [
+              20,
+              0.12,
+              -14
+            ]
+          }
+        ],
+        "selected_request": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d"
+      }
+    },
+    {
+      "id": "b22d5623-1a79-405a-8866-77982e3e6396",
+      "at": 9.346722000744194,
+      "agent_id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "outcome": "completed",
+      "detail": "Physical voluntary assistance completed once; social need reduced by 5.",
+      "request_id": "ef9c8481-d4d7-4af9-b563-08f5a7b9031d",
+      "subject_id": "e8b9531b-0fae-5a4e-8b19-264c94517a4b",
+      "evidence": [
+        "df41ca11-5cb3-4cc1-b1fd-6f6d6d70b264"
+      ],
+      "before_social": 94.71959833997764,
+      "after_social": 89.71959833997764,
+      "decision": null
+    },
+    {
+      "id": "5bfdead8-e5ad-405c-beb4-2c904c8661c3",
+      "at": 9.400618291459978,
+      "agent_id": "db7ef07c-c55d-548c-b7fd-6e1e52cafbe3",
+      "outcome": "selected",
+      "detail": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority.",
+      "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+      "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+      "evidence": [
+        "e39461e8-2f7e-4665-8871-f55846b3c586"
+      ],
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 9.400618291459978,
+        "reason": "Most severe locally observed request; ties use age then stable request ID. Friendship does not change priority.",
+        "candidates": [
+          {
+            "request_id": "3cf90029-d09b-4877-944c-56d326b3f749",
+            "subject_id": "8cce9a1a-e5c0-51c9-b1fd-74e98cd5049f",
+            "severity": 84.84717426125891,
+            "created_at": 0.05032841628417373,
+            "evidence_id": "e39461e8-2f7e-4665-8871-f55846b3c586",
+            "position": [
+              20.0,
+              0.11999999731779099,
+              -14.0
+            ]
+          }
+        ],
+        "selected_request": "3cf90029-d09b-4877-944c-56d326b3f749"
+      }
+    }
+  ],
+  "clock": 9.507182208355516
+}

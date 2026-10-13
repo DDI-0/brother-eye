@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=201 revision=1
+PASS physical walk reaches bench and sit-down finishes in seated idle
+PASS bench arrival requires actual body travel
+PASS venue stroll moves despite retaining socializing activity
+PASS directed departure plays stand-up
+PASS standing finishes and walking resumes without teleport
+DEPARTURE state=TRAVELLING pose=stand clip=walk active=true pending=false distance=1.04262614250183
+PASS far animation budget reduces actual evaluations
+PASS far step-probe budget reduces queries while walking
+PASS distance budget preserves body collision and crowd avoidance
+PRE6C_FIXES failures=0
+
+PASS physical seating/stroll, distance budgets, 50-person native sample and durable integrity

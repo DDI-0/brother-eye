@@ -1,0 +1,51 @@
+{
+  "clock_seconds": 3.73652474954724,
+  "exceptional_agents": [
+    {
+      "activity": "travelling",
+      "goal_place": "park",
+      "name": "Arbiter of Dawn",
+      "position": [
+        -19.8096809387207,
+        0.119999997317791,
+        60.1573944091797
+      ],
+      "role": "Civic arbiter"
+    },
+    {
+      "activity": "travelling",
+      "goal_place": "park",
+      "name": "Attendant of Mysteries",
+      "position": [
+        16.8024520874023,
+        0.119999997317791,
+        61.4164047241211
+      ],
+      "role": "Information strategist"
+    },
+    {
+      "activity": "travelling",
+      "goal_place": "food",
+      "name": "Martyr of Providence",
+      "position": [
+        19.4654598236084,
+        0.119999997317791,
+        51.6017074584961
+      ],
+      "role": "Civic project organiser"
+    },
+    {
+      "activity": "resting",
+      "goal_place": "home",
+      "name": "Sovereign of Unbound Will",
+      "position": [
+        -14.0922231674194,
+        0.119999997317791,
+        94.8022155761719
+      ],
+      "role": "Independent companion guardian"
+    }
+  ],
+  "population": 34,
+  "seated_actors_observed": 0
+}

@@ -1,0 +1,22 @@
+{
+  "legacy_receipts": 1200,
+  "before_bytes": 124051456,
+  "startup_migration_ms": 1403.939959127456,
+  "retained_full_receipts": 128,
+  "compact_retry_records": 1072,
+  "compaction": {
+    "receipts_compacted": 0,
+    "events_pruned": 0,
+    "before_bytes": 124051456,
+    "after_bytes": 13660160,
+    "retention": {
+      "recent_event_limit": 512,
+      "significant_event_limit": 512,
+      "receipt_limit": 128,
+      "pruned_through_seq": 690,
+      "pruned_events": 689,
+      "pruned_audit_entries": 0
+    }
+  },
+  "scope": "Synthetic 50-person schema-7 save with 1200 legacy receipt snapshots; identities, clock, revision boundary and both old/recent retry paths verified."
+}

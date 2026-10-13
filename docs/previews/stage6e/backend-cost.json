@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "population": 50,
+      "clock_step": {
+        "samples": 400,
+        "median_ms": 4.2863329872488976,
+        "p95_ms": 6.606332957744598,
+        "max_ms": 31.146083027124405
+      },
+      "save": {
+        "samples": 200,
+        "median_ms": 8.674541022628546,
+        "p95_ms": 11.577832978218794,
+        "max_ms": 23.315874859690666
+      }
+    },
+    {
+      "population": 100,
+      "clock_step": {
+        "samples": 400,
+        "median_ms": 7.087875157594681,
+        "p95_ms": 7.99637520685792,
+        "max_ms": 12.061707675457
+      },
+      "save": {
+        "samples": 200,
+        "median_ms": 15.601374674588442,
+        "p95_ms": 18.110624980181456,
+        "max_ms": 34.75758293643594
+      }
+    }
+  ],
+  "scope": "Backend-only synchronous 0.05-second steps and saves in separate disposable worlds; no Godot physical reports, no networking, not full gameplay CPU/frame timing."
+}

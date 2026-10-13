@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=208 revision=1
+STAGE6E_VIDEO frames=461 failures=0

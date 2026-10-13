@@ -1,0 +1,22 @@
+{
+  "source": "assets/source/human.glb",
+  "height_m": 1.7952574491500854,
+  "triangles": 13357,
+  "mesh_objects": 25,
+  "rigged": false,
+  "animations": 0,
+  "materials": [
+    "Details_MutedTeal",
+    "Eyes_Brown",
+    "Eyes_SoftIvory",
+    "Hair_DarkBrown",
+    "Jacket_MidnightNavy",
+    "Jacket_SlatePanels",
+    "Shoes_MatteTechnical",
+    "Skin_WarmNatural",
+    "Soles_Rubber",
+    "Trim_Charcoal",
+    "Trousers_Graphite",
+    "Zips_BrushedSteel"
+  ]
+}

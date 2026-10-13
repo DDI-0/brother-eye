@@ -1,0 +1,12 @@
+{
+  "draw_calls": 2077.0,
+  "driver": "metal",
+  "frames": 240,
+  "median_ms": 8.333,
+  "p95_ms": 9.958,
+  "primitives": 1446970.0,
+  "render_video_memory_mb": 461.203125,
+  "renderer": "forward_plus",
+  "resolution": "(1440.0, 900.0)",
+  "static_memory_mb": 99.566967010498
+}

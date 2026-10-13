@@ -1,0 +1,11 @@
+Model Information:
+* title:	Walk Cycle Animation
+* source:	https://sketchfab.com/3d-models/walk-cycle-animation-e7bddd2088434d82893e14f2bc76a5aa
+* author:	jlwande2 (https://sketchfab.com/jlwande2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Walk Cycle Animation" (https://sketchfab.com/3d-models/walk-cycle-animation-e7bddd2088434d82893e14f2bc76a5aa) by jlwande2 (https://sketchfab.com/jlwande2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

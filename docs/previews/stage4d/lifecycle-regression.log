@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+PASS frontend connects and restores: Saved
+PASS clock and explorer edits acknowledged
+STAGE2_CHECK write failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+PASS frontend connects and restores: Saved city restored
+PASS relaunch preserves world identity
+PASS closed application adds no simulation time
+PASS pause and speed restored
+PASS ground position restored while observing
+PASS observer mode restored
+PASS flight position and speed restored
+PASS frontend reconnects after socket interruption
+PASS reconnect reuses the same service and world
+PASS service crash recovers queued edit
+PASS crash recovery retains one world
+REPLAYED_COMMAND aa1780c2-635f-33a8-0e90-42ca3aecc337
+PASS ground camera saved
+STAGE2_CHECK read failures=0
+PASS crash replay has exactly one durable receipt
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+PASS frontend connects and restores: Saved city restored
+PASS ground mode restored on third launch
+PASS ground look direction restored
+PASS recovered clock setting persists on third launch
+STAGE2_CHECK ground failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+PASS frontend connects and restores: Saved city restored
+PASS unacknowledged edits journaled before sending
+STAGE2_CHECK journal failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+PASS frontend connects and restores: Saved city restored
+PASS new app replays prior app's pending clock edit
+PASS pending camera edit survives frontend interruption
+PASS acknowledged journal drained after replay
+STAGE2_CHECK replay failures=0
+PASS app-owned backend stops after close
+PASS one world created across five launches; SQLite integrity ok

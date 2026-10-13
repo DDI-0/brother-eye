@@ -1,0 +1,44 @@
+{
+  "population": 34,
+  "samples": [
+    {
+      "draw_calls": 5791.0,
+      "engine_static_memory_bytes": 142490541.0,
+      "frames": 956,
+      "max_ms": 15.256,
+      "median_ms": 9.338,
+      "p95_ms": 10.243,
+      "p99_ms": 10.785,
+      "physics_p95_ms": 2.368,
+      "video_memory_bytes": 501678080.0,
+      "view": "street, simulation running"
+    },
+    {
+      "draw_calls": 6019.0,
+      "engine_static_memory_bytes": 142468781.0,
+      "frames": 888,
+      "max_ms": 20.899,
+      "median_ms": 9.794,
+      "p95_ms": 11.397,
+      "p99_ms": 13.171,
+      "physics_p95_ms": 2.849,
+      "video_memory_bytes": 501678080.0,
+      "view": "district skyline, simulation running"
+    },
+    {
+      "draw_calls": 5901.0,
+      "engine_static_memory_bytes": 145504981.0,
+      "frames": 840,
+      "max_ms": 15.976,
+      "median_ms": 10.027,
+      "p95_ms": 12.934,
+      "p99_ms": 13.66,
+      "physics_p95_ms": 1.841,
+      "video_memory_bytes": 543358976.0,
+      "view": "control room open, simulation running"
+    }
+  ],
+  "scope": "Three 8-second samples after 2-second warmups, native running scene. Not a worst-case or scaling guarantee.",
+  "simulated_seconds": 30.0439255828969,
+  "viewport": "(1440, 900)"
+}

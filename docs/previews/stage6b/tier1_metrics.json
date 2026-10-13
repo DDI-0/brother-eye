@@ -1,0 +1,31 @@
+{
+  "benchmarks": {
+    "plaza": {
+      "draw_calls": 2297.0,
+      "median_ms": 7.264
+    },
+    "skyline": {
+      "draw_calls": 7623.0,
+      "median_ms": 10.466
+    },
+    "street": {
+      "draw_calls": 3550.0,
+      "median_ms": 7.881,
+      "p95_ms": 10.644
+    }
+  },
+  "clock_seconds": 4.99179666722193,
+  "demographics": {
+    "civilians": 41,
+    "exceptional": 4,
+    "police": 5
+  },
+  "far_avoidance_throttled_actors": 0,
+  "lod_distribution": {
+    "0": 0,
+    "1": 9,
+    "2": 41
+  },
+  "population": 50,
+  "seated_actors_observed": 0
+}

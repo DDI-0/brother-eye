@@ -1,0 +1,102 @@
+{
+  "civilian": {
+    "idle": {
+      "lowest_sole_min_m": 7.841909877015496e-08,
+      "lowest_sole_max_m": 7.118162557162577e-07,
+      "max_edge_stretch_ratio": 2.9219922785786427,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": false
+    },
+    "run": {
+      "lowest_sole_min_m": -0.002391607267782092,
+      "lowest_sole_max_m": -8.723404221200326e-10,
+      "max_edge_stretch_ratio": 13.054073258366515,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": true
+    },
+    "sit_down": {
+      "lowest_sole_min_m": -9.063621109817177e-05,
+      "lowest_sole_max_m": -4.474799197851098e-08,
+      "max_edge_stretch_ratio": 5.787008924008028,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "sit_idle": {
+      "lowest_sole_min_m": -2.0436307295312872e-06,
+      "lowest_sole_max_m": -2.0436307295312872e-06,
+      "max_edge_stretch_ratio": 5.809156858033437,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "stand_up": {
+      "lowest_sole_min_m": -9.06844506971538e-05,
+      "lowest_sole_max_m": -4.474799197851098e-08,
+      "max_edge_stretch_ratio": 5.787008924008028,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "walk": {
+      "lowest_sole_min_m": -0.001141875982284546,
+      "lowest_sole_max_m": 0.00276852585375309,
+      "max_edge_stretch_ratio": 12.673504359101669,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": false
+    }
+  },
+  "exceptional_agent": {
+    "idle": {
+      "lowest_sole_min_m": 2.385504558333196e-07,
+      "lowest_sole_max_m": 9.63227194006322e-07,
+      "max_edge_stretch_ratio": 2.370014750615064,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": false
+    },
+    "run": {
+      "lowest_sole_min_m": -0.0028755231760442257,
+      "lowest_sole_max_m": 0.001300605945289135,
+      "max_edge_stretch_ratio": 2.405650867692552,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": true
+    },
+    "sit_down": {
+      "lowest_sole_min_m": -2.2490719857160002e-05,
+      "lowest_sole_max_m": 3.3613341656746343e-06,
+      "max_edge_stretch_ratio": 2.2816375714433907,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "sit_idle": {
+      "lowest_sole_min_m": 3.3613341656746343e-06,
+      "lowest_sole_max_m": 3.3613341656746343e-06,
+      "max_edge_stretch_ratio": 2.1899768898879204,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "stand_up": {
+      "lowest_sole_min_m": -2.255753133795224e-05,
+      "lowest_sole_max_m": 3.3613341656746343e-06,
+      "max_edge_stretch_ratio": 2.28163756734306,
+      "samples": 49,
+      "seated_plant_and_level_checked": true,
+      "forward_stance_checked": false
+    },
+    "walk": {
+      "lowest_sole_min_m": -0.0012101680040359497,
+      "lowest_sole_max_m": 0.002187024801969528,
+      "max_edge_stretch_ratio": 3.308997372552825,
+      "samples": 49,
+      "seated_plant_and_level_checked": false,
+      "forward_stance_checked": false
+    }
+  }
+}

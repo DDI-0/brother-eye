@@ -1,0 +1,99 @@
+{
+  "moved_over_1m": 94,
+  "navigation_bake_ms": 203,
+  "population": 100,
+  "samples": [
+    {
+      "draw_calls_median": 4069.0,
+      "frames": 753,
+      "lod": [
+        36,
+        30,
+        34
+      ],
+      "max_ms": 19.614,
+      "median_ms": 11.478,
+      "p95_ms": 13.496,
+      "p99_ms": 18.043,
+      "pending_commands": 0,
+      "physical_states": {
+        "ARRIVED": 13,
+        "TRAVELLING": 87
+      },
+      "physics_p95_ms": 4.909,
+      "static_memory_bytes": 170727263.0,
+      "video_memory_bytes": 629522432.0,
+      "view": "street"
+    },
+    {
+      "draw_calls_median": 1754.0,
+      "frames": 942,
+      "lod": [
+        36,
+        14,
+        50
+      ],
+      "max_ms": 16.404,
+      "median_ms": 11.478,
+      "p95_ms": 12.525,
+      "p99_ms": 15.166,
+      "pending_commands": 0,
+      "physical_states": {
+        "ARRIVED": 15,
+        "TRAVELLING": 85
+      },
+      "physics_p95_ms": 5.048,
+      "static_memory_bytes": 170655423.0,
+      "video_memory_bytes": 629522432.0,
+      "view": "plaza"
+    },
+    {
+      "draw_calls_median": 9034.0,
+      "frames": 555,
+      "lod": [
+        0,
+        6,
+        94
+      ],
+      "max_ms": 24.122,
+      "median_ms": 14.276,
+      "p95_ms": 20.981,
+      "p99_ms": 22.54,
+      "pending_commands": 0,
+      "physical_states": {
+        "ARRIVED": 18,
+        "TRAVELLING": 81,
+        "WAITING FOR SPACE": 1
+      },
+      "physics_p95_ms": 4.976999999999999,
+      "static_memory_bytes": 177465312.0,
+      "video_memory_bytes": 630964224.0,
+      "view": "skyline"
+    },
+    {
+      "draw_calls_median": 10393.0,
+      "frames": 371,
+      "lod": [
+        45,
+        55,
+        0
+      ],
+      "max_ms": 34.146,
+      "median_ms": 19.892,
+      "p95_ms": 29.114,
+      "p99_ms": 31.0,
+      "pending_commands": 0,
+      "physical_states": {
+        "ARRIVED": 19,
+        "TRAVELLING": 81
+      },
+      "physics_p95_ms": 5.734999999999999,
+      "static_memory_bytes": 183952563.0,
+      "video_memory_bytes": 672071680.0,
+      "view": "control room"
+    }
+  ],
+  "scope": "Four active native 8-second samples after 2-second warmups; uncapped scripted review, recording disabled. Engine memory counters exclude full process RSS. No thermal or worst-case guarantee.",
+  "venue_routes": 983,
+  "viewport": "(1440, 900)"
+}

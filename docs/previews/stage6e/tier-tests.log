@@ -1,0 +1,15 @@
+test_both_upgrades_preserve_world_commands_and_reopen_without_downgrade (backend.tests.test_tier2.Tier2Tests.test_both_upgrades_preserve_world_commands_and_reopen_without_downgrade) ... ok
+test_fresh_demographics_capacity_and_known_spot_spacing (backend.tests.test_tier2.Tier2Tests.test_fresh_demographics_capacity_and_known_spot_spacing) ... ok
+test_upgrade_failure_rolls_back_both_population_steps (backend.tests.test_tier2.Tier2Tests.test_upgrade_failure_rolls_back_both_population_steps) ... ok
+test_upgrade_preserves_active_agent_claim_and_core (backend.tests.test_tier2.Tier2Tests.test_upgrade_preserves_active_agent_claim_and_core) ... ok
+test_expansion_failure_is_atomic (backend.tests.test_life_upgrades.UpgradeTests.test_expansion_failure_is_atomic) ... ok
+test_expansion_preserves_all_existing_resident_state_and_receipt (backend.tests.test_life_upgrades.UpgradeTests.test_expansion_preserves_all_existing_resident_state_and_receipt) ... ok
+test_expansion_preserves_an_active_assistance_claim (backend.tests.test_life_upgrades.UpgradeTests.test_expansion_preserves_an_active_assistance_claim) ... ok
+test_life_migration_rolls_back_world_and_event_together (backend.tests.test_life_upgrades.UpgradeTests.test_life_migration_rolls_back_world_and_event_together) ... ok
+test_life_upgrade_committed_before_return_and_receipts_preserved (backend.tests.test_life_upgrades.UpgradeTests.test_life_upgrade_committed_before_return_and_receipts_preserved) ... ok
+test_unsupported_tier_rejected (backend.tests.test_life_upgrades.UpgradeTests.test_unsupported_tier_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 4.399s
+
+OK

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Space Engineers Astronaut
+* source:	https://sketchfab.com/3d-models/space-engineers-astronaut-02a99eb6a6214c9cabbd321c2ee6ab86
+* author:	Keen Software House (https://sketchfab.com/keensoftwarehouse)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Space Engineers Astronaut" (https://sketchfab.com/3d-models/space-engineers-astronaut-02a99eb6a6214c9cabbd321c2ee6ab86) by Keen Software House (https://sketchfab.com/keensoftwarehouse) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

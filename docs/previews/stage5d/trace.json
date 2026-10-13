@@ -1,0 +1,1580 @@
+{
+  "schema": 8,
+  "clock": 11.234154042322189,
+  "agents": [
+    {
+      "id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+      "name": "Arbiter of Dawn",
+      "role": "Civic arbiter",
+      "kind": "exceptional",
+      "appearance": 0,
+      "position": [
+        -17.98387908935547,
+        0.11999999731779099,
+        -30.36687469482422
+      ],
+      "yaw": 0.6448571085929871,
+      "motion_seq": 19,
+      "needs": {
+        "hunger": 18.028085385105808,
+        "energy": 81.97191461489416,
+        "social": 34.841813837046075
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -19.64,
+            0.12,
+            63.55
+          ],
+          "spots": [
+            {
+              "position": [
+                -19.64,
+                0.12,
+                63.55
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -58.08,
+            12.0,
+            -6.16
+          ],
+          "spots": [
+            {
+              "position": [
+                -58.08,
+                12.0,
+                -6.16
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -19.26,
+            0.12,
+            5.43
+          ],
+          "spots": [
+            {
+              "position": [
+                -19.26,
+                0.12,
+                5.43
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -18,
+            0.12,
+            -20
+          ],
+          "spots": [
+            {
+              "position": [
+                -10.82,
+                0.12,
+                -29.59
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "6a36e7a1-5310-4b77-8912-6ec5eb5a8b91",
+        "place": "park",
+        "position": [
+          -18,
+          0.12,
+          -20
+        ],
+        "reason": "ideology",
+        "started_at": 11.234154042322189
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "decision",
+          "detail": "Go to assistance (ideology)"
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "decision",
+          "detail": "Voluntarily accepted a physically offered request consistent with own policy; evidence source Martyr of Providence."
+        },
+        {
+          "at": 6.157879626378417,
+          "kind": "arrival",
+          "detail": "assistance"
+        },
+        {
+          "at": 11.17794837616384,
+          "kind": "experience",
+          "detail": "Physical voluntary assistance completed once; social need reduced by 5."
+        },
+        {
+          "at": 11.234154042322189,
+          "kind": "decision",
+          "detail": "Go to park (ideology)"
+        },
+        {
+          "at": 11.234154042322189,
+          "kind": "decision",
+          "detail": "No eligible observed request; visit a known place to observe locally."
+        }
+      ],
+      "last_decision_at": 11.234154042322189,
+      "intervention": null,
+      "exceptional": {
+        "profile": "arbiter_of_dawn",
+        "profile_version": 1,
+        "core": "Justice applies consistently, regardless of friendship or status.",
+        "behavior_stage": "arbiter",
+        "observations": [
+          {
+            "id": "f01aa7ea-118d-4315-a842-749b64ef539a",
+            "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+            "at": 10.01110758446157,
+            "source": "local_proximity",
+            "social": 79.69966677246607,
+            "position": [
+              -20.0,
+              0.11999999731779099,
+              -32.0
+            ],
+            "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25"
+          },
+          {
+            "id": "99c45bd0-2fad-46ad-8aba-290a98c34a71",
+            "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+            "at": 10.01110758446157,
+            "source": "local_proximity",
+            "social": 94.69966677246607,
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -32.0
+            ],
+            "request_id": "98f03329-df90-4ee8-aaf6-586b73091902"
+          },
+          {
+            "id": "20fad37a-717c-4576-9378-4d3a647dbe03",
+            "subject_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 35.0075052561874,
+            "position": [
+              -16.868093490600586,
+              0.11999999731779099,
+              -20.42949676513672
+            ],
+            "request_id": null
+          }
+        ],
+        "relationships": {
+          "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4": {
+            "trust": 1,
+            "companion": false
+          },
+          "a83993aa-3df6-5fb7-a823-83d323dddf91": {
+            "trust": 1,
+            "companion": false
+          }
+        },
+        "project": null,
+        "action": {
+          "kind": "observe",
+          "request_id": null,
+          "subject_id": null,
+          "goal_id": "6a36e7a1-5310-4b77-8912-6ec5eb5a8b91",
+          "elapsed": 0.0,
+          "selected_at": 11.234154042322189,
+          "observed_position": null,
+          "evidence_id": null
+        },
+        "decision": {
+          "at": 11.234154042322189,
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "candidates": [],
+          "selected_request": null
+        },
+        "cooldowns": {
+          "a83993aa-3df6-5fb7-a823-83d323dddf91": 71.17794837616384
+        },
+        "next_observation_at": 15.01110758446157,
+        "information": {}
+      },
+      "routine_offset": 0,
+      "physical_at": 11.234154042322189
+    },
+    {
+      "id": "c17139d0-4dad-59e8-8ccb-c7aa9d48959c",
+      "name": "Attendant of Mysteries",
+      "role": "Information strategist",
+      "kind": "exceptional",
+      "appearance": 1,
+      "position": [
+        19.488615036010742,
+        0.11999999731779099,
+        8.700299263000488
+      ],
+      "yaw": 3.257941961288452,
+      "motion_seq": 19,
+      "needs": {
+        "hunger": 17.346080750139663,
+        "energy": 81.97191461489416,
+        "social": 35.016851231063505
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            16.3,
+            0.12,
+            73.89
+          ],
+          "spots": [
+            {
+              "position": [
+                16.3,
+                0.12,
+                73.89
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            58.82,
+            12.0,
+            -0.44
+          ],
+          "spots": [
+            {
+              "position": [
+                58.82,
+                12.0,
+                -0.44
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            19.54,
+            0.12,
+            9.14
+          ],
+          "spots": [
+            {
+              "position": [
+                19.54,
+                0.12,
+                9.14
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            17.44,
+            0.12,
+            -44.41
+          ],
+          "spots": [
+            {
+              "position": [
+                17.44,
+                0.12,
+                -44.41
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "c311bdde-5f15-4950-971c-29c78e544d82",
+        "place": "food",
+        "position": [
+          19.54,
+          0.12,
+          9.14
+        ],
+        "reason": "ideology",
+        "started_at": 5.556742667220533,
+        "arrived_at": 6.761992501560599
+      },
+      "activity": "eating",
+      "navigation": "ARRIVED",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Alex Vale"
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to contact (ideology)"
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust."
+        },
+        {
+          "at": 0.5485573750920594,
+          "kind": "arrival",
+          "detail": "contact"
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "experience",
+          "detail": "Physically verified a local social-need fact; source trust +1. No social reward."
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "decision",
+          "detail": "Go to food (ideology)"
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "decision",
+          "detail": "No eligible observed request; visit a known place to observe locally."
+        },
+        {
+          "at": 6.761992501560599,
+          "kind": "arrival",
+          "detail": "food"
+        }
+      ],
+      "last_decision_at": 5.556742667220533,
+      "intervention": null,
+      "exceptional": {
+        "profile": "attendant_of_mysteries",
+        "profile_version": 1,
+        "core": "Knowledge, strategy and influence are the route to power.",
+        "behavior_stage": "attendant",
+        "observations": [
+          {
+            "id": "e1667bae-ee49-42a5-a334-7a0e62626dc8",
+            "subject_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 94.84989487625185,
+            "position": [
+              18.0,
+              0.11999999731779099,
+              -14.0
+            ],
+            "request_id": "7e4fdba9-1ea7-4d36-8bcb-a49a74ffdba1"
+          }
+        ],
+        "relationships": {
+          "577b4de7-ef06-58ed-8518-faa6e064c8ad": {
+            "trust": 1,
+            "companion": false
+          }
+        },
+        "project": null,
+        "action": {
+          "kind": "observe",
+          "request_id": null,
+          "subject_id": null,
+          "goal_id": "c311bdde-5f15-4950-971c-29c78e544d82",
+          "elapsed": 2.236080770380795,
+          "selected_at": 5.556742667220533,
+          "observed_position": null,
+          "evidence_id": null
+        },
+        "decision": {
+          "at": 5.556742667220533,
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "candidates": [],
+          "selected_request": null
+        },
+        "cooldowns": {
+          "577b4de7-ef06-58ed-8518-faa6e064c8ad": 65.55674266722053
+        },
+        "next_observation_at": 15.01110758446157,
+        "information": {
+          "577b4de7-ef06-58ed-8518-faa6e064c8ad": {
+            "at": 5.556742667220533,
+            "social": 94.8332977199833,
+            "source_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad"
+          }
+        }
+      },
+      "routine_offset": 0,
+      "physical_at": 11.234154042322189
+    },
+    {
+      "id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "name": "Martyr of Providence",
+      "role": "Civic project organiser",
+      "kind": "exceptional",
+      "appearance": 2,
+      "position": [
+        -16.868093490600586,
+        0.11999999731779099,
+        -20.42949676513672
+      ],
+      "yaw": -2.377690553665161,
+      "motion_seq": 19,
+      "needs": {
+        "hunger": 18.028085385105808,
+        "energy": 81.97191461489416,
+        "social": 35.016851231063505
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            18.5,
+            0.12,
+            69.61
+          ],
+          "spots": [
+            {
+              "position": [
+                18.5,
+                0.12,
+                69.61
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            36.37,
+            12.0,
+            12.41
+          ],
+          "spots": [
+            {
+              "position": [
+                36.37,
+                12.0,
+                12.41
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -13.56,
+            0.12,
+            6.5
+          ],
+          "spots": [
+            {
+              "position": [
+                -13.56,
+                0.12,
+                6.5
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            -12.8,
+            0.12,
+            -47.65
+          ],
+          "spots": [
+            {
+              "position": [
+                -12.8,
+                0.12,
+                -47.65
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "c5b5929d-9757-45d9-81c5-0890b59c93bd",
+        "place": "assistance",
+        "position": [
+          -19.6864666521653,
+          0.11999999731779099,
+          -30.841683618437706
+        ],
+        "reason": "ideology",
+        "started_at": 11.17794837616384
+      },
+      "activity": "travelling",
+      "navigation": "TRAVELLING",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Leila Noor"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Theo Park"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Created a civic project from a locally observed cluster of unmet requests."
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to contact (ideology)"
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Civic project: offer voluntary coordination to the most trusted observed Exceptional partner."
+        },
+        {
+          "at": 0.5485573750920594,
+          "kind": "arrival",
+          "detail": "contact"
+        },
+        {
+          "at": 5.556742667220533,
+          "kind": "experience",
+          "detail": "Voluntary offer accepted; one helper owns the request. No assistance reward until helper physical completion."
+        },
+        {
+          "at": 11.17794837616384,
+          "kind": "experience",
+          "detail": "Civic project updated from recorded task outcomes: active"
+        },
+        {
+          "at": 11.17794837616384,
+          "kind": "decision",
+          "detail": "Go to assistance (ideology)"
+        },
+        {
+          "at": 11.17794837616384,
+          "kind": "decision",
+          "detail": "Civic project: no available voluntary partner; personally assist the next observed project request."
+        }
+      ],
+      "last_decision_at": 11.17794837616384,
+      "intervention": null,
+      "exceptional": {
+        "profile": "martyr_of_providence",
+        "profile_version": 1,
+        "core": "Personally bears responsibility for remaking society and sees their own plan as the necessary path.",
+        "behavior_stage": "martyr",
+        "observations": [
+          {
+            "id": "408c93b8-9516-4594-9300-007b849afa57",
+            "subject_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 34.84989487625195,
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -20.0
+            ],
+            "request_id": null
+          },
+          {
+            "id": "89777ae4-74a5-4b41-bf89-142dc0599403",
+            "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+            "at": 0.0,
+            "source": "local_proximity",
+            "social": 80,
+            "position": [
+              -20.0,
+              0.11999999731779099,
+              -32.0
+            ],
+            "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25"
+          },
+          {
+            "id": "4408cf87-d48d-437d-b9e0-1d31d51cc900",
+            "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+            "at": 0.0,
+            "source": "local_proximity",
+            "social": 95,
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -32.0
+            ],
+            "request_id": "98f03329-df90-4ee8-aaf6-586b73091902"
+          }
+        ],
+        "relationships": {
+          "ac9754f5-4c84-5e94-9065-a5d77dcea0d7": {
+            "trust": 1,
+            "companion": false
+          }
+        },
+        "project": {
+          "id": "770b763d-2aa1-49ee-b852-78ec4850db81",
+          "created_at": 0.0,
+          "status": "active",
+          "request_ids": [
+            "98f03329-df90-4ee8-aaf6-586b73091902",
+            "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25"
+          ],
+          "outcomes": {
+            "98f03329-df90-4ee8-aaf6-586b73091902": "completed"
+          },
+          "partner_id": null,
+          "delegated_request_id": null
+        },
+        "action": {
+          "kind": "assist",
+          "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+          "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+          "goal_id": "c5b5929d-9757-45d9-81c5-0890b59c93bd",
+          "elapsed": 0,
+          "selected_at": 11.17794837616384,
+          "observed_position": [
+            -20.0,
+            0.11999999731779099,
+            -32.0
+          ],
+          "evidence_id": "89777ae4-74a5-4b41-bf89-142dc0599403"
+        },
+        "decision": {
+          "at": 11.17794837616384,
+          "reason": "Civic project: no available voluntary partner; personally assist the next observed project request.",
+          "candidates": [
+            {
+              "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+              "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+              "severity": 80,
+              "created_at": 0.0,
+              "evidence_id": "89777ae4-74a5-4b41-bf89-142dc0599403",
+              "position": [
+                -20.0,
+                0.11999999731779099,
+                -32.0
+              ]
+            }
+          ],
+          "selected_request": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+          "selected_target": "28bc2b54-c590-5a39-85e0-cc79922a1da7"
+        },
+        "cooldowns": {
+          "ac9754f5-4c84-5e94-9065-a5d77dcea0d7": 65.55674266722053
+        },
+        "next_observation_at": 15.01110758446157,
+        "information": {}
+      },
+      "routine_offset": 0,
+      "physical_at": 11.234154042322189
+    },
+    {
+      "id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "name": "Sovereign of Unbound Will",
+      "role": "Independent companion guardian",
+      "kind": "exceptional",
+      "appearance": 3,
+      "position": [
+        -12.313826560974121,
+        0.11999999731779099,
+        80.91178894042969
+      ],
+      "yaw": -2.4793131351470947,
+      "motion_seq": 19,
+      "needs": {
+        "hunger": 18.028085385105808,
+        "energy": 82.12057174414741,
+        "social": 35.016851231063505
+      },
+      "known_places": {
+        "home": {
+          "name": "Residential promenade",
+          "position": [
+            -12.05,
+            0.12,
+            81.25
+          ],
+          "spots": [
+            {
+              "position": [
+                -12.05,
+                0.12,
+                81.25
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "work": {
+          "name": "Observatory terrace",
+          "position": [
+            -11.68,
+            0.12,
+            -22.89
+          ],
+          "spots": [
+            {
+              "position": [
+                -11.68,
+                0.12,
+                -22.89
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "food": {
+          "name": "Market promenade",
+          "position": [
+            -11.61,
+            0.12,
+            -12.8
+          ],
+          "spots": [
+            {
+              "position": [
+                -11.61,
+                0.12,
+                -12.8
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        },
+        "park": {
+          "name": "Uplink plaza",
+          "position": [
+            10.56,
+            0.12,
+            -41.05
+          ],
+          "spots": [
+            {
+              "position": [
+                10.56,
+                0.12,
+                -41.05
+              ],
+              "pose": "stand",
+              "yaw": null
+            }
+          ]
+        }
+      },
+      "schedule": [
+        {
+          "hour": 0,
+          "place": "home"
+        },
+        {
+          "hour": 8,
+          "place": "work"
+        },
+        {
+          "hour": 12,
+          "place": "food"
+        },
+        {
+          "hour": 13,
+          "place": "work"
+        },
+        {
+          "hour": 17,
+          "place": "park"
+        },
+        {
+          "hour": 19,
+          "place": "home"
+        }
+      ],
+      "goal": {
+        "id": "12fd3307-9abb-4444-9ca9-7338a66011f3",
+        "place": "home",
+        "position": [
+          -12.05,
+          0.12,
+          81.25
+        ],
+        "reason": "ideology",
+        "started_at": 5.334691042080522,
+        "arrived_at": 5.8284402512945235
+      },
+      "activity": "resting",
+      "navigation": "ARRIVED",
+      "memory": [
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to work (schedule)"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Mira Chen"
+        },
+        {
+          "at": 0.0,
+          "kind": "experience",
+          "detail": "Locally observed an unmet social assistance request from Jonah Reed"
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Go to assistance (ideology)"
+        },
+        {
+          "at": 0.0,
+          "kind": "decision",
+          "detail": "Known companion before a more severe stranger; own urgent recovery still takes priority."
+        },
+        {
+          "at": 0.27470266725867987,
+          "kind": "arrival",
+          "detail": "assistance"
+        },
+        {
+          "at": 5.278516917023808,
+          "kind": "experience",
+          "detail": "Physical voluntary assistance completed once; social need reduced by 5."
+        },
+        {
+          "at": 5.334691042080522,
+          "kind": "decision",
+          "detail": "Go to home (ideology)"
+        },
+        {
+          "at": 5.334691042080522,
+          "kind": "decision",
+          "detail": "No eligible observed request; visit a known place to observe locally."
+        },
+        {
+          "at": 5.8284402512945235,
+          "kind": "arrival",
+          "detail": "home"
+        }
+      ],
+      "last_decision_at": 5.334691042080522,
+      "intervention": null,
+      "exceptional": {
+        "profile": "sovereign_of_unbound_will",
+        "profile_version": 1,
+        "core": "Own and inner-circle freedom comes first, even at outsiders\u2019 expense; this is not universal altruism.",
+        "behavior_stage": "sovereign",
+        "observations": [
+          {
+            "id": "ba458df4-9e19-4b68-ae15-179c862fd3ab",
+            "subject_id": "6800d709-9864-5425-9c94-ad35f22299e2",
+            "at": 10.01110758446157,
+            "source": "local_proximity",
+            "social": 38.01501666137671,
+            "position": [
+              -17.290000915527344,
+              0.11999999731779099,
+              76.6500015258789
+            ],
+            "request_id": null
+          },
+          {
+            "id": "9c42a323-120a-4715-be50-43ff343c1370",
+            "subject_id": "d42281bf-3cd7-5db1-b418-bb787ec19f8a",
+            "at": 10.01110758446157,
+            "source": "local_proximity",
+            "social": 20.01501666137671,
+            "position": [
+              -15.239999771118164,
+              0.11999999731779099,
+              86.11000061035156
+            ],
+            "request_id": null
+          },
+          {
+            "id": "f0504332-eb22-4f87-b30f-2e293971a170",
+            "subject_id": "4c0b1574-566c-50fa-b446-171d2819fad5",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 47.0075052561874,
+            "position": [
+              -13.850000381469727,
+              0.11999999731779099,
+              67.5999984741211
+            ],
+            "request_id": null
+          },
+          {
+            "id": "7f06ea38-cbc9-45d6-a069-fc0ea750de76",
+            "subject_id": "646a0188-30c1-59d8-b02e-0f387794588f",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 56.0075052561874,
+            "position": [
+              -19.520000457763672,
+              0.11999999731779099,
+              74.62999725341797
+            ],
+            "request_id": null
+          },
+          {
+            "id": "dcbe8831-1af4-452b-aec4-6480b58939f9",
+            "subject_id": "82a3ad43-63b3-582d-86a7-76fb008ac887",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 97.84989487625185,
+            "position": [
+              -16.0,
+              0.11999999731779099,
+              72.0
+            ],
+            "request_id": "ceef6235-57cf-4101-aed9-b94d947940d1"
+          },
+          {
+            "id": "161564e0-72e8-43f2-b1a2-fd4f93ef8516",
+            "subject_id": "9c3efb35-b144-57d6-9edc-ca24b65874c0",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 47.0075052561874,
+            "position": [
+              -20.360000610351562,
+              0.11999999731779099,
+              77.69000244140625
+            ],
+            "request_id": null
+          },
+          {
+            "id": "bc47d5f9-28c5-4155-abd0-99c644fba385",
+            "subject_id": "e797341b-8b4c-56fa-87b2-15abd8b6d49e",
+            "at": 5.003504124935716,
+            "source": "local_proximity",
+            "social": 84.84989487625185,
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              72.0
+            ],
+            "request_id": "16635fa0-ae8f-44a0-87af-7d0773aa05c1"
+          },
+          {
+            "id": "56bcd732-81b4-4291-9f2f-43cd30f2e436",
+            "subject_id": "85a32cda-2908-5d91-8850-56e56129856c",
+            "at": 0.0,
+            "source": "local_proximity",
+            "social": 56.0,
+            "position": [
+              -19.940000534057617,
+              0.11999999731779099,
+              85.73999786376953
+            ],
+            "request_id": null
+          }
+        ],
+        "relationships": {
+          "e797341b-8b4c-56fa-87b2-15abd8b6d49e": {
+            "trust": 26,
+            "companion": true
+          }
+        },
+        "project": null,
+        "action": {
+          "kind": "observe",
+          "request_id": null,
+          "subject_id": null,
+          "goal_id": "12fd3307-9abb-4444-9ca9-7338a66011f3",
+          "elapsed": 2.1622855164110666,
+          "selected_at": 5.334691042080522,
+          "observed_position": null,
+          "evidence_id": null
+        },
+        "decision": {
+          "at": 5.334691042080522,
+          "reason": "No eligible observed request; visit a known place to observe locally.",
+          "candidates": [],
+          "selected_request": null
+        },
+        "cooldowns": {
+          "e797341b-8b4c-56fa-87b2-15abd8b6d49e": 65.27851691702381
+        },
+        "next_observation_at": 15.01110758446157,
+        "information": {}
+      },
+      "routine_offset": 0,
+      "physical_at": 11.234154042322189
+    }
+  ],
+  "events": [
+    {
+      "id": "ea6fc9b9-a8ae-46b1-8e78-7be0a1908a36",
+      "at": 0.0,
+      "agent_id": "c17139d0-4dad-59e8-8ccb-c7aa9d48959c",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Alex Vale",
+      "request_id": "7e4fdba9-1ea7-4d36-8bcb-a49a74ffdba1",
+      "subject_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad",
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "9524967e-dbf1-4a3f-8eed-429a38568c24",
+      "at": 0.0,
+      "agent_id": "c17139d0-4dad-59e8-8ccb-c7aa9d48959c",
+      "outcome": "selected",
+      "detail": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+      "request_id": null,
+      "subject_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad",
+      "evidence": [
+        "06f3b204-d6c8-493b-8ced-471502fcec53"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 0.0,
+        "reason": "Verify uncertain local information: unverified first, then oldest fact, then learned source trust.",
+        "candidates": [
+          {
+            "request_id": "7e4fdba9-1ea7-4d36-8bcb-a49a74ffdba1",
+            "subject_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad",
+            "severity": 95,
+            "created_at": 0.0,
+            "evidence_id": "06f3b204-d6c8-493b-8ced-471502fcec53",
+            "position": [
+              18.0,
+              0.11999999731779099,
+              -14.0
+            ],
+            "trust": 0,
+            "verified_at": null
+          }
+        ],
+        "selected_request": null,
+        "selected_target": "577b4de7-ef06-58ed-8518-faa6e064c8ad"
+      }
+    },
+    {
+      "id": "db0ea5a8-7a3c-46fe-9867-beaa0014204d",
+      "at": 0.0,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Leila Noor",
+      "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+      "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "9ac5f643-4b26-408f-821a-acaaed9a910f",
+      "at": 0.0,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Theo Park",
+      "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+      "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "7bac6abe-066a-4a12-beba-abfeef831495",
+      "at": 0.0,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "project",
+      "detail": "Created a civic project from a locally observed cluster of unmet requests.",
+      "request_id": null,
+      "subject_id": null,
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "9a4eb2bb-2baa-4058-84b9-b4a6767da0a3",
+      "at": 0.0,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "selected",
+      "detail": "Civic project: offer voluntary coordination to the most trusted observed Exceptional partner.",
+      "request_id": null,
+      "subject_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+      "evidence": [
+        "c387d9bc-8274-45c4-84e9-c04c2afe8a85"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 0.0,
+        "reason": "Civic project: offer voluntary coordination to the most trusted observed Exceptional partner.",
+        "candidates": [
+          {
+            "request_id": null,
+            "subject_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+            "severity": 35.0,
+            "created_at": 0.0,
+            "evidence_id": "c387d9bc-8274-45c4-84e9-c04c2afe8a85",
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -20.0
+            ],
+            "trust": 0
+          },
+          {
+            "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+            "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+            "severity": 95,
+            "created_at": 0.0,
+            "evidence_id": "4408cf87-d48d-437d-b9e0-1d31d51cc900",
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -32.0
+            ]
+          },
+          {
+            "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+            "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+            "severity": 80,
+            "created_at": 0.0,
+            "evidence_id": "89777ae4-74a5-4b41-bf89-142dc0599403",
+            "position": [
+              -20.0,
+              0.11999999731779099,
+              -32.0
+            ]
+          }
+        ],
+        "selected_request": "98f03329-df90-4ee8-aaf6-586b73091902",
+        "selected_target": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7"
+      }
+    },
+    {
+      "id": "984ca121-9466-4680-bcea-823a57a123cd",
+      "at": 0.0,
+      "agent_id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Mira Chen",
+      "request_id": "16635fa0-ae8f-44a0-87af-7d0773aa05c1",
+      "subject_id": "e797341b-8b4c-56fa-87b2-15abd8b6d49e",
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "2467e3f6-54b5-432d-bd72-c114f5da1b9e",
+      "at": 0.0,
+      "agent_id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "outcome": "observed",
+      "detail": "Locally observed an unmet social assistance request from Jonah Reed",
+      "request_id": "ceef6235-57cf-4101-aed9-b94d947940d1",
+      "subject_id": "82a3ad43-63b3-582d-86a7-76fb008ac887",
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "27422b80-ea2e-4d55-8568-8ccd2888e2f9",
+      "at": 0.0,
+      "agent_id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "outcome": "selected",
+      "detail": "Known companion before a more severe stranger; own urgent recovery still takes priority.",
+      "request_id": "16635fa0-ae8f-44a0-87af-7d0773aa05c1",
+      "subject_id": "e797341b-8b4c-56fa-87b2-15abd8b6d49e",
+      "evidence": [
+        "4c76375e-e46e-4262-89a3-0a2a36247a99"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 0.0,
+        "reason": "Known companion before a more severe stranger; own urgent recovery still takes priority.",
+        "candidates": [
+          {
+            "request_id": "ceef6235-57cf-4101-aed9-b94d947940d1",
+            "subject_id": "82a3ad43-63b3-582d-86a7-76fb008ac887",
+            "severity": 98,
+            "created_at": 0.0,
+            "evidence_id": "de6ad84b-2072-4648-9f8e-e3b50555b701",
+            "position": [
+              -16.0,
+              0.11999999731779099,
+              72.0
+            ]
+          },
+          {
+            "request_id": "16635fa0-ae8f-44a0-87af-7d0773aa05c1",
+            "subject_id": "e797341b-8b4c-56fa-87b2-15abd8b6d49e",
+            "severity": 85,
+            "created_at": 0.0,
+            "evidence_id": "4c76375e-e46e-4262-89a3-0a2a36247a99",
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              72.0
+            ]
+          }
+        ],
+        "selected_request": "16635fa0-ae8f-44a0-87af-7d0773aa05c1",
+        "selected_target": "e797341b-8b4c-56fa-87b2-15abd8b6d49e"
+      }
+    },
+    {
+      "id": "66c504a2-ca27-49c1-9c4a-049718f88372",
+      "at": 5.278516917023808,
+      "agent_id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "outcome": "completed",
+      "detail": "Physical voluntary assistance completed once; social need reduced by 5.",
+      "request_id": "16635fa0-ae8f-44a0-87af-7d0773aa05c1",
+      "subject_id": "e797341b-8b4c-56fa-87b2-15abd8b6d49e",
+      "evidence": [
+        "4c76375e-e46e-4262-89a3-0a2a36247a99"
+      ],
+      "fact": null,
+      "before_social": 84.84164449248921,
+      "after_social": 79.84164449248921,
+      "decision": null
+    },
+    {
+      "id": "6cca8761-1d8e-4f04-a73e-4d90c0bf659c",
+      "at": 5.334691042080522,
+      "agent_id": "fcc567de-fdab-5980-bb9a-ec01f3e683d5",
+      "outcome": "selected",
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "request_id": null,
+      "subject_id": null,
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 5.334691042080522,
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "candidates": [],
+        "selected_request": null
+      }
+    },
+    {
+      "id": "11cfd2f5-fd6c-4980-b13b-200741c67a22",
+      "at": 5.556742667220533,
+      "agent_id": "c17139d0-4dad-59e8-8ccb-c7aa9d48959c",
+      "outcome": "verified",
+      "detail": "Physically verified a local social-need fact; source trust +1. No social reward.",
+      "request_id": null,
+      "subject_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad",
+      "evidence": [
+        "06f3b204-d6c8-493b-8ced-471502fcec53"
+      ],
+      "fact": {
+        "at": 5.556742667220533,
+        "social": 94.8332977199833,
+        "source_id": "577b4de7-ef06-58ed-8518-faa6e064c8ad"
+      },
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "6f1e7865-c8f1-44fd-a674-108d1cc83342",
+      "at": 5.556742667220533,
+      "agent_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+      "outcome": "selected",
+      "detail": "Voluntarily accepted a physically offered request consistent with own policy; evidence source Martyr of Providence.",
+      "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+      "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+      "evidence": [
+        "4408cf87-d48d-437d-b9e0-1d31d51cc900"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 5.556742667220533,
+        "reason": "Voluntarily accepted a physically offered request consistent with own policy; evidence source Martyr of Providence.",
+        "candidates": [
+          {
+            "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+            "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+            "severity": 95,
+            "created_at": 0.0,
+            "position": [
+              -18.0,
+              0.11999999731779099,
+              -32.0
+            ],
+            "evidence_id": "4408cf87-d48d-437d-b9e0-1d31d51cc900"
+          }
+        ],
+        "selected_request": "98f03329-df90-4ee8-aaf6-586b73091902",
+        "selected_target": "a83993aa-3df6-5fb7-a823-83d323dddf91"
+      }
+    },
+    {
+      "id": "c1331b56-0303-40ef-80b4-41babbb5fdad",
+      "at": 5.556742667220533,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "coordinated",
+      "detail": "Voluntary offer accepted; one helper owns the request. No assistance reward until helper physical completion.",
+      "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+      "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+      "evidence": [
+        "4408cf87-d48d-437d-b9e0-1d31d51cc900"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "3271414e-50c4-4d5d-a292-d19db294f748",
+      "at": 5.556742667220533,
+      "agent_id": "c17139d0-4dad-59e8-8ccb-c7aa9d48959c",
+      "outcome": "selected",
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "request_id": null,
+      "subject_id": null,
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 5.556742667220533,
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "candidates": [],
+        "selected_request": null
+      }
+    },
+    {
+      "id": "2be34259-435a-48d6-b65a-d08b03d16534",
+      "at": 11.17794837616384,
+      "agent_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+      "outcome": "completed",
+      "detail": "Physical voluntary assistance completed once; social need reduced by 5.",
+      "request_id": "98f03329-df90-4ee8-aaf6-586b73091902",
+      "subject_id": "a83993aa-3df6-5fb7-a823-83d323dddf91",
+      "evidence": [
+        "4408cf87-d48d-437d-b9e0-1d31d51cc900"
+      ],
+      "fact": null,
+      "before_social": 94.66466154871503,
+      "after_social": 89.66466154871503,
+      "decision": null
+    },
+    {
+      "id": "7ec9ca15-41fb-4000-bb12-d2f730cd5288",
+      "at": 11.17794837616384,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "project",
+      "detail": "Civic project updated from recorded task outcomes: active",
+      "request_id": null,
+      "subject_id": null,
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": null
+    },
+    {
+      "id": "c982cd55-640d-41fb-b3c4-4c1fad1a574a",
+      "at": 11.17794837616384,
+      "agent_id": "4ca229da-e351-5f95-9f97-3fa0ad5cd8f4",
+      "outcome": "selected",
+      "detail": "Civic project: no available voluntary partner; personally assist the next observed project request.",
+      "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+      "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+      "evidence": [
+        "89777ae4-74a5-4b41-bf89-142dc0599403"
+      ],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 11.17794837616384,
+        "reason": "Civic project: no available voluntary partner; personally assist the next observed project request.",
+        "candidates": [
+          {
+            "request_id": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+            "subject_id": "28bc2b54-c590-5a39-85e0-cc79922a1da7",
+            "severity": 80,
+            "created_at": 0.0,
+            "evidence_id": "89777ae4-74a5-4b41-bf89-142dc0599403",
+            "position": [
+              -20.0,
+              0.11999999731779099,
+              -32.0
+            ]
+          }
+        ],
+        "selected_request": "e05a0b58-8d5b-41c6-837f-f9b5f72f0e25",
+        "selected_target": "28bc2b54-c590-5a39-85e0-cc79922a1da7"
+      }
+    },
+    {
+      "id": "66bd417f-8050-499d-b951-854b0c40409b",
+      "at": 11.234154042322189,
+      "agent_id": "ac9754f5-4c84-5e94-9065-a5d77dcea0d7",
+      "outcome": "selected",
+      "detail": "No eligible observed request; visit a known place to observe locally.",
+      "request_id": null,
+      "subject_id": null,
+      "evidence": [],
+      "fact": null,
+      "before_social": null,
+      "after_social": null,
+      "decision": {
+        "at": 11.234154042322189,
+        "reason": "No eligible observed request; visit a known place to observe locally.",
+        "candidates": [],
+        "selected_request": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=166 revision=1
+STRIDE_MEASURE { "walk": { "stance_ankle_drift_mean_mps": 0.28632954386901, "stance_samples": 261, "travel_speed_mps": 1.14999997615814 } }
+STRIDE_MEASURE { "walk": { "stance_ankle_drift_mean_mps": 0.28632954386901, "stance_samples": 261, "travel_speed_mps": 1.14999997615814 }, "run": { "stance_ankle_drift_mean_mps": 0.15462316474677, "stance_samples": 308, "travel_speed_mps": 2.40000009536743 } }

@@ -1,0 +1,62 @@
+{
+  "far_animation_updates": 11,
+  "far_step_probes": 18,
+  "near_animation_updates": 72,
+  "near_step_probes": 72,
+  "population": 50,
+  "samples": [
+    {
+      "draw_calls": 2544.0,
+      "frames": 1198,
+      "lod_distribution": [
+        23,
+        10,
+        17
+      ],
+      "max_ms": 14.162,
+      "median_ms": 9.882,
+      "p95_ms": 11.151,
+      "p99_ms": 11.797,
+      "physics_p95_ms": 2.954,
+      "static_memory_bytes": 148782276.0,
+      "video_memory_bytes": 504823808.0,
+      "view": "street"
+    },
+    {
+      "draw_calls": 1818.0,
+      "frames": 1200,
+      "lod_distribution": [
+        14,
+        14,
+        22
+      ],
+      "max_ms": 14.558,
+      "median_ms": 9.559,
+      "p95_ms": 11.077,
+      "p99_ms": 11.354,
+      "physics_p95_ms": 3.045,
+      "static_memory_bytes": 148827284.0,
+      "video_memory_bytes": 504823808.0,
+      "view": "plaza"
+    },
+    {
+      "draw_calls": 7498.0,
+      "frames": 991,
+      "lod_distribution": [
+        0,
+        4,
+        46
+      ],
+      "max_ms": 23.384,
+      "median_ms": 10.532,
+      "p95_ms": 12.854,
+      "p99_ms": 15.033,
+      "physics_p95_ms": 3.103,
+      "static_memory_bytes": 150660376.0,
+      "video_memory_bytes": 504823808.0,
+      "view": "skyline"
+    }
+  ],
+  "scope": "Three 10-second native samples after 2-second view warmups; no thermal telemetry or throttling guarantee.",
+  "viewport": "(1440, 900)"
+}

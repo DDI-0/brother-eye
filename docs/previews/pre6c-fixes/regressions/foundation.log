@@ -1,0 +1,60 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=201 revision=1
+PASS migration and journal replay restore the physical city
+PASS 34 people share one navigation map without duplicate bodies
+PASS evaluation counts all 34 actual people
+PASS Exceptional Agent launcher opens the four-person filter
+PASS astronaut model and physical crowd support: Arbiter of Dawn
+PASS inspection distinguishes immutable core from unfinished behavior: Arbiter of Dawn
+PASS astronaut model and physical crowd support: Attendant of Mysteries
+PASS inspection distinguishes immutable core from unfinished behavior: Attendant of Mysteries
+PASS astronaut model and physical crowd support: Martyr of Providence
+PASS inspection distinguishes immutable core from unfinished behavior: Martyr of Providence
+PASS astronaut model and physical crowd support: Sovereign of Unbound Will
+PASS inspection distinguishes immutable core from unfinished behavior: Sovereign of Unbound Will
+PASS six existing clips, shared astronaut animation and four armor palettes
+PASS civilian filter still has 25 residents
+PASS police filter still has five residents
+PASS migration preserves every original resident field and city clock
+PASS old journal receipt cannot overwrite migrated population or replay a pulse
+PASS all 16 Exceptional Agent destinations have physical routes
+PASS four destination overrides durably accepted
+PASS paused authority leaves immutable cores and relationships unchanged
+PASS Exceptional Agent follow camera supports unlocked controls
+PASS touchpad orbit works with the astronaut
+PASS all four physically arrive before override completion
+PASS astronauts move physically without altering their cores or directed bonds
+PASS 34-person physical progress and clock saved
+PASS release restores a fresh foundation routine
+PASS release changes task without changing identity/core
+PASS backend restart restores all 34 people
+PASS historical overrides do not pulse after reconnect
+PASS final physical records acknowledged
+STAGE5B_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=147 revision=1
+PASS migration and journal replay restore the physical city
+PASS 34 people share one navigation map without duplicate bodies
+PASS evaluation counts all 34 actual people
+PASS Exceptional Agent launcher opens the four-person filter
+PASS astronaut model and physical crowd support: Arbiter of Dawn
+PASS inspection distinguishes immutable core from unfinished behavior: Arbiter of Dawn
+PASS astronaut model and physical crowd support: Attendant of Mysteries
+PASS inspection distinguishes immutable core from unfinished behavior: Attendant of Mysteries
+PASS astronaut model and physical crowd support: Martyr of Providence
+PASS inspection distinguishes immutable core from unfinished behavior: Martyr of Providence
+PASS astronaut model and physical crowd support: Sovereign of Unbound Will
+PASS inspection distinguishes immutable core from unfinished behavior: Sovereign of Unbound Will
+PASS six existing clips, shared astronaut animation and four armor palettes
+PASS civilian filter still has 25 residents
+PASS police filter still has five residents
+PASS app relaunch preserves identities, cores, bonds, needs, goals and held overrides with no offline time
+PASS app relaunch does not replay intervention effects
+STAGE5B_CHECK read failures=0
+PASS schema 7, exactly one migration, 34 stable identities, original receipt unchanged and owned shutdown

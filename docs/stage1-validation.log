@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_READY boxes=20739 collision_shapes=225
+PASS ground spawn settles on road
+PASS W moves character forward at walking speed
+PASS observer camera activates
+PASS free-fly ascent works
+PASS mode switch preserves ground location
+PASS building collision stops walking through facade
+STAIR_FINAL (24.0, 12.00016, 16.71993)
+PASS stairs reach the skywalk without jumping
+PASS skywalk opens onto accessible rooftop terrace
+PASS skywalk supports crossing above boulevard
+PASS skywalk railing prevents falling north
+PASS ground jump works
+PASS jump returns to ground
+PASS rebound mode key activates mode switch
+STAGE1_QA {"failures":[],"passed":true}

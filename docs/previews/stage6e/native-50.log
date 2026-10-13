@@ -1,0 +1,47 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=183 revision=1
+PASS population and actual district navigation restore
+PASS one physical body per saved resident
+PASS all 657 city collision shapes retained
+VENUE_NAVIGATION routes=583 missed=[]
+PASS all retained and new venue spots have connected nearby navigation
+PASS real intervention controls accept held destination
+PASS active population resumes at normal time
+PASS directed resident physically reaches destination in the live crowd
+PASS completed command requires actual body displacement
+PASS bench resident physically arrives and sits at target population
+PASS simulation stays live throughout street sample
+PASS simulation stays live throughout plaza sample
+PASS simulation stays live throughout skyline sample
+NAVIGATION_READY polygons=2185 bake_ms=153 revision=2
+PASS simulation stays live throughout control room sample
+PASS live camera and actual committed audit load
+PASS independent residents make measurable physical progress
+PASS four immutable cores remain unchanged
+PASS final paused state acknowledged
+PASS final physical batch durably acknowledged
+STAGE6E_CHECK write tier=1 failures=0
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=175 revision=1
+PASS population and actual district navigation restore
+PASS one physical body per saved resident
+PASS all 657 city collision shapes retained
+RESTORE_CLOCK {"actual":43.98142745811492,"difference":0.0,"expected":43.98142745811492,"paused":true}
+PASS app relaunch preserves paused world/clock without offline time
+PASS all identities and canonical cores restore
+PASS completed held authority restores
+PASS restore produces no historical command pulse
+STAGE6E_CHECK read tier=1 failures=0
+
+PASS tier 1: native activity, navigation, command, seating, restore, bounded receipts and SQLite integrity

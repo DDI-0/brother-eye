@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+FAIL RING_CLEARANCE height=28.0 building=[P: (133.0, 24.0, -29.0), S: (8.0, 8.0, 8.0)]
+COMPOSITION_QA {"intersections":1,"passed":false,"route_count":2,"visual_bounds_checked":21679}

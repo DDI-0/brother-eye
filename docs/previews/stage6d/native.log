@@ -1,0 +1,34 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=203 revision=1
+PASS retired sequence, compact legacy receipt and fresh pending request reconcile through the real journal
+PASS retention preserves all 50 people and advances no offline/paused time
+PASS historical compacted acknowledgement never pulses Brother Eye
+PASS retained audit loads through the real paged query
+PASS control room explains the retained-history boundary
+PASS fresh command continues the saved sequence after old journal reconciliation
+PASS fresh sequenced command is durably acknowledged
+PASS sequence watermark advances exactly once
+PASS retention metadata and sequence survive an owned-backend crash
+PASS crash recovery preserves the committed sequence and reconciles queued movement
+STAGE6D_CHECK write failures=0
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=179 revision=1
+PASS retired sequence, compact legacy receipt and fresh pending request reconcile through the real journal
+PASS retention preserves all 50 people and advances no offline/paused time
+PASS historical compacted acknowledgement never pulses Brother Eye
+PASS retained audit loads through the real paged query
+PASS control room explains the retained-history boundary
+PASS app relaunch preserves city and clock after retention
+PASS sequenced shutdown/relaunch preserves watermark and identities
+STAGE6D_CHECK read failures=0
+PASS bounded hot tables, stable file reuse, offline compaction, preserved world and exactly one legacy retry record

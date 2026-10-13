@@ -1,0 +1,117 @@
+[
+  {
+    "file": "human.glb",
+    "sha256": "38d239c543b0f66957e58e4217cb0a11deb689bab3d5a3d89a6f6d49d2586069",
+    "bytes": 239456,
+    "metadata": {
+      "extras": {
+        "author": "aaron.kalvin (https://sketchfab.com/aaron.kalvin)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/human-03a70758739544b3aa705c13af3872b1",
+        "title": "Human"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "joints_per_skin": [],
+    "animations": [],
+    "images": 0
+  },
+  {
+    "file": "space_engineers_astronaut.zip",
+    "sha256": "ae73039183aaeff1c3d4949510ee91476ebd39bd2d584e4c903147cdb756e010",
+    "bytes": 245836,
+    "metadata": {
+      "extras": {
+        "author": "Keen Software House (https://sketchfab.com/keensoftwarehouse)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/space-engineers-astronaut-02a99eb6a6214c9cabbd321c2ee6ab86",
+        "title": "Space Engineers Astronaut"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "joints_per_skin": [],
+    "animations": [],
+    "images": 0
+  },
+  {
+    "file": "walk_cycle_animation.zip",
+    "sha256": "fa4693211f32602640d974f69cf0de64aa191fb2397bbd7ac19ea51760b2348c",
+    "bytes": 15385650,
+    "metadata": {
+      "extras": {
+        "author": "jlwande2 (https://sketchfab.com/jlwande2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/walk-cycle-animation-e7bddd2088434d82893e14f2bc76a5aa",
+        "title": "Walk Cycle Animation"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "joints_per_skin": [
+      68
+    ],
+    "animations": [
+      {
+        "name": "Walk Animation",
+        "channels": 83
+      }
+    ],
+    "images": 11
+  },
+  {
+    "file": "standing__sitting_animation.zip",
+    "sha256": "20c004917f917484013892b8af99f8d42e62f1304d7340995e3f4394dad5ff8d",
+    "bytes": 693130,
+    "metadata": {
+      "extras": {
+        "author": "abysmaljess (https://sketchfab.com/abysmaljess)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/standing-sitting-animation-09b82fda6ec54d06b740dfd56660b248",
+        "title": "Standing / Sitting Animation"
+      },
+      "generator": "Sketchfab-12.65.0",
+      "version": "2.0"
+    },
+    "joints_per_skin": [
+      222
+    ],
+    "animations": [
+      {
+        "name": "Sit_Arm|Action.001",
+        "channels": 466
+      },
+      {
+        "name": "Sit_Arm|Armature|Armature|cloud moverAction|Armature|cloud moverAction",
+        "channels": 357
+      }
+    ],
+    "images": 0
+  },
+  {
+    "file": "run.zip",
+    "sha256": "4c83749cc002bb5556f283746bcc37dd5c54232033a27e94df9d2ae53dc99385",
+    "bytes": 246755,
+    "metadata": {
+      "extras": {
+        "author": "mega3d (https://sketchfab.com/mega-3d)",
+        "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+        "source": "https://sketchfab.com/3d-models/run-14f901dfbeda4779af0fca7e27123d66",
+        "title": "Run"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "joints_per_skin": [
+      23
+    ],
+    "animations": [
+      {
+        "name": "Take 001",
+        "channels": 33
+      }
+    ],
+    "images": 1
+  }
+]

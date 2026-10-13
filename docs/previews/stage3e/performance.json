@@ -1,0 +1,11 @@
+{
+	"draw_calls": 6181.0,
+	"frames": 1259,
+	"median_frame_ms": 10.107,
+	"p95_frame_ms": 11.781,
+	"physics_ms": 2.302,
+	"renderer": "forward_plus",
+	"residents": 30,
+	"video_memory_bytes": 488210432.0,
+	"viewport": "(1440, 900)"
+}

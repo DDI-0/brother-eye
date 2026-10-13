@@ -1,0 +1,198 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=145 revision=1
+PASS population and shared navigation restored
+PASS 34 bodies use one navigation map
+PASS crowd avoidance enabled: Alex Vale
+PASS crowd avoidance enabled: Mira Chen
+PASS crowd avoidance enabled: Jonah Reed
+PASS crowd avoidance enabled: Leila Noor
+PASS crowd avoidance enabled: Theo Park
+PASS crowd avoidance enabled: Nia Brooks
+PASS crowd avoidance enabled: Eli Santos
+PASS crowd avoidance enabled: Ada Lin
+PASS crowd avoidance enabled: Omar Hale
+PASS crowd avoidance enabled: Iris Quinn
+PASS crowd avoidance enabled: Noah Voss
+PASS crowd avoidance enabled: Sana Mercer
+PASS crowd avoidance enabled: Leo Okafor
+PASS crowd avoidance enabled: Zoe Kim
+PASS crowd avoidance enabled: Arun Shah
+PASS crowd avoidance enabled: Maya Ellis
+PASS crowd avoidance enabled: Finn Cole
+PASS crowd avoidance enabled: Esme Ward
+PASS crowd avoidance enabled: Kai Morgan
+PASS crowd avoidance enabled: Lena Cruz
+PASS crowd avoidance enabled: Sam Rowan
+PASS crowd avoidance enabled: Imani Wells
+PASS crowd avoidance enabled: Luca Gray
+PASS crowd avoidance enabled: Rina Moss
+PASS crowd avoidance enabled: Jules Ames
+PASS crowd avoidance enabled: Officer Vega
+PASS crowd avoidance enabled: Officer Arden
+PASS crowd avoidance enabled: Officer Sato
+PASS crowd avoidance enabled: Officer Bell
+PASS crowd avoidance enabled: Officer Kaur
+PASS crowd avoidance enabled: Arbiter of Dawn
+PASS crowd avoidance enabled: Attendant of Mysteries
+PASS crowd avoidance enabled: Martyr of Providence
+PASS crowd avoidance enabled: Sovereign of Unbound Will
+PASS 25 civilians and 5 police
+PASS animation and mesh resources shared within civilian and astronaut models
+PASS every local destination has a complete physical route: []
+PASS population resumes
+PASS residents travel throughout the district (34 moved)
+PASS each resident completes a physical trip (34 arrived)
+PASS residents remain separated (minimum 1.882 m)
+PASS crowd keeps body clearance throughout travel (minimum 0.910 m)
+POPULATION_METRICS moved=34 arrived=34 min_gap=1.88164901733398
+PASS population pause acknowledged
+PASS all 34 movement states saved atomically
+PASS follow selection reaches police
+PASS selection wraps back to Alex
+STAGE3E_CHECK write failures=0
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=146 revision=1
+PASS population and shared navigation restored
+PASS 34 bodies use one navigation map
+PASS crowd avoidance enabled: Alex Vale
+PASS crowd avoidance enabled: Mira Chen
+PASS crowd avoidance enabled: Jonah Reed
+PASS crowd avoidance enabled: Leila Noor
+PASS crowd avoidance enabled: Theo Park
+PASS crowd avoidance enabled: Nia Brooks
+PASS crowd avoidance enabled: Eli Santos
+PASS crowd avoidance enabled: Ada Lin
+PASS crowd avoidance enabled: Omar Hale
+PASS crowd avoidance enabled: Iris Quinn
+PASS crowd avoidance enabled: Noah Voss
+PASS crowd avoidance enabled: Sana Mercer
+PASS crowd avoidance enabled: Leo Okafor
+PASS crowd avoidance enabled: Zoe Kim
+PASS crowd avoidance enabled: Arun Shah
+PASS crowd avoidance enabled: Maya Ellis
+PASS crowd avoidance enabled: Finn Cole
+PASS crowd avoidance enabled: Esme Ward
+PASS crowd avoidance enabled: Kai Morgan
+PASS crowd avoidance enabled: Lena Cruz
+PASS crowd avoidance enabled: Sam Rowan
+PASS crowd avoidance enabled: Imani Wells
+PASS crowd avoidance enabled: Luca Gray
+PASS crowd avoidance enabled: Rina Moss
+PASS crowd avoidance enabled: Jules Ames
+PASS crowd avoidance enabled: Officer Vega
+PASS crowd avoidance enabled: Officer Arden
+PASS crowd avoidance enabled: Officer Sato
+PASS crowd avoidance enabled: Officer Bell
+PASS crowd avoidance enabled: Officer Kaur
+PASS crowd avoidance enabled: Arbiter of Dawn
+PASS crowd avoidance enabled: Attendant of Mysteries
+PASS crowd avoidance enabled: Martyr of Providence
+PASS crowd avoidance enabled: Sovereign of Unbound Will
+PASS 25 civilians and 5 police
+PASS animation and mesh resources shared within civilian and astronaut models
+PASS same world and clock restored with no offline time
+PASS all 34 identities, positions, appearance, needs and routines restore
+PASS population batch replays after backend interruption
+PASS recovery creates no duplicate bodies
+REPLAYED_COMMAND cf248727-4bc3-137e-2fc5-dc770a28882f
+STAGE3E_CHECK read failures=0
+PASS recovered batch has exactly one receipt
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=143 revision=1
+PASS population and shared navigation restored
+PASS 34 bodies use one navigation map
+PASS crowd avoidance enabled: Alex Vale
+PASS crowd avoidance enabled: Mira Chen
+PASS crowd avoidance enabled: Jonah Reed
+PASS crowd avoidance enabled: Leila Noor
+PASS crowd avoidance enabled: Theo Park
+PASS crowd avoidance enabled: Nia Brooks
+PASS crowd avoidance enabled: Eli Santos
+PASS crowd avoidance enabled: Ada Lin
+PASS crowd avoidance enabled: Omar Hale
+PASS crowd avoidance enabled: Iris Quinn
+PASS crowd avoidance enabled: Noah Voss
+PASS crowd avoidance enabled: Sana Mercer
+PASS crowd avoidance enabled: Leo Okafor
+PASS crowd avoidance enabled: Zoe Kim
+PASS crowd avoidance enabled: Arun Shah
+PASS crowd avoidance enabled: Maya Ellis
+PASS crowd avoidance enabled: Finn Cole
+PASS crowd avoidance enabled: Esme Ward
+PASS crowd avoidance enabled: Kai Morgan
+PASS crowd avoidance enabled: Lena Cruz
+PASS crowd avoidance enabled: Sam Rowan
+PASS crowd avoidance enabled: Imani Wells
+PASS crowd avoidance enabled: Luca Gray
+PASS crowd avoidance enabled: Rina Moss
+PASS crowd avoidance enabled: Jules Ames
+PASS crowd avoidance enabled: Officer Vega
+PASS crowd avoidance enabled: Officer Arden
+PASS crowd avoidance enabled: Officer Sato
+PASS crowd avoidance enabled: Officer Bell
+PASS crowd avoidance enabled: Officer Kaur
+PASS crowd avoidance enabled: Arbiter of Dawn
+PASS crowd avoidance enabled: Attendant of Mysteries
+PASS crowd avoidance enabled: Martyr of Providence
+PASS crowd avoidance enabled: Sovereign of Unbound Will
+PASS 25 civilians and 5 police
+PASS animation and mesh resources shared within civilian and astronaut models
+PASS app-owned backend stops after close
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=143 revision=1
+PASS population and shared navigation restored
+PASS 34 bodies use one navigation map
+PASS crowd avoidance enabled: Alex Vale
+PASS crowd avoidance enabled: Mira Chen
+PASS crowd avoidance enabled: Jonah Reed
+PASS crowd avoidance enabled: Leila Noor
+PASS crowd avoidance enabled: Theo Park
+PASS crowd avoidance enabled: Nia Brooks
+PASS crowd avoidance enabled: Eli Santos
+PASS crowd avoidance enabled: Ada Lin
+PASS crowd avoidance enabled: Omar Hale
+PASS crowd avoidance enabled: Iris Quinn
+PASS crowd avoidance enabled: Noah Voss
+PASS crowd avoidance enabled: Sana Mercer
+PASS crowd avoidance enabled: Leo Okafor
+PASS crowd avoidance enabled: Zoe Kim
+PASS crowd avoidance enabled: Arun Shah
+PASS crowd avoidance enabled: Maya Ellis
+PASS crowd avoidance enabled: Finn Cole
+PASS crowd avoidance enabled: Esme Ward
+PASS crowd avoidance enabled: Kai Morgan
+PASS crowd avoidance enabled: Lena Cruz
+PASS crowd avoidance enabled: Sam Rowan
+PASS crowd avoidance enabled: Imani Wells
+PASS crowd avoidance enabled: Luca Gray
+PASS crowd avoidance enabled: Rina Moss
+PASS crowd avoidance enabled: Jules Ames
+PASS crowd avoidance enabled: Officer Vega
+PASS crowd avoidance enabled: Officer Arden
+PASS crowd avoidance enabled: Officer Sato
+PASS crowd avoidance enabled: Officer Bell
+PASS crowd avoidance enabled: Officer Kaur
+PASS crowd avoidance enabled: Arbiter of Dawn
+PASS crowd avoidance enabled: Attendant of Mysteries
+PASS crowd avoidance enabled: Martyr of Providence
+PASS crowd avoidance enabled: Sovereign of Unbound Will
+PASS 25 civilians and 5 police
+PASS animation and mesh resources shared within civilian and astronaut models
+PASS population journal survives frontend interruption
+STAGE3E_CHECK replay failures=0
+PASS app-owned backend stops after close
+PASS 34 durable people across four launches; SQLite integrity ok

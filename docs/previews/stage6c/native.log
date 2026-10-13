@@ -1,0 +1,20 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 3.2 - Forward+ - Using Device #0: Apple - Apple M2 Pro (Apple8)
+
+CITY_COMPOSITION buildings=4266
+VISUAL_BUDGET sources=625 batches=110 surfaces=625
+CITY_READY boxes=20889 collision_shapes=657
+NAVIGATION_READY polygons=2185 bake_ms=176 revision=1
+PASS near-view sampled image differences remain below 12/255 intensity
+PASS opaque source surfaces consolidated into fewer spatial batches
+PASS visual budget preserves all 657 collision shapes
+PASS visual comparison advances no paused city time
+PASS Brother Eye command/lens signals remain independently visible
+PASS controlled skyline view reduces draw submissions
+PASS 50-person simulation resumes with optimized visuals
+PASS near control-room camera retains full animation detail while main camera is far
+PASS closing feed releases its animation-detail priority
+PASS visual budgets preserve canonical cores
+STAGE6C_CHECK failures=0
+
+PASS Stage 6C visual budgets, control-room camera priorities and durable integrity

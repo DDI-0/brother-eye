@@ -1,0 +1,9 @@
+{
+  "scope": "1000 backend 50 ms simulation steps, 34 seeded residents, four active policies; no renderer or physical movement reports",
+  "median_ms": 1.395687460899353,
+  "p95_ms": 1.6528749838471413,
+  "p99_ms": 3.1364173628389835,
+  "max_ms": 5.255540832877159,
+  "step_budget_ms": 50,
+  "over_budget_steps": 0
+}

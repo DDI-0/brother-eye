@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CITY_COMPOSITION buildings=4266
+CITY_READY boxes=20890 collision_shapes=657
+PASS review launcher starts following the civilian
+PASS review launcher shows the navigation controls
+NAVIGATION_READY polygons=2185 bake_ms=146 revision=1
+PASS city collision produces a navigation surface
+PASS promenade has a complete path
+PASS promenade reaches destination physically
+PASS east stair ascent has a complete path
+PASS east stair ascent reaches destination physically
+PASS stair arrival stands on the skywalk
+PASS rooftop terrace has a complete path
+PASS rooftop terrace reaches destination physically
+PASS skywalk crossing has a complete path
+PASS skywalk crossing reaches destination physically
+PASS west stair descent has a complete path
+PASS west stair descent reaches destination physically
+PASS street crossing has a complete path
+PASS street crossing reaches destination physically
+PASS obstruction detour has a complete path
+NAVIGATION_READY polygons=2213 bake_ms=148 revision=2
+PASS obstruction detour reaches destination physically
+PASS unexpected obstruction triggers automatic route rebuilding
+PASS obstruction requires a detour rather than passing through
+ROUTE_REJECT target=(46.0, 6.0, 7.0) nearest=(46.0, 12.1, 7.0) end=(46.0, 12.1, 7.0)
+PASS rejects destination inside a building
+NAVIGATION_READY polygons=2185 bake_ms=148 revision=3
+PASS unreachable goal waits without walking through walls
+PASS running recovery has a complete path
+PASS running recovery reaches destination physically
+PASS turning remains limited to 2.8 radians per second
+PASS running uses the matching animation
+NAVIGATION_QA {"bake_ms":148,"failures":[],"passed":true,"polygons":2185,"trips":[{"distance_m":21.5989278424531,"frames":1135,"position":[17.9910945892334,0.120104148983955,68.4089736938477],"trip":"promenade"},{"distance_m":49.8916194234043,"frames":2793,"position":[24.0314502716064,12.0005016326904,20.4150829315186],"trip":"east stair ascent"},{"distance_m":15.7695534834638,"frames":826,"position":[33.7852592468262,12.0005016326904,8.34913158416748],"trip":"rooftop terrace"},{"distance_m":62.3492888082983,"frames":3293,"position":[-23.5806369781494,12.0005016326904,19.9745197296143],"trip":"skywalk crossing"},{"distance_m":44.7336051044986,"frames":2323,"position":[-23.9494533538818,-0.099637508392334,64.5859527587891],"trip":"west stair descent"},{"distance_m":54.2453932184726,"frames":2836,"position":[17.7528514862061,0.120546862483025,89.6649703979492],"trip":"street crossing"},{"distance_m":24.9048993479228,"frames":2587,"position":[17.6420745849609,0.1209432259202,68.1971054077148],"trip":"obstruction detour"},{"distance_m":22.1097472496331,"frames":576,"position":[18.1314678192139,0.1209432259202,89.6504440307617],"trip":"running recovery"}]}

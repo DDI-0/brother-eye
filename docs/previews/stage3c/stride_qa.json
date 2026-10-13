@@ -1,0 +1,13 @@
+{
+	"passed": true,
+	"run": {
+		"stance_ankle_drift_mean_mps": 0.15462316474677,
+		"stance_samples": 308,
+		"travel_speed_mps": 2.40000009536743
+	},
+	"walk": {
+		"stance_ankle_drift_mean_mps": 0.286329543869006,
+		"stance_samples": 261,
+		"travel_speed_mps": 1.14999997615814
+	}
+}
