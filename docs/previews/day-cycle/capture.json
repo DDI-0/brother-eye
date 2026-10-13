@@ -1,0 +1,62 @@
+{
+  "day_frames": 1440,
+  "fps": 24,
+  "samples": [
+    {
+      "energy": 0.423323601484299,
+      "frame": 0,
+      "hour": 6.0,
+      "zenith": "(0.026536, 0.123924, 0.230881)"
+    },
+    {
+      "energy": 1.64999997615814,
+      "frame": 180,
+      "hour": 9.0,
+      "zenith": "(0.086275, 0.482353, 0.815686)"
+    },
+    {
+      "energy": 1.64999997615814,
+      "frame": 360,
+      "hour": 12.0,
+      "zenith": "(0.086275, 0.482353, 0.815686)"
+    },
+    {
+      "energy": 1.64999997615814,
+      "frame": 540,
+      "hour": 15.0,
+      "zenith": "(0.086275, 0.482353, 0.815686)"
+    },
+    {
+      "energy": 0.423323601484299,
+      "frame": 720,
+      "hour": 18.0,
+      "zenith": "(0.026536, 0.123924, 0.230881)"
+    },
+    {
+      "energy": 0.119999997317791,
+      "frame": 900,
+      "hour": 21.0,
+      "zenith": "(0.011765, 0.035294, 0.086275)"
+    },
+    {
+      "energy": 0.119999997317791,
+      "frame": 1080,
+      "hour": 0.0,
+      "zenith": "(0.011765, 0.035294, 0.086275)"
+    },
+    {
+      "energy": 0.119999997317791,
+      "frame": 1260,
+      "hour": 3.0,
+      "zenith": "(0.011765, 0.035294, 0.086275)"
+    },
+    {
+      "energy": 0.423323601484299,
+      "frame": 1440,
+      "hour": 6.0,
+      "zenith": "(0.026536, 0.123924, 0.230881)"
+    }
+  ],
+  "scope": "Offline fixed-frame lighting review from 06:00 to next-day 06:00. Population/time simulation absent; no saves/journals opened. Normal game sky retains blue-hour defaults.",
+  "start_frame": 47
+}

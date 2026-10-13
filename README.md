@@ -6,6 +6,8 @@ A persistent, explorable futuristic city built with Godot 4 and an authoritative
 
 Stages 1–6 are implemented and verified within the [documented performance limits](docs/STAGE_6E.md). Saved populations support 34, 50 or 100 residents, including five police and four Exceptional Agents. Brother Eye provides inspection, evaluation, held destination commands, live scene feeds and retained audit history. See the [final MP4 review](docs/previews/stage6e/Brother-Eye-Stage-6E.mp4), [durable handoff](PROGRESS.md) and [staged build plan](docs/BUILD_PLAN.md). Fifty residents remain recommended for smoother performance.
 
+Additional video: [24-hour lighting time-lapse](docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4) — morning → sunset → night → next morning in about 60 seconds. This separate lighting study leaves gameplay time and saves untouched; the normal game retains its established blue-hour sky. See [recording notes](docs/DAY_CYCLE_REVIEW.md).
+
 ## Fresh checkout
 
 Install Godot 4 and Python 3.12, then run from the repository root:

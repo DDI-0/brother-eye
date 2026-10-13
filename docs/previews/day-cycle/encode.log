@@ -1,0 +1,14 @@
+[aist#0:1/pcm_s16le @ 0x1590050e0] Guessed Channel Layout: stereo
+[swscaler @ 0x148118000] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x150008000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x150128000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x150138000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x150148000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x150598000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505a8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505b8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505c8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505d8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505e8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x1505f8000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x150008000] [swscaler @ 0x150608000] No accelerated colorspace conversion found from yuv420p to bgr24.

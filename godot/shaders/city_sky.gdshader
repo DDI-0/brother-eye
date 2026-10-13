@@ -6,6 +6,9 @@ uniform vec3 horizon_afterglow : source_color = vec3(0.43, 0.40, 0.43);
 uniform vec3 moon_color : source_color = vec3(0.76, 0.86, 0.92);
 uniform vec3 moon_direction = vec3(0.186, 0.225, -0.956);
 uniform float moon_radius = 0.016;
+// Defaults preserve the established blue-hour scene. Review cycle opts in.
+uniform float moon_visibility = 1.0;
+uniform float star_visibility = 0.0;
 
 float hash(vec3 p) {
 	p = fract(p * 0.1031);
@@ -50,5 +53,9 @@ void sky() {
 	float illumination = max(dot(normal, normalize(vec3(0.55,-0.65,-0.52))), 0.0);
 	float terrain = 0.90 + 0.10 * noise(normal * 21.0);
 	vec3 lunar_surface = mix(atmosphere * 0.93, moon_color * terrain, smoothstep(0.0, 0.22, illumination));
-	COLOR = mix(atmosphere, lunar_surface, disc);
+	float stars = 0.0;
+	if (star_visibility > 0.0) {
+		stars = pow(hash(floor(ray * 1800.0)), 1100.0) * smoothstep(0.04, 0.18, ray.y);
+	}
+	COLOR = mix(atmosphere, lunar_surface, disc * moon_visibility) + vec3(0.65,0.78,0.95) * stars * star_visibility * 0.45;
 }

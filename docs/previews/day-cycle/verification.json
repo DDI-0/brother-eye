@@ -1,0 +1,227 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1440,
+      "height": 900,
+      "coded_width": 1440,
+      "coded_height": 900,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "8:5",
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 737792,
+      "duration": "60.041667",
+      "bit_rate": "1567047",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1441",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc62.11.100 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 60000,
+      "duration": "60.000000",
+      "bit_rate": "20",
+      "nb_frames": "8",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 7500,
+      "end_time": "7.500000",
+      "tags": {
+        "title": "06:00"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 7500,
+      "start_time": "7.500000",
+      "end": 15000,
+      "end_time": "15.000000",
+      "tags": {
+        "title": "09:00"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 15000,
+      "start_time": "15.000000",
+      "end": 22500,
+      "end_time": "22.500000",
+      "tags": {
+        "title": "12:00"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 22500,
+      "start_time": "22.500000",
+      "end": 30000,
+      "end_time": "30.000000",
+      "tags": {
+        "title": "15:00"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 30000,
+      "start_time": "30.000000",
+      "end": 37500,
+      "end_time": "37.500000",
+      "tags": {
+        "title": "18:00"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 37500,
+      "start_time": "37.500000",
+      "end": 45000,
+      "end_time": "45.000000",
+      "tags": {
+        "title": "21:00"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 45000,
+      "start_time": "45.000000",
+      "end": 52500,
+      "end_time": "52.500000",
+      "tags": {
+        "title": "00:00"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 52500,
+      "start_time": "52.500000",
+      "end": 60000,
+      "end_time": "60.000000",
+      "tags": {
+        "title": "03:00"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/Users/ddi/Documents/ChatGPT/civilization_sim/docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "60.041667",
+    "size": "11780246",
+    "bit_rate": "1569609",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "Brother Eye - 24-hour lighting review",
+      "encoder": "Lavf62.3.100"
+    }
+  },
+  "verification": {
+    "decode": "passed",
+    "cycle_samples": "passed",
+    "scope": "Offline fixed-frame lighting review from 06:00 to next-day 06:00. Population/time simulation absent; no saves/journals opened. Normal game sky retains blue-hour defaults."
+  }
+}
