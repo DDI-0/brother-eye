@@ -526,20 +526,8 @@ func build_district() -> void:
 			kit.beam(Vector3(x+cos(a)*6,12,sin(a)*6-2),Vector3(x,16.2,-2),0.13)
 
 func build_command() -> void:
-	# Black blade monument: reserved silhouette and a continuous cyan center seam.
-	kit.box(Vector3(0,4,-96),Vector3(42,8,40),"steel",true)
-	kit.box(Vector3(0,70,-96),Vector3(24,132,25),"navy",true)
-	for side in [-1,1]:
-		kit.fin(Vector3(side*13,8,-91),8,148,17,"navy")
-		kit.fin(Vector3(side*18,0,-100),5,94,30,"steel")
-		kit.box(Vector3(side*9.5,72,-82.9),Vector3(0.25,119,0.15),"blue")
-		for y in range(15,132,6):
-			kit.box(Vector3(side*6.2,y,-83.3),Vector3(3.8,0.5,0.2),"window")
-	var axis:=BoxMesh.new();axis.size=Vector3(0.65,133,0.25)
-	command_signal=kit.mesh(axis,Vector3(0,76,-83.25),"cyan")
-	kit.box(Vector3(0,5,-75.5),Vector3(8,7,0.3),"glass")
-	kit.label("B R O T H E R   E Y E",Vector3(0,13,-74.9),72,0.044)
-	kit.label("C E N T R A L   A U T H O R I T Y",Vector3(0,10.8,-74.8),38,0.035)
+	var headquarters := preload("res://scripts/brother_eye_tower.gd").new(kit)
+	command_signal = headquarters.build(self)
 	# Plaza's concentric monument, low plinth and luminous axis.
 	kit.cylinder(Vector3(0,0.3,-40),7,0.4,"steel",-1,null,true)
 	for radius in [6.6,4.8]:
@@ -551,16 +539,11 @@ func build_command() -> void:
 		kit.mesh(ring,Vector3(0,0.55,-40),"cyan")
 	kit.cylinder(Vector3(0,2.2,-40),1.2,4,"navy",0.7,null,true)
 	kit.cylinder(Vector3(0,4.4,-40),0.85,0.3,"cyan")
-	var projection := SphereMesh.new()
-	projection.radius = 1.6
-	projection.height = 3.2
-	projection.radial_segments = 32
-	projection.rings = 16
-	var holo: MeshInstance3D = kit.mesh(projection,Vector3(0,6.6,-40),"cyan")
-	var hologram := ShaderMaterial.new()
-	hologram.shader = preload("res://shaders/hologram.gdshader")
-	holo.material_override = hologram
-	kit.label("CITY UPLINK",Vector3(0,8.6,-39.8),30,0.022)
+	var uplink := preload("res://scripts/planetary_uplink.gd").new()
+	uplink.name = "CityUplink"
+	uplink.position = Vector3(0,6.8,-40)
+	add_child(uplink)
+	kit.label("CITY UPLINK",Vector3(0,9.55,-39.8),30,0.022)
 	var uplight := OmniLight3D.new()
 	uplight.position = Vector3(0,4,-40)
 	uplight.light_color = Color("00b5f0")
@@ -677,7 +660,8 @@ func build_street_detail() -> void:
 func build_satellite() -> void:
 	satellite = Node3D.new()
 	satellite.name = "BrotherEyeOrbitalPresence"
-	satellite.position = Vector3(-110,215,-355)
+	# Lift the orbital proxy clear of the headquarters crown in plaza views.
+	satellite.position = Vector3(-110,285,-390)
 	add_child(satellite)
 	# A distant scenic proxy, not a physically simulated orbit in this milestone.
 	var core := SphereMesh.new()

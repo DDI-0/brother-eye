@@ -2,6 +2,12 @@
 
 A persistent, explorable futuristic city built with Godot 4 and an authoritative Python simulation, connected over WebSockets and persisted with SQLite.
 
+## Latest visual updates
+
+[Watch the animated CITY UPLINK globe](docs/previews/uplink/city-uplink.mp4)
+
+![Refined Brother Eye tower](docs/previews/brother-eye-tower/orbital-spacing/skyline.png)
+
 ## Current stage
 
 Stages 1–6 are implemented and verified within the [documented performance limits](docs/STAGE_6E.md). Saved populations support 34, 50 or 100 residents, including five police and four Exceptional Agents. Brother Eye provides inspection, evaluation, held destination commands, live scene feeds and retained audit history. See the [final MP4 review](docs/previews/stage6e/Brother-Eye-Stage-6E.mp4), [durable handoff](PROGRESS.md) and [staged build plan](docs/BUILD_PLAN.md). Fifty residents remain recommended for smoother performance.
