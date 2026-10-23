@@ -26,7 +26,7 @@ func run() -> void:
 	if not idle():print("BRIDGE_ERROR ",bridge.last_error);quit(1);return
 	bridge.last_view=bridge.now()+3600
 	check(bridge.world.citizens.size()==50 and bridge.world.paused and bridge.world.clock_seconds==0,"retention preserves all 50 people and advances no offline/paused time")
-	check(city.command_feedback.pulse_count==0,"historical compacted acknowledgement never pulses Brother Eye")
+	check(city.command_feedback.pulse_count==0,"historical compacted acknowledgement never pulses Neon Providence")
 	var inspector: CanvasLayer=city.inspector
 	inspector.open_control_room()
 	var room: VBoxContainer=inspector.control_room

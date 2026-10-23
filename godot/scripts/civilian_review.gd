@@ -48,7 +48,7 @@ func _ready() -> void:
 	add_child(hud)
 	var label := Label.new()
 	label.position = Vector2(32,28)
-	label.text = "BROTHER EYE  /  CIVILIAN APPEARANCE\nSTAGE 3A  ·  1.80 M  ·  UNRIGGED REVIEW"
+	label.text = "NEON PROVIDENCE  /  CIVILIAN APPEARANCE\nSTAGE 3A  ·  1.80 M  ·  UNRIGGED REVIEW"
 	label.add_theme_font_size_override("font_size",18)
 	hud.add_child(label)
 	var help := Label.new()

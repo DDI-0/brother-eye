@@ -71,7 +71,7 @@ def finish(world, c, outcome, detail):
 
 def interrupt(world, c):
     if active(c):
-        finish(world, c, 'interrupted', 'Brother Eye redirected travel; ideology remains unchanged.')
+        finish(world, c, 'interrupted', 'Neon Providence redirected travel; ideology remains unchanged.')
 
 
 def trust(c, subject, change):

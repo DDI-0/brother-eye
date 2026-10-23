@@ -1,1 +1,1 @@
-"""Brother Eye authoritative local simulation service."""
+"""Neon Providence authoritative local simulation service."""

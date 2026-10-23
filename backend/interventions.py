@@ -13,7 +13,7 @@ def migrate(world):
 
 def record(world, command_id, target, action, outcome, reason, before, after, message):
     event = {'id': str(uuid.uuid4()), 'command_id': command_id, 'citizen_id': target,
-             'actor': 'Brother Eye' if action != 'navigation' else 'physical_navigation',
+             'actor': 'Neon Providence' if action != 'navigation' else 'physical_navigation',
              'action': action, 'outcome': outcome, 'reason': reason,
              'at': world['clock_seconds'], 'before': deepcopy(before),
              'after': deepcopy(after), 'message': message}

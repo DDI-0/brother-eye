@@ -1,4 +1,4 @@
-"""Versioned, deterministic Brother Eye assessments. Reads a snapshot; never acts."""
+"""Versioned, deterministic Neon Providence assessments. Reads a snapshot; never acts."""
 from collections import Counter
 
 VERSION = 1

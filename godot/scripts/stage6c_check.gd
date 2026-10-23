@@ -54,7 +54,7 @@ func run() -> void:
 	check(city.visual_budget.sources.size()>city.visual_budget.outputs.size(),"opaque source surfaces consolidated into fewer spatial batches")
 	check(city.kit.collision_count==collision_count and collision_count==657,"visual budget preserves all 657 collision shapes")
 	check(bridge.world.paused and bridge.world.clock_seconds==paused_clock,"visual comparison advances no paused city time")
-	check(city.command_signal.layers!=0 and city.satellite_signal.layers!=0,"Brother Eye command/lens signals remain independently visible")
+	check(city.command_signal.layers!=0 and city.satellite_signal.layers!=0,"Neon Providence command/lens signals remain independently visible")
 	check(optimized[2].draw_calls_median<baseline[2].draw_calls_median,"controlled skyline view reduces draw submissions")
 	var preserved_cores: Array=bridge.world.citizens.filter(func(c):return c.kind=="exceptional").map(func(c):return c.exceptional.core)
 	bridge.set_clock(false,1)

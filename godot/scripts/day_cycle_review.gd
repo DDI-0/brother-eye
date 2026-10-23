@@ -63,7 +63,7 @@ func apply_hour(hour: float) -> void:
 	var key: DirectionalLight3D=city.get_node("TwilightKey")
 	key.light_energy=lerpf(.12,1.65,daylight)
 	key.light_color=Color("9eb9df").lerp(Color("fff2d2"),daylight).lerp(Color("ffc184"),dusk*.65)
-	# Southern solar arc stays separate from Brother Eye's northwest sky position.
+	# Southern solar arc stays separate from Neon Providence's northwest sky position.
 	var direction:=Vector3(cos((h-6)*TAU/24),maxf(.07,elevation),.4).normalized()
 	key.look_at(key.global_position-direction,Vector3.UP)
 	city.get_node("SoftSkyFill").light_energy=lerpf(.14,.45,daylight)
@@ -71,5 +71,5 @@ func apply_hour(hour: float) -> void:
 	if h<6 or h>=20:stage="NIGHT"
 	elif h<8:stage="MORNING"
 	elif h>=17:stage="SUNSET / DUSK"
-	caption.text="BROTHER EYE · %02d:%02d · %s"%[int(h),int((h-floor(h))*60),stage]
+	caption.text="NEON PROVIDENCE · %02d:%02d · %s"%[int(h),int((h-floor(h))*60),stage]
 	progress.value=hour-6

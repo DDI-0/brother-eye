@@ -53,12 +53,12 @@ func _process(delta: float) -> void:
 	for request in bridge.pending:
 		if request.type=="intervene":pending+=1
 	if not live:
-		banner.text="BROTHER EYE · OFFLINE / LAST KNOWN" if not bridge.world.is_empty() else "BROTHER EYE · CONNECTING"
+		banner.text="NEON PROVIDENCE · OFFLINE / LAST KNOWN" if not bridge.world.is_empty() else "NEON PROVIDENCE · CONNECTING"
 		banner.modulate=Color("edbf78")
 	elif pending>0:
-		banner.text="BROTHER EYE · %d COMMAND%s PENDING"%[pending,"S" if pending!=1 else ""]
+		banner.text="NEON PROVIDENCE · %d COMMAND%s PENDING"%[pending,"S" if pending!=1 else ""]
 		banner.modulate=Color("edbf78")
 	elif bridge.now()<message_until and not last_result.is_empty():
-		banner.text=("BROTHER EYE · RECORDED RESULT · " if recorded_result else "BROTHER EYE · ")+str(last_result.outcome).to_upper()+"\n"+str(last_result.message)
+		banner.text=("NEON PROVIDENCE · RECORDED RESULT · " if recorded_result else "NEON PROVIDENCE · ")+str(last_result.outcome).to_upper()+"\n"+str(last_result.message)
 		banner.modulate=Color("92dbeb") if last_result.outcome=="accepted" else Color("edbf78")
 	else:banner.text=""

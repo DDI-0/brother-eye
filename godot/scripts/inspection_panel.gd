@@ -46,7 +46,7 @@ func setup(owner_city: Node3D) -> void:
 	overlay.add_child(panel)
 	var content:=VBoxContainer.new();content.add_theme_constant_override("separation",14);panel.add_child(content)
 	var top:=HBoxContainer.new();content.add_child(top)
-	var title:=Label.new();title.text="◉  BROTHER EYE  /  INSPECTION & CONTROL";title.add_theme_font_size_override("font_size",23);title.size_flags_horizontal=Control.SIZE_EXPAND_FILL;top.add_child(title)
+	var title:=Label.new();title.text="◉  NEON PROVIDENCE  /  INSPECTION & CONTROL";title.add_theme_font_size_override("font_size",23);title.size_flags_horizontal=Control.SIZE_EXPAND_FILL;top.add_child(title)
 	button(top,"Control room  /  F7",open_control_room)
 	button(top,"City evaluation  /  F6",open_evaluation)
 	button(top,"Close  /  F5",close)
@@ -181,7 +181,7 @@ func refresh() -> void:
 		var actor: CharacterBody3D=pop.units[selected_id].person
 		text+="\n\nLOCAL CHARACTER\n%s · %s\nPosition %.2f, %.2f, %.2f m"%[actor.state,"FROZEN" if actor.simulation_frozen else "ACTIVE",actor.position.x,actor.position.y,actor.position.z]
 	if control_mode:
-		heading.text="Brother Eye control room";identity.text="Simulated city cameras · Committed command audit · Select a resident to filter history"
+		heading.text="Neon Providence control room";identity.text="Simulated city cameras · Committed command audit · Select a resident to filter history"
 		control_room.refresh()
 	var next_page_key:=str(city_mode)+":"+selected_id+":"+str(tabs.current_tab)+":"+str(decisions.button_pressed)
 	if body.text!=text:

@@ -104,7 +104,7 @@ func run() -> void:
 	var clock_start: float=bridge.world.clock_seconds
 	var actor_index: int={"arbiter":30,"attendant":31,"martyr":32,"sovereign":33}.get(mode,30)
 	if mode=="city":
-		heading("BROTHER EYE · A LIVING CITY","50 residents · Skyline, streets, elevated terraces and purposeful routines")
+		heading("NEON PROVIDENCE · A LIVING CITY","50 residents · Skyline, streets, elevated terraces and purposeful routines")
 		camera.position=Vector3(64,112,185);camera.look_at(Vector3(0,59,-62))
 	else:
 		var names:={"arbiter":"ARBITER OF DAWN · FAIR LOCAL ASSISTANCE","attendant":"ATTENDANT OF MYSTERIES · VERIFYING LOCAL INFORMATION","martyr":"MARTYR OF PROVIDENCE · VOLUNTARY CIVIC COORDINATION","sovereign":"SOVEREIGN OF UNBOUND WILL · COMPANION PRIORITY"}
@@ -116,7 +116,7 @@ func run() -> void:
 	if not await until(func():return idle() and not bridge.world.paused):quit(1);return
 	if mode=="city":
 		await glide(Vector3(64,112,185),Vector3(0,59,-62),15,Vector3(-28,2,0))
-		heading("THE DISTRICT · LANDMARKS AND TRANSIT RINGS","Original city composition · Brother Eye satellite remains above the authority tower")
+		heading("THE DISTRICT · LANDMARKS AND TRANSIT RINGS","Original city composition · Neon Providence satellite remains above the authority tower")
 		await glide(Vector3(-70,65,130),Vector3(0,48,-40),15,Vector3(30,5,-10))
 		heading("STREET LIFE · EVERYDAY RESIDENTS","Independent schedules, local needs, physical routes and crowd avoidance")
 		await follow_crowd(12)
@@ -129,7 +129,7 @@ func run() -> void:
 		var police: int=bridge.world.citizens.find_custom(func(p):return p.kind=="police")
 		heading("DISTRICT PATROL","Police follow district patrol routines · No crime-enforcement system is claimed")
 		await follow(police,8)
-		city.inspector.open_evaluation();heading("BROTHER EYE · CITY ASSESSMENT","Read-only needs assessment · Explicit destination commands follow later in this showcase")
+		city.inspector.open_evaluation();heading("NEON PROVIDENCE · CITY ASSESSMENT","Read-only needs assessment · Explicit destination commands follow later in this showcase")
 		await create_timer(8).timeout;city.inspector.close()
 	else:
 		var began:=Time.get_ticks_msec();var end:=began+65000

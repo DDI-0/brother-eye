@@ -47,7 +47,7 @@ func setup(explorer: CharacterBody3D) -> void:
 	top.offset_top = 26
 	ui.add_child(top)
 	var brand := Label.new()
-	brand.text = "◉   B R O T H E R   E Y E"
+	brand.text = "◉   N E O N   P R O V I D E N C E"
 	brand.add_theme_font_size_override("font_size",21)
 	brand.add_theme_color_override("font_color",Color("d7f3fc"))
 	top.add_child(brand)
@@ -166,7 +166,7 @@ func refresh() -> void:
 	controls.visible = player.controls_open
 	controls_text.text = "W A S D     Move\nMouse        Look around\nShift            Move faster\nSpace          Jump on foot\nE / Q           Ascend / descend in free flight\nScroll           Adjust flight speed\n1 / 2 / 3      Skyline / plaza / skywalk\nF1                Controls       •       F11  Fullscreen\nEsc               Release mouse and show menu\n\nGround position is preserved when switching modes."
 	if simulation != null and simulation.city.population != null:
-		controls_text.text += "\nF2 City time / save    F3 Follow civilian\nF4 Person details    F5 Brother Eye inspection\nF6 City evaluation    F7 Control room\n[ / ] Previous / next person\nFollow: WASD / E Q move camera, Shift faster\nClick-drag / two-finger scroll orbit, R reset view"
+		controls_text.text += "\nF2 City time / save    F3 Follow civilian\nF4 Person details    F5 Neon Providence inspection\nF6 City evaluation    F7 Control room\n[ / ] Previous / next person\nFollow: WASD / E Q move camera, Shift faster\nClick-drag / two-finger scroll orbit, R reset view"
 	binding_button.text = "Mode switch: " + player.bindings.get("toggle_mode","") + "   ·   Change"
 	hint.text = ("WASD  MOVE     SHIFT  FASTER     %s  SWITCH MODE     ESC  MENU" % player.bindings.get("toggle_mode","")) if player.mouse_active else "CLICK THE CITY TO LOOK AROUND     /     F1  CONTROLS"
 
@@ -180,7 +180,7 @@ func _process(delta: float) -> void:
 		clock_label.text = simulation.clock_text()
 	var population_active: bool = simulation != null and simulation.city.population != null
 	var count: int = simulation.world.get("citizens",[]).size() if population_active else 0
-	stats.text = ("STAGE 4D  /  BROTHER EYE CONTROL" if population_active else ("STAGE 02  /  PERSISTENT CITY" if simulation != null else "STAGE 01B  /  CITY COMPOSITION")) + "\n%d FPS    ·    ALT %03d M    ·    %d RESIDENTS" % [Engine.get_frames_per_second(),roundi(pos.y),count]
+	stats.text = ("STAGE 4D  /  NEON PROVIDENCE CONTROL" if population_active else ("STAGE 02  /  PERSISTENT CITY" if simulation != null else "STAGE 01B  /  CITY COMPOSITION")) + "\n%d FPS    ·    ALT %03d M    ·    %d RESIDENTS" % [Engine.get_frames_per_second(),roundi(pos.y),count]
 
 func attach_simulation(bridge: Node) -> void:
 	simulation = bridge

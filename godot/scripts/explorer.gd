@@ -44,7 +44,10 @@ func load_controls() -> void:
 	var cfg := ConfigFile.new()
 	cfg.load("res://config/controls.cfg")
 	var saved := ConfigFile.new()
-	saved.load("user://controls.cfg")
+	if saved.load("user://controls.cfg") != OK:
+		# Project rename: retain existing key bindings from the former app folder.
+		var legacy := OS.get_user_data_dir().get_base_dir().path_join("Brother Eye/controls.cfg")
+		saved.load(legacy)
 	for action in cfg.get_section_keys("bindings"):
 		var value: String = saved.get_value("bindings",action,cfg.get_value("bindings",action))
 		bind_action(action,value,false)

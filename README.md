@@ -1,20 +1,27 @@
-# Brother Eye
+# Neon Providence
 
 A persistent, explorable futuristic city built with Godot 4 and an authoritative Python simulation, connected over WebSockets and persisted with SQLite.
 
 ## Latest visual updates
 
+The project, orbital satellite, and central headquarters are now **Neon Providence**. Existing save locations and historical media paths are retained. Launch with `Launch Neon Providence.command`; the former launcher remains compatible.
+
+The Civic Exchange now has a stone-and-glass facade, a lit entrance, and a walkable rooftop terrace with seating, planting, shade, and a framed skylight. [Review notes](docs/previews/civic-exchange/README.md).
+
+![Refined Civic Exchange](docs/previews/civic-exchange/entrance.png)
+
+
 [Watch the animated CITY UPLINK globe](docs/previews/uplink/city-uplink.mp4)
 
-![Refined Brother Eye tower](docs/previews/brother-eye-tower/orbital-spacing/skyline.png)
+![Refined Neon Providence tower](docs/previews/brother-eye-tower/orbital-spacing/skyline.png)
 
 ## Current stage
 
-Stages 1–6 are implemented and verified within the [documented performance limits](docs/STAGE_6E.md). Saved populations support 34, 50 or 100 residents, including five police and four Exceptional Agents. Brother Eye provides inspection, evaluation, held destination commands, live scene feeds and retained audit history. See the [final MP4 review](docs/previews/stage6e/Brother-Eye-Stage-6E.mp4), [durable handoff](PROGRESS.md) and [staged build plan](docs/BUILD_PLAN.md). Fifty residents remain recommended for smoother performance.
+Stages 1–6 are implemented and verified within the [documented performance limits](docs/STAGE_6E.md). Saved populations support 34, 50 or 100 residents, including five police and four Exceptional Agents. Neon Providence provides inspection, evaluation, held destination commands, live scene feeds and retained audit history. See the [final MP4 review](docs/previews/stage6e/Brother-Eye-Stage-6E.mp4), [durable handoff](PROGRESS.md) and [staged build plan](docs/BUILD_PLAN.md). Fifty residents remain recommended for smoother performance.
 
 Additional video: [24-hour lighting time-lapse](docs/previews/day-cycle/Brother-Eye-24-Hour-Cycle.mp4) — morning → sunset → night → next morning in about 60 seconds. This separate lighting study leaves gameplay time and saves untouched; the normal game retains its established blue-hour sky. See [recording notes](docs/DAY_CYCLE_REVIEW.md).
 
-[Watch the complete city showcase](docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4) — about 5 minutes 37 seconds covering city life, all four Exceptional Agent interactions, Brother Eye controls, and the separate lighting time-lapse. [Showcase notes and reproduction](docs/COMPLETE_SHOWCASE.md).
+[Watch the complete city showcase](docs/previews/showcase/Brother-Eye-Complete-Showcase.mp4) — about 5 minutes 37 seconds covering city life, all four Exceptional Agent interactions, Neon Providence controls, and the separate lighting time-lapse. [Showcase notes and reproduction](docs/COMPLETE_SHOWCASE.md).
 
 ## Fresh checkout
 
@@ -29,13 +36,13 @@ godot --path godot
 
 Processed runtime models, their attribution, editable project assets, source code, tests, documentation and review evidence are included. Local saves, the virtual environment, Godot's generated cache, original source downloads and reference images are excluded. Launching a fresh checkout creates a new city; it does not include the original author's saved population state. Blender is only needed to rebuild editable assets, not to run the supplied processed models.
 
-Double-click `Launch Brother Eye.command` to play, or open `godot/project.godot` in Godot and press F5. Choose **Enter streets** or **Free fly**. Escape releases the mouse; F1 shows controls; **F2 opens city time and saves**. Ctrl+Shift+B switches modes and can be rebound. Closing the window saves and stops the service; reopening restores your city without advancing time while closed.
+Double-click `Launch Neon Providence.command` to play, or open `godot/project.godot` in Godot and press F5. Choose **Enter streets** or **Free fly**. Escape releases the mouse; F1 shows controls; **F2 opens city time and saves**. Ctrl+Shift+B switches modes and can be rebound. Closing the window saves and stops the service; reopening restores your city without advancing time while closed.
 
 ![Refined city atmosphere](docs/previews/atmosphere/skyline.png)
 
-The city uses a restrained blue-hour atmosphere with a pale crescent, faint horizon afterglow and soft lighting. Brother Eye remains the focal point. See [sky design notes](docs/SKY_DESIGN.md).
+The city uses a restrained blue-hour atmosphere with a pale crescent, faint horizon afterglow and soft lighting. Neon Providence remains the focal point. See [sky design notes](docs/SKY_DESIGN.md).
 
-The reference document is a planning baseline. Later choices made in the conversation supersede it: infer architecture and street-level details from the supplied pictures; create a Brother Eye satellite with a matching command tower; use the supplied human for everyday citizens and astronaut for the four Exceptional Agents.
+The reference document is a planning baseline. Later choices made in the conversation supersede it: infer architecture and street-level details from the supplied pictures; create a Neon Providence satellite with a matching command tower; use the supplied human for everyday citizens and astronaut for the four Exceptional Agents.
 
 ## Civilian appearance checkpoint
 
@@ -53,19 +60,19 @@ Double-click `Review Navigation.command` to follow one civilian through the exis
 
 Double-click `Review Population.command` (the existing `Review Behavior.command` also works). **[ / ]** selects the previous/next person, **F3** follows that person, **F4** toggles behavior details, and **F2** opens city time and saves. While following, use **WASD / E Q** to move the camera, **click-and-drag or two-finger scroll** to orbit, and **R** to reset. This uses the normal city save; the navigation and animation viewers remain separate review tools. See [Stage 3E population and validation](docs/STAGE_3E.md).
 
-## Brother Eye inspection checkpoint
+## Neon Providence inspection checkpoint
 
 Double-click `Review Inspection.command`, or press **F5** in the normal city. Search by name, role or identity and filter civilians/police. Tabs show overview, known places, schedule, memory/decision history, assessment and interventions. **F3** follows the selected resident; **F2** opens city time; **Escape / F5** closes inspection. Browsing leaves resident state unchanged. The connection indicator identifies retained data when offline. See [Stage 4A review and validation](docs/STAGE_4A.md).
 
-## Brother Eye evaluation checkpoint
+## Neon Providence evaluation checkpoint
 
 Open `Review Evaluation.command` or press **F6** for the city assessment. **Inspect first finding** opens the highest-priority resident's Assessment tab; any resident can also be selected from the roster. Filter **Flagged residents** to review affected people. Findings explain the observed value, rule, recovery response and suggested next step. These are deterministic assessments; they do not issue interventions. See [Stage 4B evaluation and validation](docs/STAGE_4B.md).
 
-## Brother Eye intervention checkpoint
+## Neon Providence intervention checkpoint
 
 Open `Review Interventions.command`, or use **F5 → select resident → Interventions**. Choose a known destination, enter a reason and issue the override. It takes priority over needs/schedule until **Release to autonomy**, even after arrival. Commands can be issued while paused; use **F2 → Resume** for travel. Pending/rejected/accepted results and physical travel/wait/completion are visible. See [Stage 4C authority and validation](docs/STAGE_4C.md). Satellite feedback and simulated camera feeds are available in Stage 4D below.
 
-## Brother Eye control-room checkpoint
+## Neon Providence control-room checkpoint
 
 Open `Review Control Room.command` or press **F7**. Choose one of four real-scene camera views; feeds stop rendering when closed and freeze with retained-data labels offline. Browse retained committed intervention events or filter the selected resident, use **Older** for past pages and **Refresh** for new events. New accepted commands briefly brighten the lens/tower axis once; rejected and recorded replay results have distinct messages. See [Stage 4D presentation and validation](docs/STAGE_4D.md).
 

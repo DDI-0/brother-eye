@@ -502,6 +502,9 @@ func build_district() -> void:
 		tower(Vector3(sign(x)*100,0.12,12),29,35,37,2)
 	# Broad low-rise platforms make the raised route feel structurally supported.
 	for x in [-46.0,46.0]:
+		if x < 0:
+			preload("res://scripts/civic_exchange.gd").new(kit).build(self)
+			continue
 		kit.box(Vector3(x,5.8,7),Vector3(34,11.6,34),"navy",true)
 		kit.box(Vector3(x,11.8,7),Vector3(36,0.4,36),"paving",true)
 		for y in [2.0,5.0,8.0]:
@@ -659,7 +662,7 @@ func build_street_detail() -> void:
 
 func build_satellite() -> void:
 	satellite = Node3D.new()
-	satellite.name = "BrotherEyeOrbitalPresence"
+	satellite.name = "NeonProvidenceOrbitalPresence"
 	# Lift the orbital proxy clear of the headquarters crown in plaza views.
 	satellite.position = Vector3(-110,285,-390)
 	add_child(satellite)

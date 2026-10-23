@@ -38,7 +38,7 @@ static func page(view: Dictionary, tab: int, decisions_only: bool=false) -> Stri
 		var goal: Dictionary=c.goal
 		var explanation:="Scheduled destination" if goal.reason=="schedule" else "Needs take priority over the schedule"
 		if goal.reason=="ideology":explanation=c.exceptional.decision.reason if c.exceptional.decision is Dictionary else "Local ideological choice"
-		if goal.reason=="intervention":explanation="Brother Eye destination override takes priority until explicit release"
+		if goal.reason=="intervention":explanation="Neon Providence destination override takes priority until explicit release"
 		var text:="CURRENT ACTIVITY\n%s · %s\n\nDESTINATION\n%s\n%s\nAssigned %s\n\nDECISION BASIS\n%s\nLast destination decision: %s\n\nLAST CONFIRMED POSITION\n%s\nHeading %.1f° · Movement report %d\n\nIDENTITY\n%s"%[str(c.activity).capitalize(),c.navigation,c.known_places.get(goal.place,{"name":"Local meeting"}).name,position_text(goal.position),city_time(goal.started_at),explanation,city_time(c.last_decision_at),position_text(c.position),rad_to_deg(c.yaw),c.motion_seq,c.id]
 		if c.kind=="exceptional":
 			var e: Dictionary=c.exceptional
@@ -81,7 +81,7 @@ static func page(view: Dictionary, tab: int, decisions_only: bool=false) -> Stri
 		for entry in c.schedule:
 			lines.append("%02d:00   %s"%[entry.hour,c.known_places[entry.place].name])
 		if c.kind=="police":lines.append("During work hours, patrol destinations rotate every ten simulated minutes.")
-		lines.append("Needs can interrupt the schedule unless a Brother Eye override is held. Recovery begins after physical arrival.")
+		lines.append("Needs can interrupt the schedule unless a Neon Providence override is held. Recovery begins after physical arrival.")
 		return "\n\n".join(lines)
 	var lines: PackedStringArray=["RECORDED HISTORY · NEWEST FIRST\nUp to 16 recent memories are retained per resident."]
 	var found:=false

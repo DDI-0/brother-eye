@@ -87,10 +87,10 @@ func build(city: Node3D) -> MeshInstance3D:
 	kit.box(Vector3(0,2,-75.32),Vector3(.12,4,.2),"command_frame")
 	kit.box(Vector3(0,4.45,-75.0),Vector3(9.8,.35,2),"command_frame")
 	kit.box(Vector3(0,4.25,-74.55),Vector3(7.2,.05,.15),"command_letter")
-	kit.box(Vector3(0,6.1,-75.52),Vector3(19,2,.45),"command_recess")
-	var title: Label3D = kit.label("B R O T H E R   E Y E",Vector3(0,6.35,-75.24),48,.025)
+	kit.box(Vector3(0,6.1,-75.25),Vector3(19,2,.45),"command_recess")
+	var title: Label3D = kit.label("N E O N   P R O V I D E N C E",Vector3(0,6.35,-74.99),39,.025)
 	title.modulate = Color("b5cacc")
-	kit.label("C E N T R A L   A U T H O R I T Y",Vector3(0,5.55,-75.23),24,.021)
+	kit.label("C E N T R A L   A U T H O R I T Y",Vector3(0,5.55,-74.99),24,.021)
 	var entry_light := OmniLight3D.new()
 	entry_light.name = "HeadquartersEntryLight"
 	entry_light.position = Vector3(0,3.9,-74.3)

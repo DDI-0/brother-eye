@@ -65,7 +65,7 @@ func run() -> void:
 	subtitle=Label.new();subtitle.add_theme_font_size_override("font_size",16);text.add_child(subtitle)
 	var clock_start: float=bridge.world.clock_seconds
 	started=Time.get_ticks_usec();recording=true
-	segment("BROTHER EYE · STAGE 6E REVIEW","Disposable 100-resident city · 91 civilians / 5 police / 4 Exceptional Agents · Opening view paused")
+	segment("NEON PROVIDENCE · STAGE 6E REVIEW","Disposable 100-resident city · 91 civilians / 5 police / 4 Exceptional Agents · Opening view paused")
 	camera.position=Vector3(64,112,185);camera.look_at(Vector3(0,59,-62));record_frames()
 	await glide(Vector3(64,112,185),Vector3(0,59,-62),5,Vector3(12,0,0))
 	var inspector: CanvasLayer=city.inspector
@@ -73,7 +73,7 @@ func run() -> void:
 	var controls: VBoxContainer=inspector.interventions
 	controls.reason.text="Final review: direct resident to their known market destination"
 	controls.destination.select(controls.place_keys.find("food"))
-	segment("01 · BROTHER EYE DESTINATION COMMAND","Existing intervention controls · Durable acknowledgement · Authority held until explicit release")
+	segment("01 · NEON PROVIDENCE DESTINATION COMMAND","Existing intervention controls · Durable acknowledgement · Authority held until explicit release")
 	await hold(2);controls.issue("assign_destination")
 	if not await until(func():return idle() and city.population.units[target_id].record.intervention!=null):push_error("video intervention failed");quit(1);return
 	await hold(3);inspector.close()

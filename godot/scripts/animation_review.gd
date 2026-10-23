@@ -112,7 +112,7 @@ func _finished(name: StringName, index: int) -> void:
 
 func _process(delta: float) -> void:
 	if not paused:elapsed += delta
-	if is_instance_valid(status):status.text = "BROTHER EYE  /  STAGE 3B MOTION REVIEW\n%s  ·  %.2f s  %s" % [clip.to_upper(),elapsed,"PAUSED" if paused else "PLAYING"]
+	if is_instance_valid(status):status.text = "NEON PROVIDENCE  /  STAGE 3B MOTION REVIEW\n%s  ·  %.2f s  %s" % [clip.to_upper(),elapsed,"PAUSED" if paused else "PLAYING"]
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
