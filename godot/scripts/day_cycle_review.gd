@@ -43,7 +43,9 @@ func run() -> void:
 	print("DAY_CYCLE_VIDEO failures=0 frames=",DAY_FRAMES," start_frame=",start_frame)
 	quit()
 func apply_hour(hour: float) -> void:
-	var h:=fmod(hour,24)
+	var h:=fposmod(hour,24)
+	var observatory := city.get_node_or_null("ObservatoryTrackingRig")
+	if observatory != null: observatory.set_hour(h)
 	var elevation:=sin((h-6)*TAU/24)
 	var daylight:=smoothstep(-.10,.25,elevation)
 	var dusk:=exp(-pow(elevation/.20,2))

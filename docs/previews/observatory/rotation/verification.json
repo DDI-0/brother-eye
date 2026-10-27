@@ -1,0 +1,32 @@
+{
+  "clock": "authoritative snapshots; no wall-clock accumulation",
+  "failures": [],
+  "passed": true,
+  "samples": [
+    {
+      "hour": 8.0,
+      "pitch": -0.224137589335442,
+      "yaw": 0.0
+    },
+    {
+      "hour": 14.0,
+      "pitch": -0.351904571056366,
+      "yaw": 1.57079637050629
+    },
+    {
+      "hour": 20.0,
+      "pitch": 0.124928258359432,
+      "yaw": 3.14159274101257
+    },
+    {
+      "hour": 2.0,
+      "pitch": 0.252695232629776,
+      "yaw": 4.71238899230957
+    },
+    {
+      "hour": 8.0,
+      "pitch": -0.224137589335442,
+      "yaw": 0.0
+    }
+  ]
+}

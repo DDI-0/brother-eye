@@ -500,33 +500,9 @@ func build_district() -> void:
 			i += 1
 	for x in [-105.0,105.0]:
 		tower(Vector3(sign(x)*100,0.12,12),29,35,37,2)
-	# Broad low-rise platforms make the raised route feel structurally supported.
-	for x in [-46.0,46.0]:
-		if x < 0:
-			preload("res://scripts/civic_exchange.gd").new(kit).build(self)
-			continue
-		kit.box(Vector3(x,5.8,7),Vector3(34,11.6,34),"navy",true)
-		kit.box(Vector3(x,11.8,7),Vector3(36,0.4,36),"paving",true)
-		for y in [2.0,5.0,8.0]:
-			kit.box(Vector3(x,y,24.1),Vector3(31,0.7,0.18),"window")
-		kit.label("CIVIC EXCHANGE" if x<0 else "OBSERVATORY",Vector3(x,6.5,24.25),56,0.028)
-		for edge_x in [-18.0,18.0]:
-			# The inner rail stops at the skywalk so pedestrians can enter the terrace.
-			var inner := absf(x+edge_x)<30
-			kit.box(Vector3(x+edge_x,12.55,2.5 if inner else 6.5),Vector3(0.15,1.1,27 if inner else 35),"edge",true)
-		kit.box(Vector3(x,12.55,-11),Vector3(36,1.1,0.15),"edge",true)
-		# Geodesic-like roof dome and segmented frame.
-		var dome := SphereMesh.new()
-		dome.radius = 6
-		dome.height = 12
-		dome.radial_segments = 12
-		dome.rings = 6
-		var d: MeshInstance3D = kit.mesh(dome,Vector3(x,12,-2),"glass")
-		d.scale.y = 0.7
-		kit.collider(dome.create_convex_shape(),Transform3D(Basis.from_scale(Vector3(1,0.7,1)),Vector3(x,12,-2)))
-		for n in 12:
-			var a := n*TAU/12
-			kit.beam(Vector3(x+cos(a)*6,12,sin(a)*6-2),Vector3(x,16.2,-2),0.13)
+	# Paired public landmarks retain the original skywalk support footprints.
+	preload("res://scripts/civic_exchange.gd").new(kit).build(self)
+	preload("res://scripts/observatory.gd").new(kit).build(self)
 
 func build_command() -> void:
 	var headquarters := preload("res://scripts/brother_eye_tower.gd").new(kit)

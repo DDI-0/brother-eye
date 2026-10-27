@@ -8,7 +8,7 @@ var merged_surfaces:=0
 var source_layers: Dictionary={}
 var details: Array[MultiMeshInstance3D]=[]
 func collect(node: Node, city: Node) -> void:
-	if node==city.satellite or node==city.command_signal:return
+	if node==city.satellite or node==city.command_signal or node.get_meta("animated_landmark",false):return
 	if node is MultiMeshInstance3D and node.get_meta("decorative_detail",false):details.append(node)
 	if node is MeshInstance3D and node.mesh and node.mesh.get_surface_count()==1 and node.is_visible_in_tree() and node.skin==null:
 		sources.append(node)

@@ -10,6 +10,10 @@ The Civic Exchange now has a stone-and-glass facade, a lit entrance, and a walka
 
 ![Refined Civic Exchange](docs/previews/civic-exchange/entrance.png)
 
+The Observatory now has a slotted instrument dome, visible telescope, telemetry dish, weather mast, service equipment, and a detailed technical facade. The dome and telescope rotate with the saved city day cycle. The skywalk and roof aisle remain accessible. [Day-cycle preview](docs/previews/observatory/rotation/day-cycle.mp4) · [Review notes](docs/previews/observatory/README.md).
+
+![Refined Observatory](docs/previews/observatory/terrace.png)
+
 
 [Watch the animated CITY UPLINK globe](docs/previews/uplink/city-uplink.mp4)
 
