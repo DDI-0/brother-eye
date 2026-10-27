@@ -24,16 +24,16 @@ func setup(city: Node3D) -> void:
 		for surface in source.mesh.get_surface_count():
 			if source_mesh.surface_get_primitive_type(surface)!=Mesh.PRIMITIVE_TRIANGLES:continue
 			var material: Material=source.get_active_material(surface)
-			# World-space architecture shader is merge-safe; custom hologram and
+			# World-space architecture and panel shaders are merge-safe; holograms and
 			# transparent glass need their own draw/sorting and remain separate.
 			var opaque: bool=material is BaseMaterial3D and material.transparency==BaseMaterial3D.TRANSPARENCY_DISABLED
-			if material is ShaderMaterial:opaque=material.shader==preload("res://shaders/architecture.gdshader")
+			if material is ShaderMaterial:opaque=material.shader in [preload("res://shaders/architecture.gdshader"),preload("res://shaders/command_facade.gdshader")]
 			if not opaque:continue
 			# Only fully compatible opaque meshes can be hidden as one unit.
 			var all_opaque:=true
 			for other in source.mesh.get_surface_count():
 				var m: Material=source.get_active_material(other)
-				if not ((m is BaseMaterial3D and m.transparency==BaseMaterial3D.TRANSPARENCY_DISABLED) or (m is ShaderMaterial and m.shader==preload("res://shaders/architecture.gdshader"))):all_opaque=false
+				if not ((m is BaseMaterial3D and m.transparency==BaseMaterial3D.TRANSPARENCY_DISABLED) or (m is ShaderMaterial and m.shader in [preload("res://shaders/architecture.gdshader"),preload("res://shaders/command_facade.gdshader")])):all_opaque=false
 			if not all_opaque:continue
 			var p: Vector3=source.global_transform*source.mesh.get_aabb().get_center()
 			var key: String="%d:%d:%d:%d:%d:%d:%s"%[material.get_instance_id(),floori(p.x/48),floori(p.y/48),floori(p.z/48),source_mesh.surface_get_format(surface),source.cast_shadow,str(source.visibility_range_end)]

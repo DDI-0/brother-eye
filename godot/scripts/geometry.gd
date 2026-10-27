@@ -3,6 +3,8 @@ extends RefCounted
 ## Collision uses independent simple shapes, so visuals can later be replaced.
 var root: Node3D
 var materials: Dictionary = {}
+# Scoped aliases resolve before batching so landmark palettes never leak.
+var material_aliases: Dictionary = {}
 var batches: Dictionary = {}
 var solid: StaticBody3D
 var box_count := 0
@@ -67,6 +69,7 @@ func material(id: String, color: Color, metal: float, rough: float, emission := 
 		materials[id] = architectural
 
 func box(pos: Vector3, size: Vector3, mat := "navy", collision := false, rotation := Vector3.ZERO) -> void:
+	mat = material_aliases.get(mat,mat)
 	var basis := Basis.from_euler(rotation)
 	var detail: bool = not collision and size[size.max_axis_index()] < 4.0
 	var key := "%s:%d:%d:%s" % [mat, floori(pos.x / 64.0), floori(pos.z / 64.0), "detail" if detail else "structure"]
@@ -87,6 +90,7 @@ func collider(shape: Shape3D, transform: Transform3D) -> void:
 	collision_count += 1
 
 func mesh(mesh_resource: Mesh, pos: Vector3, mat: String, rotation := Vector3.ZERO, parent: Node3D = null) -> MeshInstance3D:
+	mat = material_aliases.get(mat,mat)
 	var m := MeshInstance3D.new()
 	m.mesh = mesh_resource
 	m.material_override = materials[mat]

@@ -103,6 +103,7 @@ func _beam(a: Vector3, b: Vector3, width: float, mat := "helix_trim") -> void:
 	_box(origin + (a + b) * 0.5, Vector3(width, direction.length(), width), mat, false, basis.get_euler())
 
 func _box(pos: Vector3, size: Vector3, mat: String, collision := false, rotation := Vector3.ZERO) -> void:
+	mat = kit.material_aliases.get(mat,mat)
 	# Scale in each member's local axes so angled braces retain their thickness.
 	var basis := Basis.from_euler(rotation)
 	var key := "%s:%d:%d" % [mat, floori(pos.x / 64.0), floori(pos.z / 64.0)]

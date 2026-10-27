@@ -4,6 +4,10 @@ A persistent, explorable futuristic city built with Godot 4 and an authoritative
 
 ## Latest visual updates
 
+The 18 nearby district towers now have distinct facade materials, glazing, structural framing and restrained lighting while preserving their characteristic silhouettes and collision footprints. [Tower review](docs/previews/nearby-towers/README.md).
+
+![Refined nearby towers](docs/previews/nearby-towers/after/skyline.png)
+
 The project, orbital satellite, and central headquarters are now **Neon Providence**. Existing save locations and historical media paths are retained. Launch with `Launch Neon Providence.command`; the former launcher remains compatible.
 
 The Civic Exchange now has a stone-and-glass facade, a lit entrance, and a walkable rooftop terrace with seating, planting, shade, and a framed skylight. [Review notes](docs/previews/civic-exchange/README.md).

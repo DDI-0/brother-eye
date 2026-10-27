@@ -7,6 +7,7 @@ const Interface = preload("res://scripts/interface.gd")
 const BuildingAsset = preload("res://models/futuristic_building/scene.gltf")
 const HelixTower = preload("res://scripts/helix_tower.gd")
 var kit: RefCounted
+var nearby_facades: RefCounted
 var explorer: CharacterBody3D
 var hud: CanvasLayer
 var satellite: Node3D
@@ -27,6 +28,7 @@ func _ready() -> void:
 	qa_mode = "--qa" in OS.get_cmdline_user_args()
 	rng.seed = 71026
 	kit = Kit.new(self)
+	nearby_facades = preload("res://scripts/nearby_tower_facades.gd").new(kit)
 	build_environment()
 	build_ground()
 	build_district()
@@ -189,6 +191,10 @@ func _tower_entrance(pos: Vector3, radius: float, label_text: String) -> void:
 
 func tower(pos: Vector3, width: float, depth: float, height: float, variant: int, distant := false) -> void:
 	var base_r := (width + depth) * 0.25
+	var previous_aliases: Dictionary = kit.material_aliases
+	if not distant:
+		var style := 7 if variant%7 == 0 and pos.x>0 else variant%7
+		kit.material_aliases = nearby_facades.aliases(style)
 	match variant % 7:
 		0: tower_helix(pos, height, distant)
 		1: tower_model(pos, height, distant)
@@ -197,6 +203,9 @@ func tower(pos: Vector3, width: float, depth: float, height: float, variant: int
 		4: tower_fork(pos, base_r, height, variant, distant)
 		5: tower_disc(pos, base_r, height, variant, distant)
 		6: tower_blade(pos, base_r, height, variant, distant)
+	if not distant:
+		nearby_facades.dress(pos,base_r,height,variant%7,variant)
+	kit.material_aliases = previous_aliases
 
 func tower_helix(pos: Vector3, height: float, distant := false) -> void:
 	HelixTower.new(kit, pos, height, distant)
@@ -208,6 +217,7 @@ func tower_model(pos: Vector3, height: float, distant := false) -> void:
 	inst.scale = Vector3(scale_factor, scale_factor, scale_factor)
 	add_child(inst)
 	if not distant:
+		nearby_facades.tint_asset(inst,1)
 		_model_collision(inst)
 
 func _model_collision(node: Node) -> void:
